@@ -1,0 +1,33 @@
+{
+  "name": "metsavennad",
+  "title": "Metsavennad",
+  "version": "3.3.7+1",
+  "homepage": "http://metsavennad.ee",
+  "author": "Madis Pukkonen",
+  "license": {
+    "type": "MIT"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3",
+    "justified-gallery": "^0.1.0",
+    "magnific-popup": "^1.1.0",
+    "sqlite3": "^3.1.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madispuk/metsavennad.ee"
+  }
+}
