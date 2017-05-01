@@ -34,7 +34,7 @@ gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
 // })
 
 // gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() {
-gulp.task('dev', ['less', 'minify-css', 'minify-js'], function() {
+gulp.task('dev', ['copy', 'less', 'minify-css', 'minify-js'], function() {
 	gulp.watch('less/*.less', ['less']);
 	gulp.watch('public/css/*.css', ['minify-css']);
 	gulp.watch('public/js/*.js', ['minify-js']);

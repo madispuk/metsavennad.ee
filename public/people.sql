@@ -1,53 +1,21 @@
--- phpMyAdmin SQL Dump
--- version 4.7.0
--- https://www.phpmyadmin.net/
---
--- Host: d46088.mysql.zone.ee
--- Loomise aeg: Aprill 30, 2017 kell 10:59 PL
--- Serveri versioon: 10.1.22-MariaDB
--- PHP versioon: 7.0.12
+PRAGMA encoding="UTF-8";
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Andmebaas: `d46088sd80131`
---
-
--- --------------------------------------------------------
-
---
--- Tabeli struktuur tabelile `people`
---
-
-CREATE TABLE `people` (
-  `user_id` int(10) UNSIGNED NOT NULL,
-  `id_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `first_name` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `last_name` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `fathers_name` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `location` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `birth_date` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `death_date` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `separation_date` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `separation_end_date` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `separation_cause` text COLLATE utf8_unicode_ci,
-  `separation_end_cause` text COLLATE utf8_unicode_ci,
-  `age_at_separation_end` varchar(128) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `note` text COLLATE utf8_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Andmete tõmmistamine tabelile `people`
---
+CREATE TABLE people (
+  user_id integer NOT NULL,
+  id_name text,
+  first_name text,
+  last_name text,
+  fathers_name text,
+  location text,
+  birth_date text,
+  death_date text,
+  separation_date text,
+  separation_end_date text,
+  separation_cause text,
+  separation_end_cause text,
+  age_at_separation_end text,
+  note text 
+);
 
 INSERT INTO `people` (`user_id`, `id_name`, `first_name`, `last_name`, `fathers_name`, `location`, `birth_date`, `death_date`, `separation_date`, `separation_end_date`, `separation_cause`, `separation_end_cause`, `age_at_separation_end`, `note`) VALUES
 (1, 'richard_vahi', 'Richard', 'Vähi', NULL, 'misso', '10.5.1918', '29.3.1953', 'märts 1949', '29.3.1953', 'küüditatav', 'tapetud', '34', '1941 mobiliseeriti Punaarmeesse, oli sõjavangilaagris Saksamaal, vabastati, 1942. a tagasi kodus. 1949. a oli küüditatav. Asus varjama Misso lähedal. 7.3.1951 pääses Saika punkrilahingust koos Kuus Augustiga põgenema. Oli seejärel üks tagaotsitumaid mehi piirkonnas. 1951 varjus metsa ka tema abikaasa Elsa Vähi. Nende tütar kasvas kuni vanemate langemiseni punkris ja mitmetes Setumaa paljulapselistes peredes, hiljem Elsa Vähi õega. Richard Vähi langes koos abikaasaga Puutlipalu punkrilahingus 29.3.1953.'),
@@ -119,27 +87,3 @@ INSERT INTO `people` (`user_id`, `id_name`, `first_name`, `last_name`, `fathers_
 (68, 'aksel_kuklane', 'Aksel', 'Kuklane', 'Jakob', 'rouge', '21.5.1897', '?', '1949', '-', 'varjus küüditamise eest', '-', '-', 'Pärit Rõuge vallast Abra talust. Metsa läks küüditamise eest. Toomsalu salgaga ühines tema poeg Vambola Kuklane.'),
 (69, 'aaro_pihlapuu', 'Aaro (Arnold)', 'Pihlapuu', 'Daniel', 'rouge', '6.12.1907', '1.2.1979', '1949', '1951', 'küüditamine', 'arreteeritud', '44', 'Aaro Pihlapuu oli kooliõpetaja Ristemäel ja koolijuhataja Pikakannul. Metsas alates 1949. a. Arreteeriti 1951. a ja määrati 25a vangistust. Vabanes 1956. Aaro Pihlapuu pidas metsavennana ka päevikut, mis on avaldatud: „Pihlapuude võitlus“, Hotpress 2009'),
 (70, 'valter_kuklane', 'Valter', 'Kuklane', 'Nikolai', 'rouge', '16.4.1926', '10.3.2008', '1949', '6.5.1949', 'küüditamine', 'arreteeritud', '22', 'Pärit Aabra talust Viitinast, varjus metsa küüditamise eest. Arreteeriti koos venna Hugoga 6.5.1949. Määrati 25 a vangistust, vabanes 1956.');
-
---
--- Indeksid tõmmistatud tabelitele
---
-
---
--- Indeksid tabelile `people`
---
-ALTER TABLE `people`
-  ADD PRIMARY KEY (`user_id`);
-
---
--- AUTO_INCREMENT tõmmistatud tabelitele
---
-
---
--- AUTO_INCREMENT tabelile `people`
---
-ALTER TABLE `people`
-  MODIFY `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
