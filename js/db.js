@@ -1,11 +1,11 @@
 var fs = require('fs');
 var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('metsavennad.sqlite');
+var db = new sqlite3.Database('db/metsavennad.sqlite');
 
-fs.exists('metsavennad.sqlite', function (exists) {
+fs.exists('db/metsavennad.sqlite', function (exists) {
 	if (!exists) {
 		console.info('Creating database.');
-		fs.readFile('public/people.sql', 'utf8', function (err, data) {
+		fs.readFile('db/people.sql', 'utf8', function (err, data) {
 			if (err) throw err;
 			console.log(data);
 			db.exec(data, function (err) {
