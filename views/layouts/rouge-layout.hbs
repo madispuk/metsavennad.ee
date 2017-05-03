@@ -90,6 +90,8 @@
 
 	<script>
 		$(document).ready(function () {
+			$('.dropdown-toggle').dropdown();
+
 			$(".dropdown-menu li a").click(function(event) {
 				// check if window is small enough so dropdown is created
 				$(".navbar-collapse").removeClass("in").addClass("collapse");
