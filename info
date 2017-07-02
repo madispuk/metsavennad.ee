@@ -4,6 +4,7 @@ ssh root@139.59.138.160 -i metsavennad.id_rsa
 # pull latest changes
 cd /home/metsavennad/metsavennad.ee
 git pull
+gulp
 
 # restart app
 pm2 list
