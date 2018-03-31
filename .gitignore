@@ -6,3 +6,4 @@ public/vendor/bootstrap/**
 public/vendor/jquery/**
 public/vendor/magnific-popup/**
 db/metsavennad.sqlite
+**/.DS_Store
