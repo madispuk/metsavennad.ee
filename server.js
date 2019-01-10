@@ -17,7 +17,7 @@ app.set('views', path + 'views');
 app.set('view engine', 'hbs');
 
 /////
-/// MISSO
+/// MISSOO
 /////
 
 router.get("/",function(req,res){
