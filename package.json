@@ -25,6 +25,7 @@
   },
   "scripts": {
     "start": "node server.js",
+    "gulp": "gulp",
     "dev": "nodemon server.js"
   },
   "repository": {
