@@ -1,5 +1,6 @@
 PRAGMA encoding="UTF-8";
 
+DROP TABLE people;
 CREATE TABLE people (
   user_id integer NOT NULL,
   id_name text,
