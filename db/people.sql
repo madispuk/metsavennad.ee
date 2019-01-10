@@ -88,3 +88,5 @@ INSERT INTO `people` (`user_id`, `id_name`, `first_name`, `last_name`, `fathers_
 (68, 'aksel_kuklane', 'Aksel', 'Kuklane', 'Jakob', 'rouge', '21.5.1897', '?', '1949', '-', 'varjus küüditamise eest', '-', '-', 'Pärit Rõuge vallast Abra talust. Metsa läks küüditamise eest. Toomsalu salgaga ühines tema poeg Vambola Kuklane.'),
 (69, 'aaro_pihlapuu', 'Aaro (Arnold)', 'Pihlapuu', 'Daniel', 'rouge', '6.12.1907', '1.2.1979', '1949', '1951', 'küüditamine', 'arreteeritud', '44', 'Aaro Pihlapuu oli kooliõpetaja Ristemäel ja koolijuhataja Pikakannul. Metsas alates 1949. a. Arreteeriti 1951. a ja määrati 25a vangistust. Vabanes 1956. Aaro Pihlapuu pidas metsavennana ka päevikut, mis on avaldatud: „Pihlapuude võitlus“, Hotpress 2009'),
 (70, 'valter_kuklane', 'Valter', 'Kuklane', 'Nikolai', 'rouge', '16.4.1926', '10.3.2008', '1949', '6.5.1949', 'küüditamine', 'arreteeritud', '22', 'Pärit Aabra talust Viitinast, varjus metsa küüditamise eest. Arreteeriti koos venna Hugoga 6.5.1949. Määrati 25 a vangistust, vabanes 1956.');
+
+--(XX,'','','','','','','','','','','','','')
