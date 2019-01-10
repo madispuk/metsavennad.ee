@@ -2,15 +2,16 @@ var fs = require('fs');
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('db/metsavennad.sqlite');
 
-console.info('Creating database.');
-fs.readFile('db/people.sql', 'utf8', function (err, data) {
-	if (err) throw err;
-	console.log(data);
-	db.exec(data, function (err) {
-		if (err) throw err;
-		console.info('Done.');
-	});
-});
+
+		console.info('Creating database.');
+		fs.readFile('db/people.sql', 'utf8', function (err, data) {
+			if (err) throw err;
+			console.log(data);
+			db.exec(data, function (err) {
+				if (err) throw err;
+				console.info('Done.');
+			});
+		});
 
 
 module.exports = {
