@@ -23,6 +23,7 @@
 	<script src="/vendor/justified-gallery/justified-gallery.js"></script>
 	<script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/js/global.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -95,7 +96,7 @@
 			});
 
 			$('.image-full-size').magnificPopup({
-				type: 'image',  
+				type: 'image',
 				callbacks: {
 					resize: changeImgSize,
 					imageLoadComplete:changeImgSize,

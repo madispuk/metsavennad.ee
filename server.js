@@ -65,6 +65,9 @@ router.get('/misso/lingid',function(req,res){
 router.get('/misso/raudvassar',function(req,res){
 	res.render('misso/raudvassar', {layout: 'misso-layout.hbs'});
 });
+router.get('/misso/arvo-pilt',function(req,res){
+	res.render('misso/arvo-pilt', {layout: 'misso-layout.hbs'});
+});
 /////
 /// ROUGE
 /////

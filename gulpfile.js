@@ -48,7 +48,7 @@ gulp.task('minify-css', ['less'], function() {
 });
 
 gulp.task('minify-js', function() {
-	return gulp.src('js/clean-blog.js')
+	return gulp.src('js/global.js')
 	.pipe(uglify())
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(gulp.dest('public/js'))
