@@ -11,6 +11,4 @@ pm2 list
 pm2 restart 1
 
 # to update certificates
-sudo service nginx stop
-certbot renew
-sudo service nginx start
+sudo certbot renew --nginx
