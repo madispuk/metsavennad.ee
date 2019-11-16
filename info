@@ -8,7 +8,9 @@ gulp
 
 # restart app
 pm2 list
-pm2 restart 1
+pm2 stop 1
+pm2 delete 1
+pm2 server.js
 
 # to update certificates
 sudo certbot renew --nginx
