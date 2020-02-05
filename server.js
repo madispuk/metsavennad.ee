@@ -141,6 +141,9 @@ router.get('/rouge/haanjamaa_monumendid',function(req,res){
 router.get('/rouge/morv_metsateel',function(req,res){
 	res.render('rouge/morv_metsateel', {layout: 'rouge-layout.hbs'});
 });
+router.get('/rouge/simo_pihlapuu_ulestahendused',function(req,res){
+	res.render('rouge/simo_pihlapuu_ulestahendused', {layout: 'rouge-layout.hbs'});
+});
 
 app.use(function (err, req, res, next) {
 	console.error(err.stack)

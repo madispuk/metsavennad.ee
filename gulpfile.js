@@ -7,7 +7,7 @@ var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
 // Copy vendor libraries from /node_modules into /vendor
-gulp.task('copy', function() {
+gulp.task('copy', function(done) {
 	gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
 	.pipe(gulp.dest('public/vendor/bootstrap'))
 
@@ -16,30 +16,13 @@ gulp.task('copy', function() {
 
 	gulp.src(['node_modules/magnific-popup/dist/**/*'])
 	.pipe(gulp.dest('public/vendor/magnific-popup'))
-})
 
-gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
-gulp.task('dev', ['less', 'minify-css', 'minify-js', 'copy'], function() {
-	gulp.watch('less/*.less', ['less']);
-	gulp.watch('public/css/*.css', ['minify-css']);
-	gulp.watch('public/js/*.js', ['minify-js']);
-	gulp.watch('*.html', browserSync.reload);
-	gulp.watch('js/**/*.js', browserSync.reload);
-});
+	done();
+})
 
 gulp.task('less', function() {
 	return gulp.src('less/stylesheet.less')
 	.pipe(less())
-	.pipe(gulp.dest('public/css'))
-	.pipe(browserSync.reload({
-		stream: true
-	}))
-});
-
-gulp.task('minify-css', ['less'], function() {
-	return gulp.src('public/css/stylesheet.css')
-	.pipe(cleanCSS({ compatibility: 'ie8' }))
-	.pipe(rename({ suffix: '.min' }))
 	.pipe(gulp.dest('public/css'))
 	.pipe(browserSync.reload({
 		stream: true
@@ -55,3 +38,23 @@ gulp.task('minify-js', function() {
 		stream: true
 	}))
 });
+
+gulp.task('minify-css', gulp.series('less'), function() {
+	return gulp.src('public/css/stylesheet.css')
+	.pipe(cleanCSS({ compatibility: 'ie8' }))
+	.pipe(rename({ suffix: '.min' }))
+	.pipe(gulp.dest('public/css'))
+	.pipe(browserSync.reload({
+		stream: true
+	}))
+});
+
+gulp.task('default', gulp.series('less', 'minify-css', 'minify-js', 'copy'));
+gulp.task('dev', gulp.series('less', 'minify-css', 'minify-js', 'copy'), function() {
+	gulp.watch('less/*.less', ['less']);
+	gulp.watch('public/css/*.css', ['minify-css']);
+	gulp.watch('public/js/*.js', ['minify-js']);
+	gulp.watch('*.html', browserSync.reload);
+	gulp.watch('js/**/*.js', browserSync.reload);
+});
+
