@@ -145,6 +145,59 @@ router.get('/rouge/simo_pihlapuu_ulestahendused',function(req,res){
 	res.render('rouge/simo_pihlapuu_ulestahendused', {layout: 'rouge-layout.hbs'});
 });
 
+/////
+/// LINNAMÄE-URVASTE-SANGASTE
+/////
+
+router.get('/sangaste',function(req,res){
+	res.render('sangaste/sissejuhatus', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/sissejuhatus',function(req,res){
+	res.render('sangaste/sissejuhatus', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/olud',function(req,res){
+	res.render('sangaste/olud', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/elukaigud_enne_1944',function(req,res){
+	res.render('sangaste/elukaigud_enne_1944', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/elukaigud_1945_1946',function(req,res){
+	res.render('sangaste/elukaigud_1945_1946', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/elukaigud_1947_1948',function(req,res){
+	res.render('sangaste/elukaigud_1947_1948', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/elukaigud_1949_1953',function(req,res){
+	res.render('sangaste/elukaigud_1949_1953', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/elukaigud_1954_1959',function(req,res){
+	res.render('sangaste/elukaigud_1954_1959', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/rjm',function(req,res){
+	res.render('sangaste/rjm', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/pildid',function(req,res){
+	res.render('sangaste/pildid', {layout: 'sangaste-layout.hbs'});
+});
+router.get('/sangaste/kaardid',function(req,res){
+	res.render('sangaste/kaardid', {layout: 'sangaste-layout.hbs'});
+});
+router.get("/sangaste/isikud", function(req, res, next) {
+	db.getPeople("sangaste", function(err, people) {
+		if (err) return next(err);
+		res.render('sangaste/isikud', {layout: 'sangaste-layout.hbs', people} );
+	});
+});
+router.get("/sangaste/isik/:id_name", function(req, res, next) {
+	db.getPersonById(req.params.id_name, function(err, person) {
+		if (err) return next(err);
+		res.render('sangaste/isik', {layout: 'sangaste-layout.hbs', person} );
+	});
+});
+router.get('/sangaste/lingid',function(req,res){
+	res.render('sangaste/lingid', {layout: 'sangaste-layout.hbs'});
+});
+
 app.use(function (err, req, res, next) {
 	console.error(err.stack)
 	res.status(500).send('Something broke!')

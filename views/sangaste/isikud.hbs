@@ -1,0 +1,12 @@
+<div class="content">
+	<h1>Isikud</h1>
+
+	<div>
+		{{#each people}}
+			<a href="/sangaste/isik/{{this.id_name}}">
+				{{this.first_name}} {{this.last_name}}<br>
+			</a>
+		{{/each}}
+	</div>
+</div>
+
