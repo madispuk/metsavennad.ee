@@ -29,6 +29,6 @@
     "url": "https://github.com/madispuk/metsavennad.ee"
   },
   "dependencies": {
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.3"
   }
 }
