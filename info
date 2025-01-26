@@ -5,6 +5,7 @@ ssh root@139.59.138.160 -i metsavennad.id_rsa
 cd /home/metsavennad/metsavennad.ee
 git pull
 gulp
+test
 
 # restart app
 pm2 list
