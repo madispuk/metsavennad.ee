@@ -17,7 +17,7 @@
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.4.1",
     "magnific-popup": "^1.1.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^2.0.20"
   },
   "scripts": {
     "start": "node server.js",
