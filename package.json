@@ -29,6 +29,7 @@
     "url": "https://github.com/madispuk/metsavennad.ee"
   },
   "dependencies": {
+    "posthog-js": "^1.230.2",
     "sqlite3": "^5.0.0"
   }
 }
