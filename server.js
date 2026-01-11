@@ -41,17 +41,13 @@ router.get("/misso/pildid", function (req, res) {
 router.get("/misso/kaardid", function (req, res) {
   res.render("misso/kaardid", { layout: "misso-layout.hbs" });
 });
-router.get("/misso/isikud", function (req, res, next) {
-  db.getPeople("misso", function (err, people) {
-    if (err) return next(err);
-    res.render("misso/isikud", { layout: "misso-layout.hbs", people });
-  });
+router.get("/misso/isikud", async (req, res) => {
+  const people = await db.getPeople("misso");
+  res.render("misso/isikud", { layout: "misso-layout.hbs", people });
 });
-router.get("/misso/isik/:id_name", function (req, res, next) {
-  db.getPersonById(req.params.id_name, function (err, person) {
-    if (err) return next(err);
-    res.render("misso/isik", { layout: "misso-layout.hbs", person });
-  });
+router.get("/misso/isik/:id_name", async (req, res) => {
+  const person = await db.getPersonById(req.params.id_name);
+  res.render("misso/isik", { layout: "misso-layout.hbs", person });
 });
 router.get("/misso/rjm", function (req, res) {
   res.render("misso/rjm", { layout: "misso-layout.hbs" });
@@ -112,17 +108,13 @@ router.get("/rouge/pildid", function (req, res) {
 router.get("/rouge/kaardid", function (req, res) {
   res.render("rouge/kaardid", { layout: "rouge-layout.hbs" });
 });
-router.get("/rouge/isikud", function (req, res, next) {
-  db.getPeople("rouge", function (err, people) {
-    if (err) return next(err);
-    res.render("rouge/isikud", { layout: "rouge-layout.hbs", people });
-  });
+router.get("/rouge/isikud", async (req, res) => {
+  const people = await db.getPeople("rouge");
+  res.render("rouge/isikud", { layout: "rouge-layout.hbs", people });
 });
-router.get("/rouge/isik/:id_name", function (req, res, next) {
-  db.getPersonById(req.params.id_name, function (err, person) {
-    if (err) return next(err);
-    res.render("rouge/isik", { layout: "rouge-layout.hbs", person });
-  });
+router.get("/rouge/isik/:id_name", async (req, res) => {
+  const person = await db.getPersonById(req.params.id_name);
+  res.render("rouge/isik", { layout: "rouge-layout.hbs", person });
 });
 router.get("/rouge/lingid", function (req, res) {
   res.render("rouge/lingid", { layout: "rouge-layout.hbs" });
@@ -193,17 +185,13 @@ router.get("/sangaste/pildid", function (req, res) {
 router.get("/sangaste/kaardid", function (req, res) {
   res.render("sangaste/kaardid", { layout: "sangaste-layout.hbs" });
 });
-router.get("/sangaste/isikud", function (req, res, next) {
-  db.getPeople("sangaste", function (err, people) {
-    if (err) return next(err);
-    res.render("sangaste/isikud", { layout: "sangaste-layout.hbs", people });
-  });
+router.get("/sangaste/isikud", async (req, res) => {
+  const people = await db.getPeople("sangaste");
+  res.render("sangaste/isikud", { layout: "sangaste-layout.hbs", people });
 });
-router.get("/sangaste/isik/:id_name", function (req, res, next) {
-  db.getPersonById(req.params.id_name, function (err, person) {
-    if (err) return next(err);
-    res.render("sangaste/isik", { layout: "sangaste-layout.hbs", person });
-  });
+router.get("/sangaste/isik/:id_name", async (req, res) => {
+  const person = await db.getPersonById(req.params.id_name);
+  res.render("sangaste/isik", { layout: "sangaste-layout.hbs", person });
 });
 router.get("/sangaste/lingid", function (req, res) {
   res.render("sangaste/lingid", { layout: "sangaste-layout.hbs" });

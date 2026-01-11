@@ -24,13 +24,15 @@
     "start": "node server.js",
     "gulp": "gulp",
     "dev": "nodemon server.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "export:yaml": "node scripts/export-to-yaml.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/madispuk/metsavennad.ee"
   },
   "dependencies": {
+    "js-yaml": "^4.1.1",
     "lightgallery": "^2.9.0",
     "posthog-js": "^1.230.2",
     "sqlite3": "^5.0.0"

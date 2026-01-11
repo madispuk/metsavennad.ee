@@ -1,32 +1,23 @@
-var fs = require("fs");
-var sqlite3 = require("sqlite3").verbose();
-var db = new sqlite3.Database("db/metsavennad.sqlite");
+const fs = require("fs");
+const path = require("path");
+const yaml = require("js-yaml");
 
-console.info("Creating database.");
-fs.readFile("db/people.sql", "utf8", function (err, data) {
-  if (err) throw err;
-  db.exec(data, function (err) {
-    if (err) throw err;
-    console.info("Done.");
-  });
-});
+const yamlPath = path.join(__dirname, "..", "db", "people.yaml");
+const data = yaml.load(fs.readFileSync(yamlPath, "utf8"));
+const people = data.people;
 
 module.exports = {
-  getPersonById: function (id_name, callback) {
-    db.get(
-      "SELECT * FROM people WHERE id_name = $id_name",
-      { $id_name: id_name },
-      callback,
-    );
+  async getPersonById(id_name) {
+    return people.find((p) => p.id_name === id_name) || null;
   },
-  getPeople: function (location, callback) {
-    db.all(
-      "SELECT id_name, first_name, last_name FROM people WHERE location = $location",
-      { $location: location },
-      callback,
-    );
-  },
-  close: function (callback) {
-    db.close(callback);
+
+  async getPeople(location) {
+    return people
+      .filter((p) => p.location === location)
+      .map(({ id_name, first_name, last_name }) => ({
+        id_name,
+        first_name,
+        last_name,
+      }));
   },
 };
