@@ -19,182 +19,88 @@ app.engine(
 app.set("views", path + "views");
 app.set("view engine", "hbs");
 
-/////
-/// MISSOO
-/////
+// Route configuration - maps regions to their pages
+const regionPages = {
+  misso: [
+    "sissejuhatus",
+    "lugu",
+    "pildid",
+    "kaardid",
+    "rjm",
+    "agendid",
+    "malestus",
+    "lingid",
+    "raudvassar",
+    "arvo-pilt",
+  ],
+  rouge: [
+    "sissejuhatus",
+    "metsavennad",
+    "parteilased",
+    "elukaigud_metsaelu_alguseni",
+    "sundmused_uurimistoimikutes",
+    "elukaigud_metsaelu_lopuni",
+    "julgeoleku_tegutsemine",
+    "propaganda_vs_toimikud",
+    "pildid",
+    "kaardid",
+    "lingid",
+    "aksel_sprenki_paevik",
+    "aksel_sprenki_paevik_umberkirjutis",
+    "koemetsa_hukkumine",
+    "toomase_rahatasku",
+    "pallo_luule",
+    "haanjamaa_monumendid",
+    "morv_metsateel",
+    "simo_pihlapuu_ulestahendused",
+  ],
+  sangaste: [
+    "sissejuhatus",
+    "olud",
+    "elukaigud_enne_1944",
+    "elukaigud_1945_1946",
+    "elukaigud_1947_1948",
+    "elukaigud_1949_1953",
+    "elukaigud_1954_1959",
+    "rjm",
+    "pildid",
+    "kaardid",
+    "lingid",
+  ],
+};
 
+// Homepage
 router.get("/", function (req, res) {
   res.render("index", { layout: false });
 });
-router.get("/misso", function (req, res) {
-  res.render("misso/sissejuhatus", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/sissejuhatus", function (req, res) {
-  res.render("misso/sissejuhatus", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/lugu", function (req, res) {
-  res.render("misso/lugu", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/pildid", function (req, res) {
-  res.render("misso/pildid", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/kaardid", function (req, res) {
-  res.render("misso/kaardid", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/isikud", async (req, res) => {
-  const people = await db.getPeople("misso");
-  res.render("misso/isikud", { layout: "misso-layout.hbs", people });
-});
-router.get("/misso/isik/:id_name", async (req, res) => {
-  const person = await db.getPersonById(req.params.id_name);
-  res.render("misso/isik", { layout: "misso-layout.hbs", person });
-});
-router.get("/misso/rjm", function (req, res) {
-  res.render("misso/rjm", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/agendid", function (req, res) {
-  res.render("misso/agendid", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/malestus", function (req, res) {
-  res.render("misso/malestus", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/lingid", function (req, res) {
-  res.render("misso/lingid", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/raudvassar", function (req, res) {
-  res.render("misso/raudvassar", { layout: "misso-layout.hbs" });
-});
-router.get("/misso/arvo-pilt", function (req, res) {
-  res.render("misso/arvo-pilt", { layout: "misso-layout.hbs" });
-});
-/////
-/// ROUGE
-/////
 
-router.get("/rouge", function (req, res) {
-  res.render("rouge/sissejuhatus", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/sissejuhatus", function (req, res) {
-  res.render("rouge/sissejuhatus", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/metsavennad", function (req, res) {
-  res.render("rouge/metsavennad", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/parteilased", function (req, res) {
-  res.render("rouge/parteilased", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/elukaigud_metsaelu_alguseni", function (req, res) {
-  res.render("rouge/elukaigud_metsaelu_alguseni", {
-    layout: "rouge-layout.hbs",
-  });
-});
-router.get("/rouge/sundmused_uurimistoimikutes", function (req, res) {
-  res.render("rouge/sundmused_uurimistoimikutes", {
-    layout: "rouge-layout.hbs",
-  });
-});
-router.get("/rouge/elukaigud_metsaelu_lopuni", function (req, res) {
-  res.render("rouge/elukaigud_metsaelu_lopuni", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/julgeoleku_tegutsemine", function (req, res) {
-  res.render("rouge/julgeoleku_tegutsemine", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/propaganda_vs_toimikud", function (req, res) {
-  res.render("rouge/propaganda_vs_toimikud", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/pildid", function (req, res) {
-  res.render("rouge/pildid", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/kaardid", function (req, res) {
-  res.render("rouge/kaardid", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/isikud", async (req, res) => {
-  const people = await db.getPeople("rouge");
-  res.render("rouge/isikud", { layout: "rouge-layout.hbs", people });
-});
-router.get("/rouge/isik/:id_name", async (req, res) => {
-  const person = await db.getPersonById(req.params.id_name);
-  res.render("rouge/isik", { layout: "rouge-layout.hbs", person });
-});
-router.get("/rouge/lingid", function (req, res) {
-  res.render("rouge/lingid", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/aksel_sprenki_paevik", function (req, res) {
-  res.render("rouge/aksel_sprenki_paevik", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/aksel_sprenki_paevik_umberkirjutis", function (req, res) {
-  res.render("rouge/aksel_sprenki_paevik_umberkirjutis", {
-    layout: "rouge-layout.hbs",
-  });
-});
-router.get("/rouge/koemetsa_hukkumine", function (req, res) {
-  res.render("rouge/koemetsa_hukkumine", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/toomase_rahatasku", function (req, res) {
-  res.render("rouge/toomase_rahatasku", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/pallo_luule", function (req, res) {
-  res.render("rouge/pallo_luule", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/haanjamaa_monumendid", function (req, res) {
-  res.render("rouge/haanjamaa_monumendid", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/morv_metsateel", function (req, res) {
-  res.render("rouge/morv_metsateel", { layout: "rouge-layout.hbs" });
-});
-router.get("/rouge/simo_pihlapuu_ulestahendused", function (req, res) {
-  res.render("rouge/simo_pihlapuu_ulestahendused", {
-    layout: "rouge-layout.hbs",
-  });
-});
+// Generate routes for each region
+Object.entries(regionPages).forEach(([region, pages]) => {
+  const layout = `${region}-layout.hbs`;
 
-/////
-/// LINNAMÄE-URVASTE-SANGASTE
-/////
+  // Region root redirects to sissejuhatus
+  router.get(`/${region}`, (req, res) => {
+    res.render(`${region}/sissejuhatus`, { layout });
+  });
 
-router.get("/sangaste", function (req, res) {
-  res.render("sangaste/sissejuhatus", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/sissejuhatus", function (req, res) {
-  res.render("sangaste/sissejuhatus", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/olud", function (req, res) {
-  res.render("sangaste/olud", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/elukaigud_enne_1944", function (req, res) {
-  res.render("sangaste/elukaigud_enne_1944", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/elukaigud_1945_1946", function (req, res) {
-  res.render("sangaste/elukaigud_1945_1946", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/elukaigud_1947_1948", function (req, res) {
-  res.render("sangaste/elukaigud_1947_1948", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/elukaigud_1949_1953", function (req, res) {
-  res.render("sangaste/elukaigud_1949_1953", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/elukaigud_1954_1959", function (req, res) {
-  res.render("sangaste/elukaigud_1954_1959", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/rjm", function (req, res) {
-  res.render("sangaste/rjm", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/pildid", function (req, res) {
-  res.render("sangaste/pildid", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/kaardid", function (req, res) {
-  res.render("sangaste/kaardid", { layout: "sangaste-layout.hbs" });
-});
-router.get("/sangaste/isikud", async (req, res) => {
-  const people = await db.getPeople("sangaste");
-  res.render("sangaste/isikud", { layout: "sangaste-layout.hbs", people });
-});
-router.get("/sangaste/isik/:id_name", async (req, res) => {
-  const person = await db.getPersonById(req.params.id_name);
-  res.render("sangaste/isik", { layout: "sangaste-layout.hbs", person });
-});
-router.get("/sangaste/lingid", function (req, res) {
-  res.render("sangaste/lingid", { layout: "sangaste-layout.hbs" });
+  // Static pages
+  pages.forEach((page) => {
+    router.get(`/${region}/${page}`, (req, res) => {
+      res.render(`${region}/${page}`, { layout });
+    });
+  });
+
+  // People list page
+  router.get(`/${region}/isikud`, async (req, res) => {
+    const people = await db.getPeople(region);
+    res.render(`${region}/isikud`, { layout, people });
+  });
+
+  // Individual person page
+  router.get(`/${region}/isik/:id_name`, async (req, res) => {
+    const person = await db.getPersonById(req.params.id_name);
+    res.render(`${region}/isik`, { layout, person });
+  });
 });
 
 app.use(function (err, req, res, next) {

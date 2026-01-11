@@ -9,19 +9,11 @@ var pkg = require("./package.json");
 // Copy vendor libraries from /node_modules into /vendor
 gulp.task("copy", function (done) {
   gulp
-    .src([
-      "node_modules/bootstrap/dist/**/*",
-      "!**/npm.js",
-      "!**/bootstrap-theme.*",
-      "!**/*.map",
-    ])
+    .src(["node_modules/bootstrap/dist/**/*", "!**/npm.js", "!**/bootstrap-theme.*", "!**/*.map"])
     .pipe(gulp.dest("public/vendor/bootstrap"));
 
   gulp
-    .src([
-      "node_modules/jquery/dist/jquery.js",
-      "node_modules/jquery/dist/jquery.min.js",
-    ])
+    .src(["node_modules/jquery/dist/jquery.js", "node_modules/jquery/dist/jquery.min.js"])
     .pipe(gulp.dest("public/vendor/jquery"));
 
   gulp
@@ -36,13 +28,9 @@ gulp.task("copy", function (done) {
     .src(["node_modules/lightgallery/css/lightgallery-bundle.min.css"])
     .pipe(gulp.dest("public/vendor/lightgallery/css"));
 
-  gulp
-    .src(["node_modules/lightgallery/images/*"])
-    .pipe(gulp.dest("public/vendor/lightgallery/images"));
+  gulp.src(["node_modules/lightgallery/images/*"]).pipe(gulp.dest("public/vendor/lightgallery/images"));
 
-  gulp
-    .src(["node_modules/lightgallery/fonts/*"])
-    .pipe(gulp.dest("public/vendor/lightgallery/fonts"));
+  gulp.src(["node_modules/lightgallery/fonts/*"]).pipe(gulp.dest("public/vendor/lightgallery/fonts"));
 
   done();
 });
