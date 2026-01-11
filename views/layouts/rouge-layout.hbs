@@ -143,6 +143,9 @@
 
         // Single image lightbox
         document.querySelectorAll('.lg-single-image').forEach(function (el) {
+          if (el.tagName === 'IMG' && !el.dataset.src) {
+            el.dataset.src = el.src;
+          }
           lightGallery(el, {
             plugins: [lgZoom],
             speed: 400,
