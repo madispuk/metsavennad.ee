@@ -217,6 +217,16 @@ app.use(function (err, req, res, next) {
 // START WEB SERVER
 app.use("/", router);
 
-app.listen(4000, function () {
+var server = app.listen(4000, function () {
   console.log("Live at Port 4000");
+});
+
+// Graceful shutdown
+process.on("SIGINT", function () {
+  console.log("\nShutting down...");
+  server.close(function () {
+    db.close(function () {
+      process.exit(0);
+    });
+  });
 });

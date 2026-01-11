@@ -26,4 +26,7 @@ module.exports = {
       callback,
     );
   },
+  close: function (callback) {
+    db.close(callback);
+  },
 };
