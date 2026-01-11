@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<!-- Homepage -->
 <url>
   <loc>https://metsavennad.ee/</loc>
 </url>
+
+<!-- Misso region -->
 <url>
   <loc>https://metsavennad.ee/misso</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/misso/sissejuhatus</loc>
@@ -43,49 +38,13 @@
   <loc>https://metsavennad.ee/misso/lingid</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/sissejuhatus</loc>
+  <loc>https://metsavennad.ee/misso/raudvassar</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/metsavennad</loc>
+  <loc>https://metsavennad.ee/misso/arvo-pilt</loc>
 </url>
-<url>
-  <loc>https://metsavennad.ee/rouge/parteilased</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/elukaigud_metsaelu_alguseni</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/sundmused_uurimistoimikutes</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/elukaigud_metsaelu_lopuni</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/julgeoleku_tegutsemine</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/propaganda_vs_toimikud</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/pildid</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/kaardid</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/isikud</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/lingid</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/images/misso/punkrid.pdf</loc>
-  <lastmod>2017-05-03T07:11:09+00:00</lastmod>
-</url>
-<url>
-  <loc>https://metsavennad.ee/images/misso/tulevahetus.pdf</loc>
-  <lastmod>2017-05-03T07:11:09+00:00</lastmod>
-</url>
+
+<!-- Misso people -->
 <url>
   <loc>https://metsavennad.ee/misso/isik/richard_vahi</loc>
 </url>
@@ -174,16 +133,19 @@
   <loc>https://metsavennad.ee/misso/isik/juhan_tikerpuu</loc>
 </url>
 <url>
+  <loc>https://metsavennad.ee/misso/isik/viktor_telliste</loc>
+</url>
+<url>
   <loc>https://metsavennad.ee/misso/isik/arnold_kallaste</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/misso/isik/rudolf_koemets</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/misso/isik/leo_raabis</loc>
+  <loc>https://metsavennad.ee/misso/isik/leonhard_raabis</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/misso/isik/inga</loc>
+  <loc>https://metsavennad.ee/misso/isik/velta_kromule</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/misso/isik/oskar_kiudsoo</loc>
@@ -215,15 +177,73 @@
 <url>
   <loc>https://metsavennad.ee/misso/isik/gustav_erik</loc>
 </url>
+
+<!-- Rouge region -->
 <url>
-  <loc>https://metsavennad.ee/misso/raudvassar</loc>
+  <loc>https://metsavennad.ee/rouge</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/sissejuhatus</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/metsavennad</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/parteilased</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/elukaigud_metsaelu_alguseni</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/sundmused_uurimistoimikutes</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/elukaigud_metsaelu_lopuni</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/julgeoleku_tegutsemine</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/propaganda_vs_toimikud</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/pildid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/kaardid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/isikud</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/lingid</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/rouge/aksel_sprenki_paevik</loc>
 </url>
 <url>
+  <loc>https://metsavennad.ee/rouge/aksel_sprenki_paevik_umberkirjutis</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/koemetsa_hukkumine</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/toomase_rahatasku</loc>
+</url>
+<url>
   <loc>https://metsavennad.ee/rouge/pallo_luule</loc>
 </url>
+<url>
+  <loc>https://metsavennad.ee/rouge/haanjamaa_monumendid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/morv_metsateel</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/rouge/simo_pihlapuu_ulestahendused</loc>
+</url>
+
+<!-- Rouge people -->
 <url>
   <loc>https://metsavennad.ee/rouge/isik/auleid_toomsalu</loc>
 </url>
@@ -303,18 +323,157 @@
   <loc>https://metsavennad.ee/rouge/isik/valter_kuklane</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/koemetsa_hukkumine</loc>
+  <loc>https://metsavennad.ee/rouge/isik/adolf_eglitis</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/toomase_rahatasku</loc>
+  <loc>https://metsavennad.ee/rouge/isik/august_koemets</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/haanjamaa_monumendid</loc>
+  <loc>https://metsavennad.ee/rouge/isik/aleksei_koemets</loc>
+</url>
+
+<!-- Sangaste region -->
+<url>
+  <loc>https://metsavennad.ee/sangaste</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/morv_metsateel</loc>
+  <loc>https://metsavennad.ee/sangaste/sissejuhatus</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/aksel_sprenki_paevik_umberkirjutis</loc>
+  <loc>https://metsavennad.ee/sangaste/olud</loc>
 </url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/elukaigud_enne_1944</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/elukaigud_1945_1946</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/elukaigud_1947_1948</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/elukaigud_1949_1953</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/elukaigud_1954_1959</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/rjm</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/pildid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/kaardid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/lingid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isikud</loc>
+</url>
+
+<!-- Sangaste people -->
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/ants_aunver</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/aino_reinumägi</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/johannes_heeska</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/robert_heeska</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/kalju_visnapuu</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/artur_telling</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/feliks_hõbe</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/august_kängsepp</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/karl_kuus</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/daniel_peterson</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/valter_jeeger</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/edgar_jeeger</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/johannes_ülenurm</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/aksel_pallav</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/avo_pruus</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/peeter_rahnulaid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/kalju_torop</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/harri_haller</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/arnold_kängsepp</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/august_märdimäe</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/voldemar_pähn</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/leonhard_šteinbach</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/karl_pommer</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/hann_helbre</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/alfred_hallap</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/asta_hallap</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/aksel_org</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/voldemar_org</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/viktor_lukk</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/eduard_savi</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/isik/voldemar_laats</loc>
+</url>
+
+<!-- PDF documents -->
+<url>
+  <loc>https://metsavennad.ee/images/misso/punkrid.pdf</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/images/misso/tulevahetus.pdf</loc>
+</url>
+
 </urlset>

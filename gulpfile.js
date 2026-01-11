@@ -61,9 +61,10 @@ gulp.task("minify-css", gulp.series("less"), function () {
 });
 
 gulp.task("default", gulp.series("less", "minify-css", "copy"));
-gulp.task("dev", gulp.series("less", "minify-css", "copy"), function () {
-  gulp.watch("less/*.less", ["less"]);
-  gulp.watch("public/css/*.css", ["minify-css"]);
-  gulp.watch("*.html", browserSync.reload);
-  gulp.watch("js/**/*.js", browserSync.reload);
+
+gulp.task("watch", function (done) {
+  gulp.watch("less/*.less", gulp.series("less", "minify-css"));
+  done();
 });
+
+gulp.task("dev", gulp.series("less", "minify-css", "copy", "watch"));

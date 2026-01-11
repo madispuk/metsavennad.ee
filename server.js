@@ -124,3 +124,10 @@ process.on("SIGINT", function () {
     });
   });
 });
+
+// Handle nodemon restarts
+process.once("SIGUSR2", function () {
+  server.close(function () {
+    process.kill(process.pid, "SIGUSR2");
+  });
+});

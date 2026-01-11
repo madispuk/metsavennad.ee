@@ -1,0 +1,5 @@
+{
+  "watch": ["server.js", "js/", "views/"],
+  "ignore": ["public/"],
+  "delay": 500
+}
