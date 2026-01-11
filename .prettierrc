@@ -1,0 +1,11 @@
+{
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.hbs",
+      "options": {
+        "parser": "glimmer"
+      }
+    }
+  ]
+}
