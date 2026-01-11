@@ -5,6 +5,10 @@
   "homepage": "http://metsavennad.ee",
   "author": "Madis Pukkonen",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madispuk/metsavennad.ee"
+  },
   "devDependencies": {
     "bootstrap": "^3.4.1",
     "browser-sync": "^2.26.7",
@@ -24,17 +28,10 @@
     "start": "node server.js",
     "gulp": "gulp",
     "dev": "nodemon server.js",
-    "format": "prettier --write .",
-    "export:yaml": "node scripts/export-to-yaml.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/madispuk/metsavennad.ee"
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "js-yaml": "^4.1.1",
     "lightgallery": "^2.9.0",
-    "posthog-js": "^1.230.2",
-    "sqlite3": "^5.0.0"
+    "posthog-js": "^1.230.2"
   }
 }
