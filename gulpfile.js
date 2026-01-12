@@ -3,7 +3,6 @@ var less = require("gulp-less");
 var browserSync = require("browser-sync").create();
 var cleanCSS = require("gulp-clean-css");
 var rename = require("gulp-rename");
-var uglify = require("gulp-uglify");
 var pkg = require("./package.json");
 
 // Copy vendor libraries from /node_modules into /vendor
