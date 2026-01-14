@@ -62,10 +62,13 @@ const regionPages = {
     "elukaigud_1947_1948",
     "elukaigud_1949_1953",
     "elukaigud_1954_1959",
+    "kiri-hrustsovile",
     "rjm",
     "pildid",
     "kaardid",
     "lingid",
+    "kiri-hrustsovile",
+    "igor-gaspl",
   ],
 };
 
