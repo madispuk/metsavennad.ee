@@ -96,13 +96,13 @@ Object.entries(regionPages).forEach(([region, pages]) => {
   // People list page
   router.get(`/${region}/isikud`, async (req, res) => {
     const people = await db.getPeople(region);
-    res.render(`${region}/isikud`, { layout, people });
+    res.render(`common/isikud`, { region, layout, people });
   });
 
   // Individual person page
   router.get(`/${region}/isik/:id_name`, async (req, res) => {
     const person = await db.getPersonById(req.params.id_name);
-    res.render(`${region}/isik`, { layout, person });
+    res.render(`common/isik`, { region, layout, person });
   });
 });
 
@@ -121,11 +121,7 @@ var server = app.listen(4000, function () {
 // Graceful shutdown
 process.on("SIGINT", function () {
   console.log("\nShutting down...");
-  server.close(function () {
-    db.close(function () {
-      process.exit(0);
-    });
-  });
+  server.close();
 });
 
 // Handle nodemon restarts

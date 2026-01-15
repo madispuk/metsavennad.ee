@@ -1,16 +1,23 @@
 # log into server
 ssh root@139.59.138.160 -i metsavennad.id_rsa
 
-# pull latest changes
+# pull latest changes and build
 cd /home/metsavennad/metsavennad.ee
 git pull
-gulp
+npm run build
 
 # restart app
 pm2 list
 pm2 stop 1
 pm2 delete 1
-pm2 server.js
+pm2 start server.js
 
 # to update certificates
 sudo certbot renew --nginx
+
+# local development commands
+npm start        # Start production server (port 4000)
+npm run dev      # Start development server with nodemon + CSS/JS watch
+npm run build    # Full build (vendor files, CSS, JS)
+npm run watch    # Watch mode for CSS and JS changes
+npm run format   # Format code with Prettier

@@ -5,7 +5,8 @@
     {
       "files": "*.hbs",
       "options": {
-        "parser": "glimmer"
+        "parser": "html",
+        "htmlWhitespaceSensitivity": "ignore"
       }
     }
   ]

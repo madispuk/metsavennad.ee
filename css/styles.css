@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+/* Hide Alpine.js elements before initialization */
+[x-cloak] {
+  display: none !important;
+}
+
+/* Custom theme */
+@theme {
+  --color-forest-dark: rgba(33, 43, 33, 0.8);
+  --color-forest-muted: #70826d;
+  --color-forest-light: #b2d1ab;
+  --color-quote-red: #ed9d9d;
+  --color-quote-bg: #fff7f7;
+  --color-gray-toc: #f9f9f9;
+  --color-gray-quote: #f5f5f5;
+  --color-nav-bg: #222;
+
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-typewriter: "Typewriter", ui-monospace, monospace;
+}
+
+/* Custom font */
+@font-face {
+  font-family: "Typewriter";
+  src: url("/css/typewriter.ttf");
+}
+
+/* Site-specific base styles */
+@layer base {
+  html {
+    background-color: #4a5d23;
+    background-image: url("/images/background-pattern.png");
+  }
+
+  body {
+    color: rgb(51, 51, 51);
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+    scroll-margin-top: 4rem;
+    color: var(--color-forest-muted);
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    scroll-margin-top: 4rem;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    background: var(--color-quote-bg);
+    border-left: 7px solid var(--color-quote-red);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    quotes: "\201C" "\201D";
+  }
+
+  blockquote::before {
+    color: var(--color-quote-red);
+    font-size: 4rem;
+    content: open-quote;
+    line-height: 0.1;
+    margin-right: 0.25rem;
+    vertical-align: -0.4em;
+  }
+
+  a {
+    color: #337ab7;
+  }
+
+  a:hover {
+    color: #185487;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+    line-height: 1.6;
+  }
+}
+
+/* Navbar styling */
+nav a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-forest-light);
+  }
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+nav li {
+  margin-bottom: 0;
+}
+
+/* Navigation layout - brand left, menu centered */
+.nav-brand {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 48rem) {
+  .nav-wrapper {
+    justify-content: center;
+  }
+}
+
+/* Container - outside layers to override Tailwind's container utility */
+.container {
+  padding: 1.6rem;
+  max-width: 46rem;
+  margin: 65px auto 0;
+}
+
+/* Site-specific components */
+@layer components {
+  .content {
+    min-height: 800px;
+  }
+
+  /* Image positioning */
+  .image-right {
+    width: 37.3%;
+    margin: 0.5rem 0 1rem 1rem;
+    float: right;
+  }
+
+  .image-left {
+    width: 37.3%;
+    margin: 0.5rem 1rem 1rem 0;
+    float: left;
+  }
+
+  /* Quote box with typewriter font */
+  quote {
+    display: block;
+    font-family: var(--font-typewriter);
+    background: var(--color-gray-quote);
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Lightgallery grid */
+  .lg-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .lg-gallery img {
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 1;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .lg-gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  .lg-gallery .caption {
+    display: none;
+  }
+
+  .lg-img {
+    cursor: pointer;
+    will-change: transform;
+    contain: layout style;
+  }
+
+  /* Override LightGallery thumbnail styling with higher specificity */
+  .lg-outer .lg-thumb-item img {
+    object-fit: contain;
+  }
+
+  /* Table of contents */
+  .toc-container {
+    background: var(--color-gray-toc);
+    border: 1px solid #e0dede;
+    border-radius: 5px;
+    display: table;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+  }
+
+  .toc-title {
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .toc-list {
+    padding: 0;
+  }
+
+  .toc-container li,
+  .toc-container ul {
+    list-style: none;
+  }
+
+  /* Utility classes */
+  p {
+    padding-bottom: 10px;
+    line-height: 1.7rem;
+  }
+
+  /* Map region tooltip - no background, just text */
+  .region-tooltip {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .region-tooltip::before {
+    display: none;
+  }
+}

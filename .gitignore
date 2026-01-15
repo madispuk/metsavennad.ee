@@ -1,10 +1,6 @@
 node_modules/
 npm-debug.log
-public/css/stylesheet.css
-public/css/stylesheet.min.css
-public/vendor/bootstrap/**
-public/vendor/jquery/**
-public/vendor/magnific-popup/**
-db/metsavennad.sqlite
+public/css/**/*.css
+public/js/**
 **/.DS_Store
 CLAUDE.local.md

@@ -10,28 +10,34 @@
     "url": "https://github.com/madispuk/metsavennad.ee"
   },
   "devDependencies": {
-    "bootstrap": "^3.4.1",
-    "browser-sync": "^2.26.7",
+    "@tailwindcss/postcss": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "chokidar-cli": "^3.0.0",
     "concurrently": "^9.2.1",
     "express": "^4.13.3",
     "express-handlebars": "^3.0.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-less": "^4.0.1",
-    "gulp-rename": "^1.2.2",
-    "jquery": "^3.4.1",
+    "lightningcss-cli": "^1.30.2",
     "nodemon": "^1.11.0",
+    "postcss-cli": "^11.0.1",
     "prettier": "^3.7.4",
-    "prettier-plugin-handlebars": "^0.0.1"
+    "prettier-plugin-handlebars": "^0.0.1",
+    "tailwindcss": "^4.1.18"
   },
   "scripts": {
     "start": "node server.js",
-    "gulp": "gulp",
-    "dev": "concurrently --names server,gulp --prefix-colors cyan,yellow \"nodemon server.js\" \"gulp dev\"",
-    "dev:server": "nodemon server.js",
+    "build:css": "postcss css/styles.css -o public/css/styles.css",
+    "build:css:min": "lightningcss --minify public/css/styles.css -o public/css/styles.min.css",
+    "build:js": "cat node_modules/lightgallery/lightgallery.min.js node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.min.js node_modules/lightgallery/plugins/zoom/lg-zoom.min.js js/lightgallery-init.js > public/js/lightgallery.bundle.min.js && cp js/region-map.js public/js/",
+    "build:vendor": "mkdir -p public/vendor/lightgallery/css public/vendor/lightgallery/images public/vendor/lightgallery/fonts public/js && cp node_modules/lightgallery/css/lightgallery-bundle.min.css public/vendor/lightgallery/css/ && cp node_modules/lightgallery/images/* public/vendor/lightgallery/images/ && cp node_modules/lightgallery/fonts/* public/vendor/lightgallery/fonts/ && cp node_modules/alpinejs/dist/cdn.min.js public/js/alpine.min.js",
+    "build": "npm run build:vendor && npm run build:js && npm run build:css && npm run build:css:min",
+    "watch:css": "chokidar \"css/*.css\" \"views/**/*.hbs\" -c \"npm run build:css && npm run build:css:min\"",
+    "watch:js": "chokidar \"js/*.js\" -c \"npm run build:js\"",
+    "watch": "concurrently \"npm run watch:css\" \"npm run watch:js\"",
+    "dev": "npm run build && concurrently --names server,watch --prefix-colors cyan,yellow \"nodemon server.js\" \"npm run watch\"",
     "format": "prettier --write ."
   },
   "dependencies": {
+    "alpinejs": "^3.15.4",
     "js-yaml": "^4.1.1",
     "lightgallery": "^2.9.0",
     "posthog-js": "^1.318.1"
