@@ -21,7 +21,11 @@
       type="text/css"
     />
 
+    {{#if isProd}}
+    <link rel="stylesheet" href="/css/styles.min.css" />
+    {{else}}
     <link rel="stylesheet" href="/css/styles.css" />
+    {{/if}}
     <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
@@ -35,7 +39,7 @@
 
         <!-- Desktop nav -->
         <ul class="hidden md:flex gap-6 text-base">
-          <li><a href="/rouge/sissejuhatus">Sissejuhatus</a></li>
+          <li><a href="/rouge">Sissejuhatus</a></li>
           <li x-data="{ open: false }" class="relative">
             <button @click="open = !open" @click.away="open = false" class="flex items-center">
               Olud
@@ -117,7 +121,7 @@
 
       <!-- Mobile nav -->
       <ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-1 text-base">
-        <li><a @click="mobileOpen = false" href="/rouge/sissejuhatus" class="block py-2">Sissejuhatus</a></li>
+        <li><a @click="mobileOpen = false" href="/rouge" class="block py-2">Sissejuhatus</a></li>
         <li class="border-t border-gray-700 pt-2 mt-2">
           <span class="block py-1 text-gray-400 text-sm">Olud</span>
           <a @click="mobileOpen = false" href="/rouge/metsavennad" class="block py-2 pl-4">Metsavennad</a>

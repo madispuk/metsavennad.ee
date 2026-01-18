@@ -11,9 +11,6 @@
   <loc>https://metsavennad.ee/misso</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/misso/sissejuhatus</loc>
-</url>
-<url>
   <loc>https://metsavennad.ee/misso/lugu</loc>
 </url>
 <url>
@@ -177,13 +174,13 @@
 <url>
   <loc>https://metsavennad.ee/misso/isik/gustav_erik</loc>
 </url>
+<url>
+  <loc>https://metsavennad.ee/misso/isik/adolf_eglitis</loc>
+</url>
 
 <!-- Rouge region -->
 <url>
   <loc>https://metsavennad.ee/rouge</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/rouge/sissejuhatus</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/rouge/metsavennad</loc>
@@ -323,9 +320,6 @@
   <loc>https://metsavennad.ee/rouge/isik/valter_kuklane</loc>
 </url>
 <url>
-  <loc>https://metsavennad.ee/rouge/isik/adolf_eglitis</loc>
-</url>
-<url>
   <loc>https://metsavennad.ee/rouge/isik/august_koemets</loc>
 </url>
 <url>
@@ -335,9 +329,6 @@
 <!-- Sangaste region -->
 <url>
   <loc>https://metsavennad.ee/sangaste</loc>
-</url>
-<url>
-  <loc>https://metsavennad.ee/sangaste/sissejuhatus</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/sangaste/olud</loc>
@@ -368,6 +359,15 @@
 </url>
 <url>
   <loc>https://metsavennad.ee/sangaste/lingid</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/kiri-hrustsovile</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/kiri-hrustsovile-kirjutis</loc>
+</url>
+<url>
+  <loc>https://metsavennad.ee/sangaste/igor-gaspl</loc>
 </url>
 <url>
   <loc>https://metsavennad.ee/sangaste/isikud</loc>

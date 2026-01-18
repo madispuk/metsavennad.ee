@@ -18,7 +18,11 @@
       type="text/css"
     />
 
+    {{#if isProd}}
+    <link rel="stylesheet" href="/css/styles.min.css" />
+    {{else}}
     <link rel="stylesheet" href="/css/styles.css" />
+    {{/if}}
     <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
@@ -32,7 +36,7 @@
 
         <!-- Desktop nav (hidden on mobile) -->
         <ul class="hidden md:flex gap-6 text-base">
-          <li><a href="/misso/sissejuhatus">Sissejuhatus</a></li>
+          <li><a href="/misso">Sissejuhatus</a></li>
           <li><a href="/misso/lugu">Lugu</a></li>
           <li><a href="/misso/pildid">Pildid</a></li>
           <li><a href="/misso/kaardid">Kaardid</a></li>
@@ -67,7 +71,7 @@
 
       <!-- Mobile nav -->
       <ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-2 text-base">
-        <li><a @click="mobileOpen = false" href="/misso/sissejuhatus" class="block py-2">Sissejuhatus</a></li>
+        <li><a @click="mobileOpen = false" href="/misso" class="block py-2">Sissejuhatus</a></li>
         <li><a @click="mobileOpen = false" href="/misso/lugu" class="block py-2">Lugu</a></li>
         <li><a @click="mobileOpen = false" href="/misso/pildid" class="block py-2">Pildid</a></li>
         <li><a @click="mobileOpen = false" href="/misso/kaardid" class="block py-2">Kaardid</a></li>

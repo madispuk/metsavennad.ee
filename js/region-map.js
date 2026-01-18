@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       this.setStyle({ fillColor: "#B8BFC7", color: "#B8BFC7" });
     });
     shape.on("click", function () {
-      window.location.href = "/" + key + "/sissejuhatus";
+      window.location.href = "/" + key;
     });
     shape.addTo(map);
   });

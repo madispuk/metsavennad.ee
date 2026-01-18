@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metsavennad.ee/sitemap.xml

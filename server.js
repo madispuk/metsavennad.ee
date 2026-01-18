@@ -5,6 +5,9 @@ var router = express.Router();
 var hbs = require("express-handlebars");
 var db = require("./js/db");
 
+var isProd = process.env.NODE_ENV === "production";
+app.locals.isProd = isProd;
+
 app.use(express.static(path + "public"));
 
 app.engine(
@@ -22,7 +25,6 @@ app.set("view engine", "hbs");
 // Route configuration - maps regions to their pages
 const regionPages = {
   misso: [
-    "sissejuhatus",
     "lugu",
     "pildid",
     "kaardid",
@@ -34,7 +36,6 @@ const regionPages = {
     "arvo-pilt",
   ],
   rouge: [
-    "sissejuhatus",
     "metsavennad",
     "parteilased",
     "elukaigud_metsaelu_alguseni",
@@ -55,7 +56,6 @@ const regionPages = {
     "simo_pihlapuu_ulestahendused",
   ],
   sangaste: [
-    "sissejuhatus",
     "olud",
     "elukaigud_enne_1944",
     "elukaigud_1945_1946",
@@ -68,6 +68,7 @@ const regionPages = {
     "kaardid",
     "lingid",
     "kiri-hrustsovile",
+    "kiri-hrustsovile-kirjutis",
     "igor-gaspl",
   ],
 };

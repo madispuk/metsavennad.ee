@@ -24,7 +24,7 @@
     "tailwindcss": "^4.1.18"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "build:css": "postcss css/styles.css -o public/css/styles.css",
     "build:css:min": "lightningcss --minify public/css/styles.css -o public/css/styles.min.css",
     "build:js": "cat node_modules/lightgallery/lightgallery.min.js node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.min.js node_modules/lightgallery/plugins/zoom/lg-zoom.min.js js/lightgallery-init.js > public/js/lightgallery.bundle.min.js && cp js/region-map.js public/js/",
