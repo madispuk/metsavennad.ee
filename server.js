@@ -9,7 +9,7 @@ app.use(express.static(path + "public"));
 
 app.engine(
   "hbs",
-  hbs({
+  hbs.engine({
     extname: "hbs",
     defaultLayout: "main-layout",
     layoutsDir: path + "views/layouts/",
