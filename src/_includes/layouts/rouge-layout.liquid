@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Võrumaa lõunaosa metsavennad sõjajärgsel ajal.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:title" content="Rõuge metsavennad">
+    <meta property="og:url" content="https://www.metsavennad.ee/rouge">
+    <meta property="og:image" content="https://www.metsavennad.ee/images/rouge/henn_kirbits_helmut_sarapuu.jpg">
+    <meta
+      property="og:description"
+      content="Rõuge ja Viitina piirkonna metsavenna Auleid Toomsaluga seostatud inimesed ja sündmused."
+    >
+
+    <title>Metsavennad - Rõuge</title>
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    >
+
+    {% if isProd %}
+      <link rel="stylesheet" href="/css/styles.min.css">
+    {% else %}
+      <link rel="stylesheet" href="/css/styles.css">
+    {% endif %}
+    <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+
+    <script defer src="/js/alpine.min.js"></script>
+    <script src="/js/lightgallery.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav x-data="{ mobileOpen: false }" class="fixed top-0 left-0 right-0 bg-nav-bg text-white z-50 px-4">
+      <div class="nav-grid">
+        <a href="/" class="font-semibold text-lg">Metsavennad</a>
+
+        <!-- Desktop nav -->
+        <ul class="hidden md:flex gap-6 text-base">
+          <li><a href="/rouge/">Sissejuhatus</a></li>
+          <li x-data="{ open: false }" class="relative">
+            <button @click="open = !open" @click.away="open = false" class="flex items-center">
+              Olud
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-48 bg-nav-bg rounded shadow-lg py-2">
+              <li><a href="/rouge/metsavennad/" class="block px-4 py-2">Metsavennad</a></li>
+              <li><a href="/rouge/parteilased/" class="block px-4 py-2">Parteilased</a></li>
+            </ul>
+          </li>
+          <li x-data="{ open: false }" class="relative">
+            <button @click="open = !open" @click.away="open = false" class="flex items-center">
+              Elukäigud ja sündmused
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-64 bg-nav-bg rounded shadow-lg py-2">
+              <li>
+                <a href="/rouge/elukaigud_metsaelu_alguseni/" class="block px-4 py-2">Elukäigud metsaelu alguseni</a>
+              </li>
+              <li>
+                <a href="/rouge/sundmused_uurimistoimikutes/" class="block px-4 py-2">Sündmused uurimistoimikutes</a>
+              </li>
+              <li><a href="/rouge/elukaigud_metsaelu_lopuni/" class="block px-4 py-2">Elukäigud metsaelu lõpuni</a></li>
+            </ul>
+          </li>
+          <li x-data="{ open: false }" class="relative">
+            <button @click="open = !open" @click.away="open = false" class="flex items-center">
+              RJM ja propaganda
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-56 bg-nav-bg rounded shadow-lg py-2">
+              <li><a href="/rouge/julgeoleku_tegutsemine/" class="block px-4 py-2">Julgeoleku tegutsemine</a></li>
+              <li><a href="/rouge/propaganda_vs_toimikud/" class="block px-4 py-2">Propaganda vs toimikud</a></li>
+            </ul>
+          </li>
+          <li x-data="{ open: false }" class="relative">
+            <button @click="open = !open" @click.away="open = false" class="flex items-center">
+              Muu
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-40 bg-nav-bg rounded shadow-lg py-2">
+              <li><a href="/rouge/pildid/" class="block px-4 py-2">Pildid</a></li>
+              <li><a href="/rouge/kaardid/" class="block px-4 py-2">Kaardid</a></li>
+              <li><a href="/rouge/isikud/" class="block px-4 py-2">Isikud</a></li>
+              <li><a href="/rouge/lingid/" class="block px-4 py-2">Lingid</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Mobile hamburger -->
+        <button @click="mobileOpen = !mobileOpen" class="md:invisible p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              x-show="!mobileOpen"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path
+              x-show="mobileOpen"
+              x-cloak
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile nav -->
+      <ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-1 text-base">
+        <li><a @click="mobileOpen = false" href="/rouge/" class="block py-2">Sissejuhatus</a></li>
+        <li class="border-t border-gray-700 pt-2 mt-2">
+          <span class="block py-1 text-gray-400 text-sm">Olud</span>
+          <a @click="mobileOpen = false" href="/rouge/metsavennad/" class="block py-2 pl-4">Metsavennad</a>
+          <a @click="mobileOpen = false" href="/rouge/parteilased/" class="block py-2 pl-4">Parteilased</a>
+        </li>
+        <li class="border-t border-gray-700 pt-2 mt-2">
+          <span class="block py-1 text-gray-400 text-sm">Elukäigud ja sündmused</span>
+          <a @click="mobileOpen = false" href="/rouge/elukaigud_metsaelu_alguseni/" class="block py-2 pl-4">
+            Elukäigud metsaelu alguseni
+          </a>
+          <a @click="mobileOpen = false" href="/rouge/sundmused_uurimistoimikutes/" class="block py-2 pl-4">
+            Sündmused uurimistoimikutes
+          </a>
+          <a @click="mobileOpen = false" href="/rouge/elukaigud_metsaelu_lopuni/" class="block py-2 pl-4">
+            Elukäigud metsaelu lõpuni
+          </a>
+        </li>
+        <li class="border-t border-gray-700 pt-2 mt-2">
+          <span class="block py-1 text-gray-400 text-sm">RJM ja propaganda</span>
+          <a @click="mobileOpen = false" href="/rouge/julgeoleku_tegutsemine/" class="block py-2 pl-4">
+            Julgeoleku tegutsemine
+          </a>
+          <a @click="mobileOpen = false" href="/rouge/propaganda_vs_toimikud/" class="block py-2 pl-4">
+            Propaganda vs toimikud
+          </a>
+        </li>
+        <li class="border-t border-gray-700 pt-2 mt-2">
+          <span class="block py-1 text-gray-400 text-sm">Muu</span>
+          <a @click="mobileOpen = false" href="/rouge/pildid/" class="block py-2 pl-4">Pildid</a>
+          <a @click="mobileOpen = false" href="/rouge/kaardid/" class="block py-2 pl-4">Kaardid</a>
+          <a @click="mobileOpen = false" href="/rouge/isikud/" class="block py-2 pl-4">Isikud</a>
+          <a @click="mobileOpen = false" href="/rouge/lingid/" class="block py-2 pl-4">Lingid</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container min-h-screen bg-white">{{ content }}</div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/js/region-map.js"></script>
+  </body>
+</html>

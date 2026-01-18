@@ -1,0 +1,24 @@
+---
+pagination:
+  data: regions
+  size: 1
+  alias: region
+permalink: /{{ region }}/isikud/
+eleventyComputed:
+  layout: "layouts/{{ region }}-layout.liquid"
+---
+<h1>Isikud</h1>
+
+<div class="space-y-1">
+  {% for item in people.people %}
+    {% if item.location == region %}
+      <div>
+        <a href="/{{ region }}/isik/{{ item.id_name }}/">
+          {{ item.first_name }}
+          {{ item.last_name }}
+          <br>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Võrumaa lõunaosa metsavennad sõjajärgsel ajal.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:title" content="Metsavennad">
+    <meta property="og:url" content="https://www.metsavennad.ee">
+    <meta property="og:image" content="https://www.metsavennad.ee/images/misso/maletamas.jpg">
+    <meta property="og:description" content="Metsavennad ja nende saatused Võrumaa lõunaosas 1944-1953.">
+
+    <title>Metsavennad - Misso</title>
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    >
+
+    {% if isProd %}
+      <link rel="stylesheet" href="/css/styles.min.css">
+    {% else %}
+      <link rel="stylesheet" href="/css/styles.css">
+    {% endif %}
+    <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+
+    <script defer src="/js/alpine.min.js"></script>
+    <script src="/js/lightgallery.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav x-data="{ mobileOpen: false }" class="fixed top-0 left-0 right-0 bg-nav-bg text-white z-50 px-4">
+      <div class="nav-grid">
+        <a href="/" class="font-semibold text-lg">Metsavennad</a>
+
+        <!-- Desktop nav (hidden on mobile) -->
+        <ul class="hidden md:flex gap-6 text-base">
+          <li><a href="/misso/">Sissejuhatus</a></li>
+          <li><a href="/misso/lugu/">Lugu</a></li>
+          <li><a href="/misso/pildid/">Pildid</a></li>
+          <li><a href="/misso/kaardid/">Kaardid</a></li>
+          <li><a href="/misso/isikud/">Isikud</a></li>
+          <li><a href="/misso/rjm/">RJM</a></li>
+          <li><a href="/misso/agendid/">Agendid</a></li>
+          <li><a href="/misso/malestus/">Mälestus</a></li>
+          <li><a href="/misso/lingid/">Lingid</a></li>
+        </ul>
+
+        <!-- Mobile hamburger (visible only on mobile), empty spacer on desktop -->
+        <button @click="mobileOpen = !mobileOpen" class="md:invisible p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              x-show="!mobileOpen"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path
+              x-show="mobileOpen"
+              x-cloak
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile nav -->
+      <ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-2 text-base">
+        <li><a @click="mobileOpen = false" href="/misso/" class="block py-2">Sissejuhatus</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/lugu/" class="block py-2">Lugu</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/pildid/" class="block py-2">Pildid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/kaardid/" class="block py-2">Kaardid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/isikud/" class="block py-2">Isikud</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/rjm/" class="block py-2">RJM</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/agendid/" class="block py-2">Agendid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/malestus/" class="block py-2">Mälestus</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/lingid/" class="block py-2">Lingid</a></li>
+      </ul>
+    </nav>
+
+    <div class="container min-h-screen bg-white">{{ content }}</div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/js/region-map.js"></script>
+  </body>
+</html>

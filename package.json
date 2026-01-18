@@ -10,30 +10,23 @@
     "url": "https://github.com/madispuk/metsavennad.ee"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@shopify/prettier-plugin-liquid": "^1.10.0",
     "@tailwindcss/postcss": "^4.1.18",
-    "autoprefixer": "^10.4.23",
-    "chokidar-cli": "^3.0.0",
-    "concurrently": "^9.2.1",
-    "express": "^4.13.3",
-    "express-handlebars": "^8.0.3",
     "lightningcss-cli": "^1.30.2",
-    "nodemon": "^3.1.11",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.7.4",
-    "prettier-plugin-handlebars": "^0.0.1",
     "tailwindcss": "^4.1.18"
   },
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
+    "start": "eleventy --serve",
     "build:css": "postcss css/styles.css -o public/css/styles.css",
     "build:css:min": "lightningcss --minify public/css/styles.css -o public/css/styles.min.css",
     "build:js": "cat node_modules/lightgallery/lightgallery.min.js node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.min.js node_modules/lightgallery/plugins/zoom/lg-zoom.min.js js/lightgallery-init.js > public/js/lightgallery.bundle.min.js && cp js/region-map.js public/js/",
     "build:vendor": "mkdir -p public/vendor/lightgallery/css public/vendor/lightgallery/images public/vendor/lightgallery/fonts public/js && cp node_modules/lightgallery/css/lightgallery-bundle.min.css public/vendor/lightgallery/css/ && cp node_modules/lightgallery/images/* public/vendor/lightgallery/images/ && cp node_modules/lightgallery/fonts/* public/vendor/lightgallery/fonts/ && cp node_modules/alpinejs/dist/cdn.min.js public/js/alpine.min.js",
-    "build": "npm run build:vendor && npm run build:js && npm run build:css && npm run build:css:min",
-    "watch:css": "chokidar \"css/*.css\" \"views/**/*.hbs\" -c \"npm run build:css && npm run build:css:min\"",
-    "watch:js": "chokidar \"js/*.js\" -c \"npm run build:js\"",
-    "watch": "concurrently \"npm run watch:css\" \"npm run watch:js\"",
-    "dev": "npm run build && concurrently --names server,watch --prefix-colors cyan,yellow \"nodemon server.js\" \"npm run watch\"",
+    "build": "npm run build:vendor && npm run build:js && npm run build:css && npm run build:css:min && eleventy",
+    "dev": "npm run build:vendor && npm run build:js && npm run build:css && eleventy --serve",
+    "preview": "npx serve _site",
     "format": "prettier --write ."
   },
   "dependencies": {

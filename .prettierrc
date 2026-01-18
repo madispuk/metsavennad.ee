@@ -1,12 +1,12 @@
 {
   "printWidth": 120,
   "useTabs": false,
+  "plugins": ["@shopify/prettier-plugin-liquid"],
   "overrides": [
     {
-      "files": "*.hbs",
+      "files": "*.liquid",
       "options": {
-        "parser": "html",
-        "htmlWhitespaceSensitivity": "ignore"
+        "parser": "liquid-html"
       }
     }
   ]
