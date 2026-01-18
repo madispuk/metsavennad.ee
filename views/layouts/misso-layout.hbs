@@ -26,92 +26,60 @@
     <script src="/js/lightgallery.bundle.min.js"></script>
   </head>
   <body>
-    <nav x-data="{ mobileOpen: false }" class="fixed top-0 left-0 right-0 bg-nav-bg text-white z-50">
-      <div class="relative px-4">
-        <!-- Brand - positioned left -->
-        <a href="/" class="nav-brand font-semibold text-lg hover:text-gray-300">Metsavennad</a>
+    <nav x-data="{ mobileOpen: false }" class="fixed top-0 left-0 right-0 bg-nav-bg text-white z-50 px-4">
+      <div class="nav-grid">
+        <a href="/" class="font-semibold text-lg">Metsavennad</a>
 
-        <div class="nav-wrapper flex justify-between items-center h-12">
-          <!-- Spacer for mobile (where brand would be) -->
-          <div class="md:hidden"></div>
+        <!-- Desktop nav (hidden on mobile) -->
+        <ul class="hidden md:flex gap-6 text-base">
+          <li><a href="/misso/sissejuhatus">Sissejuhatus</a></li>
+          <li><a href="/misso/lugu">Lugu</a></li>
+          <li><a href="/misso/pildid">Pildid</a></li>
+          <li><a href="/misso/kaardid">Kaardid</a></li>
+          <li><a href="/misso/isikud">Isikud</a></li>
+          <li><a href="/misso/rjm">RJM</a></li>
+          <li><a href="/misso/agendid">Agendid</a></li>
+          <li><a href="/misso/malestus">Mälestus</a></li>
+          <li><a href="/misso/lingid">Lingid</a></li>
+        </ul>
 
-          <!-- Mobile hamburger -->
-          <button @click="mobileOpen = !mobileOpen" class="md:hidden p-2 hover:bg-nav-bg rounded">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                x-show="!mobileOpen"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-              <path
-                x-show="mobileOpen"
-                x-cloak
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-
-          <!-- Desktop nav -->
-          <ul class="hidden md:flex space-x-6 items-center text-base">
-            <li><a href="/misso/sissejuhatus" class="hover:text-forest-light">Sissejuhatus</a></li>
-            <li><a href="/misso/lugu" class="hover:text-forest-light">Lugu</a></li>
-            <li><a href="/misso/pildid" class="hover:text-forest-light">Pildid</a></li>
-            <li><a href="/misso/kaardid" class="hover:text-forest-light">Kaardid</a></li>
-            <li><a href="/misso/isikud" class="hover:text-forest-light">Isikud</a></li>
-            <li><a href="/misso/rjm" class="hover:text-forest-light">RJM</a></li>
-            <li><a href="/misso/agendid" class="hover:text-forest-light">Agendid</a></li>
-            <li><a href="/misso/malestus" class="hover:text-forest-light">Mälestus</a></li>
-            <li><a href="/misso/lingid" class="hover:text-forest-light">Lingid</a></li>
-          </ul>
-        </div>
-
-        <!-- Mobile nav -->
-        <div x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4">
-          <ul class="space-y-2 text-base">
-            <li>
-              <a @click="mobileOpen = false" href="/misso/sissejuhatus" class="block py-2 hover:text-forest-light">
-                Sissejuhatus
-              </a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/lugu" class="block py-2 hover:text-forest-light">Lugu</a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/pildid" class="block py-2 hover:text-forest-light">Pildid</a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/kaardid" class="block py-2 hover:text-forest-light">
-                Kaardid
-              </a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/isikud" class="block py-2 hover:text-forest-light">Isikud</a>
-            </li>
-            <li><a @click="mobileOpen = false" href="/misso/rjm" class="block py-2 hover:text-forest-light">RJM</a></li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/agendid" class="block py-2 hover:text-forest-light">
-                Agendid
-              </a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/malestus" class="block py-2 hover:text-forest-light">
-                Mälestus
-              </a>
-            </li>
-            <li>
-              <a @click="mobileOpen = false" href="/misso/lingid" class="block py-2 hover:text-forest-light">Lingid</a>
-            </li>
-          </ul>
-        </div>
+        <!-- Mobile hamburger (visible only on mobile), empty spacer on desktop -->
+        <button @click="mobileOpen = !mobileOpen" class="md:invisible p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              x-show="!mobileOpen"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path
+              x-show="mobileOpen"
+              x-cloak
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
       </div>
+
+      <!-- Mobile nav -->
+      <ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-2 text-base">
+        <li><a @click="mobileOpen = false" href="/misso/sissejuhatus" class="block py-2">Sissejuhatus</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/lugu" class="block py-2">Lugu</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/pildid" class="block py-2">Pildid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/kaardid" class="block py-2">Kaardid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/isikud" class="block py-2">Isikud</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/rjm" class="block py-2">RJM</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/agendid" class="block py-2">Agendid</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/malestus" class="block py-2">Mälestus</a></li>
+        <li><a @click="mobileOpen = false" href="/misso/lingid" class="block py-2">Lingid</a></li>
+      </ul>
     </nav>
 
-    <div class="container bg-white">{{{body}}}</div>
+    <div class="container min-h-screen bg-white">{{{body}}}</div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/js/region-map.js"></script>
   </body>
