@@ -9,16 +9,43 @@ eleventyComputed:
 ---
 <h1>Isikud</h1>
 
-<div class="space-y-1">
-  {% for item in people.people %}
-    {% if item.location == region %}
-      <div>
-        <a href="/{{ region }}/isik/{{ item.id_name }}/">
-          {{ item.first_name }}
-          {{ item.last_name }}
-          <br>
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
+<p>Metsavenna elu algus ja lõpp ajateljel. Vajuta nimele, et näha isiku kohta rohkem infot.</p>
+
+<div class="mt-4 flex flex-wrap gap-2 text-sm justify-center">
+  <span class="inline-flex items-center gap-1.5 py-1 px-3 bg-white rounded-full border border-gray-200">
+    <span class="w-3 h-3 rounded-full bg-red-500"></span>
+    <span class="text-gray-700">Tapetud</span>
+  </span>
+  <span class="inline-flex items-center gap-1.5 py-1 px-3 bg-white rounded-full border border-gray-200">
+    <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+    <span class="text-gray-700">Arreteeritud</span>
+  </span>
+  <span class="inline-flex items-center gap-1.5 py-1 px-3 bg-white rounded-full border border-gray-200">
+    <span class="w-3 h-3 rounded-full bg-green-400"></span>
+    <span class="text-gray-700">Legaliseerus</span>
+  </span>
+  <span class="inline-flex items-center gap-1.5 py-1 px-3 bg-white rounded-full border border-gray-200">
+    <span class="w-3 h-3 rounded-full bg-gray-400"></span>
+    <span class="text-gray-700">Muu/Teadmata</span>
+  </span>
 </div>
+
+<div id="timeline-chart"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="/js/timeline-chart.js"></script>
+<script>
+  TimelineChart.init('timeline-chart', [
+    {% for item in people.people %}
+      {% if item.location == region %}
+        {
+          name: "{{ item.first_name }} {{ item.last_name }}",
+          id_name: "{{ item.id_name }}",
+          separation_date: "{{ item.separation_date }}",
+          separation_end_date: "{{ item.separation_end_date }}",
+          separation_end_cause: "{{ item.separation_end_cause }}"
+        },
+      {% endif %}
+    {% endfor %}
+  ], '{{ region }}');
+</script>
