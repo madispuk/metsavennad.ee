@@ -79,24 +79,40 @@ window.TimelineChart = {
   },
 
   init(elementId, peopleData, region) {
-    const chartData = peopleData
-      .map((person) => {
-        const startDate = this.parseEstonianDate(person.separation_date);
-        const endDate = this.parseEstonianDate(person.separation_end_date);
-        if (!startDate || !endDate) return null;
-        return {
+    const withDates = [];
+    const withoutDates = [];
+
+    peopleData.forEach((person) => {
+      const startDate = this.parseEstonianDate(person.separation_date);
+      const endDate = this.parseEstonianDate(person.separation_end_date);
+      if (startDate && endDate) {
+        withDates.push({
           x: person.name,
           y: [startDate.getTime(), endDate.getTime()],
           fillColor: this.getEndCauseColor(person.separation_end_cause),
           id_name: person.id_name,
           cause: person.separation_end_cause,
-        };
-      })
-      .filter((d) => d !== null)
-      .sort((a, b) => a.y[0] - b.y[0]);
+          hasData: true,
+        });
+      } else {
+        withoutDates.push({
+          x: person.name,
+          y: [0, 0],
+          fillColor: 'transparent',
+          id_name: person.id_name,
+          cause: person.separation_end_cause,
+          hasData: false,
+        });
+      }
+    });
+
+    withDates.sort((a, b) => a.y[0] - b.y[0]);
+    const chartData = [...withDates, ...withoutDates];
+
+    const container = document.getElementById(elementId);
 
     if (chartData.length === 0) {
-      document.getElementById(elementId).innerHTML =
+      container.innerHTML =
         '<p class="text-gray-500">Ajatelje andmed pole saadaval.</p>';
       return;
     }
@@ -145,6 +161,14 @@ window.TimelineChart = {
       tooltip: {
         custom: ({ dataPointIndex }) => {
           const d = chartData[dataPointIndex];
+          if (!d.hasData) {
+            return `
+              <div class="p-2">
+                <strong>${d.x}</strong><br>
+                Kuupäevad teadmata
+              </div>
+            `.trim();
+          }
           const start = new Date(d.y[0]);
           const end = new Date(d.y[1]);
           const durationYears =
@@ -194,6 +218,7 @@ window.TimelineChart = {
           });
         }
       });
+
     });
   },
 };
