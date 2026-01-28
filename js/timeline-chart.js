@@ -22,7 +22,7 @@ window.TimelineChart = {
   },
 
   parseEstonianDate(dateStr) {
-    if (!dateStr || dateStr === '-' || dateStr === '?') return null;
+    if (!dateStr || dateStr === "-" || dateStr === "?") return null;
     dateStr = dateStr.toLowerCase().trim();
 
     // Format: "10.5.1918" (day.month.year)
@@ -59,23 +59,19 @@ window.TimelineChart = {
   },
 
   getEndCauseColor(cause) {
-    if (!cause) return '#9ca3af';
+    if (!cause) return "#9ca3af";
     const lowerCause = cause.toLowerCase();
 
-    if (
-      lowerCause.includes('tapetud') ||
-      lowerCause.includes('suri') ||
-      lowerCause.includes('haavat')
-    ) {
-      return '#ef4444'; // Red - killed
+    if (lowerCause.includes("tapetud") || lowerCause.includes("suri") || lowerCause.includes("haavat")) {
+      return "#ef4444"; // Red - killed
     }
-    if (lowerCause.includes('arreteer')) {
-      return '#eab308'; // Yellow - arrested
+    if (lowerCause.includes("arreteer")) {
+      return "#eab308"; // Yellow - arrested
     }
-    if (lowerCause.includes('legaliseer')) {
-      return '#4ade80'; // Green - legalized
+    if (lowerCause.includes("legaliseer")) {
+      return "#4ade80"; // Green - legalized
     }
-    return '#9ca3af'; // Grey - other/unknown
+    return "#9ca3af"; // Grey - other/unknown
   },
 
   init(elementId, peopleData, region) {
@@ -98,7 +94,7 @@ window.TimelineChart = {
         withoutDates.push({
           x: person.name,
           y: [0, 0],
-          fillColor: 'transparent',
+          fillColor: "transparent",
           id_name: person.id_name,
           cause: person.separation_end_cause,
           hasData: false,
@@ -112,15 +108,14 @@ window.TimelineChart = {
     const container = document.getElementById(elementId);
 
     if (chartData.length === 0) {
-      container.innerHTML =
-        '<p class="text-gray-500">Ajatelje andmed pole saadaval.</p>';
+      container.innerHTML = '<p class="text-gray-500">Ajatelje andmed pole saadaval.</p>';
       return;
     }
 
     const options = {
       series: [{ data: chartData }],
       chart: {
-        type: 'rangeBar',
+        type: "rangeBar",
         height: Math.max(400, chartData.length * 28),
         toolbar: { show: false },
         redrawOnParentResize: false,
@@ -140,21 +135,21 @@ window.TimelineChart = {
       plotOptions: {
         bar: {
           horizontal: true,
-          barHeight: '70%',
+          barHeight: "70%",
           rangeBarGroupRows: true,
         },
       },
       xaxis: {
-        type: 'datetime',
-        position: 'top',
-        labels: { format: 'yyyy' },
-        min: new Date('1944-01-01').getTime(),
-        max: new Date('1960-01-01').getTime(),
+        type: "datetime",
+        position: "top",
+        labels: { format: "yyyy" },
+        min: new Date("1944-01-01").getTime(),
+        max: new Date("1960-01-01").getTime(),
       },
       yaxis: {
         labels: {
           show: true,
-          style: { fontSize: '14px' },
+          style: { fontSize: "14px" },
         },
       },
       dataLabels: { enabled: false },
@@ -171,17 +166,15 @@ window.TimelineChart = {
           }
           const start = new Date(d.y[0]);
           const end = new Date(d.y[1]);
-          const durationYears =
-            Math.round(((end - start) / (1000 * 60 * 60 * 24 * 365.25)) * 10) /
-            10;
+          const durationYears = Math.round(((end - start) / (1000 * 60 * 60 * 24 * 365.25)) * 10) / 10;
 
           return `
             <div class="p-2">
               <strong>${d.x}</strong><br>
-              Algus: ${start.toLocaleDateString('et-EE')}<br>
-              Lõpp: ${end.toLocaleDateString('et-EE')}<br>
+              Algus: ${start.toLocaleDateString("et-EE")}<br>
+              Lõpp: ${end.toLocaleDateString("et-EE")}<br>
               Kestus: ~${durationYears} aastat<br>
-              Lõpp: ${d.cause || 'teadmata'}
+              Lõpp: ${d.cause || "teadmata"}
             </div>
           `.trim();
         },
@@ -193,32 +186,29 @@ window.TimelineChart = {
 
     const chart = new ApexCharts(document.getElementById(elementId), options);
     chart.render().then(() => {
-      const labels = document.querySelectorAll(
-        `#${elementId} .apexcharts-yaxis-label`
-      );
+      const labels = document.querySelectorAll(`#${elementId} .apexcharts-yaxis-label`);
 
       labels.forEach((label, index) => {
         const person = chartData[index];
         if (person?.id_name) {
-          label.style.fill = '#337ab7';
-          label.style.cursor = 'pointer';
+          label.style.fill = "#337ab7";
+          label.style.cursor = "pointer";
 
-          label.addEventListener('click', () => {
+          label.addEventListener("click", () => {
             window.location.href = `/${region}/isik/${person.id_name}/`;
           });
 
-          label.addEventListener('mouseenter', () => {
-            label.style.fill = '#185487';
-            label.style.textDecoration = 'underline';
+          label.addEventListener("mouseenter", () => {
+            label.style.fill = "#185487";
+            label.style.textDecoration = "underline";
           });
 
-          label.addEventListener('mouseleave', () => {
-            label.style.fill = '#337ab7';
-            label.style.textDecoration = 'none';
+          label.addEventListener("mouseleave", () => {
+            label.style.fill = "#337ab7";
+            label.style.textDecoration = "none";
           });
         }
       });
-
     });
   },
 };
