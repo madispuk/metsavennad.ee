@@ -26,7 +26,7 @@
 @layer base {
   html {
     background-color: #4a5d23;
-    background-image: url("/images/background-pattern.png");
+    background-image: url("/images/background-pattern.webp");
   }
 
   body {

@@ -5,7 +5,7 @@ permalink: /
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="Võrumaa lõunaosa metsavennad sõjajärgsel ajal.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="Metsavennad">
     <meta property="og:url" content="https://www.metsavennad.ee">
@@ -15,10 +15,11 @@ permalink: /
     <title>Metsavennad</title>
 
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="//fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext&display=swap"
       rel="stylesheet"
-      type="text/css"
     >
 
     {% if isProd %}
@@ -28,8 +29,9 @@ permalink: /
     {% endif %}
   </head>
   <body class="index-background">
-    <div class="max-w-[700px] mx-auto">
+    <main class="max-w-[700px] mx-auto">
       <div class="px-10 py-8 space-y-10 bg-forest-dark rounded-md text-white [text-shadow:2px_1px_1px_black]">
+        <h1 class="sr-only">Metsavennad</h1>
         <div class="text-xl leading-[1.7] rounded-lg">
           Metsavennad olid võõrvõimu repressioonide eest varjunud ja selle vastu võidelnud inimesed. Siit lehelt leiate
           ühe osa metsavendade elust Võrumaa lõunaosas sõjajärgsel ajal. Vaadatud on kolmes piirkonnas tegutsenud
@@ -77,8 +79,9 @@ permalink: /
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <video
+      aria-hidden="true"
       playsinline
       autoplay
       muted
