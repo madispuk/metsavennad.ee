@@ -21,16 +21,11 @@
       rel="stylesheet"
     >
 
-    {% if isProd %}
-      <link rel="stylesheet" href="/css/styles.min.css">
-    {% else %}
-      <link rel="stylesheet" href="/css/styles.css">
-    {% endif %}
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css">
     {% if useMap %}<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">{% endif %}
 
-    <script defer src="/js/alpine.min.js"></script>
-    <script src="/js/lightgallery.bundle.min.js"></script>
+    <script defer src="/js/main.js"></script>
     {% include 'posthog' %}
   </head>
   <body>
@@ -76,7 +71,6 @@
     <main class="container min-h-screen bg-white">{{ content }}</main>
     {% if useMap %}
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-    <script src="/js/region-map.js"></script>
     {% endif %}
   </body>
 </html>

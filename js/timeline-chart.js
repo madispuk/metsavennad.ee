@@ -1,3 +1,5 @@
+import ApexCharts from "apexcharts";
+
 /**
  * Timeline chart for displaying forest brothers' periods
  */

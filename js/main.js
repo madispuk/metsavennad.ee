@@ -1,3 +1,11 @@
+import Alpine from "alpinejs";
+import lightGallery from "lightgallery";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
+
+import "./region-map.js";
+
+// LightGallery initialization
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize lightgallery on all gallery containers
   document.querySelectorAll(".lg-gallery").forEach(function (gallery) {
@@ -33,3 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Alpine.js
+Alpine.start();
