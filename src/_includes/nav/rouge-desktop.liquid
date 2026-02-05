@@ -1,0 +1,59 @@
+<!-- Desktop nav -->
+<ul class="hidden md:flex gap-6 text-base">
+  <li><a href="/rouge/">Sissejuhatus</a></li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      Olud
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-48 bg-nav-bg rounded shadow-lg py-2">
+      <li><a href="/rouge/metsavennad/" class="block px-4 py-2">Metsavennad</a></li>
+      <li><a href="/rouge/parteilased/" class="block px-4 py-2">Parteilased</a></li>
+    </ul>
+  </li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      Elukäigud ja sündmused
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-64 bg-nav-bg rounded shadow-lg py-2">
+      <li>
+        <a href="/rouge/elukaigud_metsaelu_alguseni/" class="block px-4 py-2">Elukäigud metsaelu alguseni</a>
+      </li>
+      <li>
+        <a href="/rouge/sundmused_uurimistoimikutes/" class="block px-4 py-2">Sündmused uurimistoimikutes</a>
+      </li>
+      <li><a href="/rouge/elukaigud_metsaelu_lopuni/" class="block px-4 py-2">Elukäigud metsaelu lõpuni</a></li>
+    </ul>
+  </li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      RJM ja propaganda
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-56 bg-nav-bg rounded shadow-lg py-2">
+      <li><a href="/rouge/julgeoleku_tegutsemine/" class="block px-4 py-2">Julgeoleku tegutsemine</a></li>
+      <li><a href="/rouge/propaganda_vs_toimikud/" class="block px-4 py-2">Propaganda vs toimikud</a></li>
+    </ul>
+  </li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      Muu
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-40 bg-nav-bg rounded shadow-lg py-2">
+      <li><a href="/rouge/pildid/" class="block px-4 py-2">Pildid</a></li>
+      <li><a href="/rouge/kaardid/" class="block px-4 py-2">Kaardid</a></li>
+      <li><a href="/rouge/isikud/" class="block px-4 py-2">Isikud</a></li>
+      <li><a href="/rouge/lisad/" class="block px-4 py-2">Lisad</a></li>
+    </ul>
+  </li>
+</ul>

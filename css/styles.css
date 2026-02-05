@@ -20,7 +20,8 @@
 
 @font-face {
   font-family: "Typewriter";
-  src: url("/css/typewriter.ttf");
+  src: url("/css/typewriter.woff2") format("woff2");
+  font-display: swap;
 }
 
 @layer base {

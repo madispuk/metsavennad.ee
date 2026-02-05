@@ -1,0 +1,23 @@
+<!-- Mobile nav -->
+<ul x-show="mobileOpen" x-transition x-cloak class="md:hidden pb-4 space-y-1 text-base">
+  <li><a @click="mobileOpen = false" href="/sangaste/" class="block py-2">Sissejuhatus</a></li>
+  <li><a @click="mobileOpen = false" href="/sangaste/olud/" class="block py-2">Olud</a></li>
+  <li class="border-t border-gray-700 pt-2 mt-2">
+    <span class="block py-1 text-gray-400 text-sm">Elukäigud ja sündmused</span>
+    <a @click="mobileOpen = false" href="/sangaste/elukaigud_enne_1944/" class="block py-2">Enne 1944</a>
+    <a @click="mobileOpen = false" href="/sangaste/elukaigud_1945_1946/" class="block py-2">1945-1946</a>
+    <a @click="mobileOpen = false" href="/sangaste/elukaigud_1947_1948/" class="block py-2">1947-1948</a>
+    <a @click="mobileOpen = false" href="/sangaste/elukaigud_1949_1953/" class="block py-2">1949-1953</a>
+    <a @click="mobileOpen = false" href="/sangaste/elukaigud_1954_1959/" class="block py-2">1954-1959</a>
+  </li>
+  <li class="border-t border-gray-700 pt-2 mt-2">
+    <a @click="mobileOpen = false" href="/sangaste/rjm/" class="block py-2">RJM</a>
+  </li>
+  <li><a @click="mobileOpen = false" href="/sangaste/pildid/" class="block py-2">Pildid</a></li>
+  <li><a @click="mobileOpen = false" href="/sangaste/kaardid/" class="block py-2">Kaardid</a></li>
+  <li class="border-t border-gray-700 pt-2 mt-2">
+    <span class="block py-1 text-gray-400 text-sm">Muu</span>
+    <a @click="mobileOpen = false" href="/sangaste/isikud/" class="block py-2">Isikud</a>
+    <a @click="mobileOpen = false" href="/sangaste/lisad/" class="block py-2">Lisad</a>
+  </li>
+</ul>

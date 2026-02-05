@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ metaDescription | default: 'Võrumaa lõunaosa metsavennad sõjajärgsel ajal.' }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ ogTitle }}">
+    <meta property="og:url" content="{{ ogUrl }}">
+    <meta property="og:image" content="{{ ogImage }}">
+    <meta property="og:description" content="{{ ogDescription }}">
+
+    <title>{{ pageTitle }}</title>
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext&display=swap"
+      rel="stylesheet"
+    >
+
+    {% if isProd %}
+      <link rel="stylesheet" href="/css/styles.min.css">
+    {% else %}
+      <link rel="stylesheet" href="/css/styles.css">
+    {% endif %}
+    <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+
+    <script defer src="/js/alpine.min.js"></script>
+    <script src="/js/lightgallery.bundle.min.js"></script>
+    {% include 'posthog' %}
+  </head>
+  <body>
+    <nav x-data="{ mobileOpen: false }" class="fixed top-0 left-0 right-0 bg-nav-bg text-white z-50 px-4">
+      <div class="nav-grid">
+        <a href="/" class="font-semibold text-lg">Metsavennad</a>
+
+        {% case region %}
+          {% when 'misso' %}{% include 'nav/misso-desktop' %}
+          {% when 'rouge' %}{% include 'nav/rouge-desktop' %}
+          {% when 'sangaste' %}{% include 'nav/sangaste-desktop' %}
+        {% endcase %}
+
+        <!-- Mobile hamburger (visible only on mobile), empty spacer on desktop -->
+        <button @click="mobileOpen = !mobileOpen" class="md:invisible p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              x-show="!mobileOpen"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            <path
+              x-show="mobileOpen"
+              x-cloak
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      {% case region %}
+        {% when 'misso' %}{% include 'nav/misso-mobile' %}
+        {% when 'rouge' %}{% include 'nav/rouge-mobile' %}
+        {% when 'sangaste' %}{% include 'nav/sangaste-mobile' %}
+      {% endcase %}
+    </nav>
+
+    <main class="container min-h-screen bg-white">{{ content }}</main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/js/region-map.js"></script>
+  </body>
+</html>

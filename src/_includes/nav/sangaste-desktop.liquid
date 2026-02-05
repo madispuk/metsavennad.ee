@@ -1,0 +1,35 @@
+<!-- Desktop nav -->
+<ul class="hidden md:flex gap-6 text-base">
+  <li><a href="/sangaste/">Sissejuhatus</a></li>
+  <li><a href="/sangaste/olud/">Olud</a></li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      Elukäigud ja sündmused
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-40 bg-nav-bg rounded shadow-lg py-2">
+      <li><a href="/sangaste/elukaigud_enne_1944/" class="block px-4 py-2">Enne 1944</a></li>
+      <li><a href="/sangaste/elukaigud_1945_1946/" class="block px-4 py-2">1945-1946</a></li>
+      <li><a href="/sangaste/elukaigud_1947_1948/" class="block px-4 py-2">1947-1948</a></li>
+      <li><a href="/sangaste/elukaigud_1949_1953/" class="block px-4 py-2">1949-1953</a></li>
+      <li><a href="/sangaste/elukaigud_1954_1959/" class="block px-4 py-2">1954-1959</a></li>
+    </ul>
+  </li>
+  <li><a href="/sangaste/rjm/">RJM</a></li>
+  <li><a href="/sangaste/pildid/">Pildid</a></li>
+  <li><a href="/sangaste/kaardid/">Kaardid</a></li>
+  <li x-data="{ open: false }" class="relative">
+    <button @click="open = !open" @click.away="open = false" class="flex items-center">
+      Muu
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ul x-show="open" x-transition x-cloak class="absolute left-0 mt-2 w-40 bg-nav-bg rounded shadow-lg py-2">
+      <li><a href="/sangaste/isikud/" class="block px-4 py-2">Isikud</a></li>
+      <li><a href="/sangaste/lisad/" class="block px-4 py-2">Lisad</a></li>
+    </ul>
+  </li>
+</ul>
