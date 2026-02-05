@@ -27,7 +27,7 @@
       <link rel="stylesheet" href="/css/styles.css">
     {% endif %}
     <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery-bundle.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    {% if useMap %}<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">{% endif %}
 
     <script defer src="/js/alpine.min.js"></script>
     <script src="/js/lightgallery.bundle.min.js"></script>
@@ -74,7 +74,9 @@
     </nav>
 
     <main class="container min-h-screen bg-white">{{ content }}</main>
+    {% if useMap %}
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/js/region-map.js"></script>
+    {% endif %}
   </body>
 </html>
