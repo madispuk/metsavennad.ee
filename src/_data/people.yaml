@@ -11,7 +11,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "34"
-    note: 1941 mobiliseeriti Punaarmeesse, oli sõjavangilaagris Saksamaal, vabastati, 1942. a tagasi kodus. 1949. a oli küüditatav. Asus varjama Misso lähedal. 7.3.1951 pääses Saika punkrilahingust koos Kuus Augustiga põgenema. Oli seejärel üks tagaotsitumaid mehi piirkonnas. 1951 varjus metsa ka tema abikaasa Elsa Vähi. Nende tütar kasvas kuni vanemate langemiseni punkris ja mitmetes Setumaa paljulapselistes peredes, hiljem Elsa Vähi õega. Richard Vähi langes koos abikaasaga Puutlipalu punkrilahingus 29.3.1953.
+    note: "1941 mobiliseeriti Punaarmeesse, oli sõjavangilaagris Saksamaal, vabastati, 1942. a tagasi kodus. 1949. a oli küüditatav. Asus varjama Misso lähedal. 7.3.1951 pääses Saika punkrilahingust koos Kuus Augustiga põgenema. Oli seejärel üks tagaotsitumaid mehi piirkonnas. 1951 varjus metsa ka tema abikaasa Elsa Vähi. Nende tütar kasvas kuni vanemate langemiseni punkris ja mitmetes Setumaa paljulapselistes peredes, hiljem Elsa Vähi õega. Richard Vähi langes koos abikaasaga Puutlipalu punkrilahingus 29.3.1953."
   - user_id: 2
     id_name: august_kuus
     first_name: August
@@ -24,7 +24,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "30"
-    note: Pärit Linnamäelt, Sõmerpalu vallast. Misso meierei juhataja, abielus apteekri tütre Evi Klaisiga, kes küüditati. 1951 liitus Richard Vähi salgaga. Saika punkrilahingus 7.3.1951 murdsid koos Richard Vähiga piiramisrõngast läbi ja pääsesid põgenema. Hukkus Puutlipalu punkrilahingus 29.3.1953
+    note: "Pärit Linnamäelt, Sõmerpalu vallast. Misso meierei juhataja, abielus apteekri tütre Evi Klaisiga, kes küüditati. 1951 liitus Richard Vähi salgaga. Saika punkrilahingus 7.3.1951 murdsid koos Richard Vähiga piiramisrõngast läbi ja pääsesid põgenema. Hukkus Puutlipalu punkrilahingus 29.3.1953"
   - user_id: 3
     id_name: karl_kaur
     first_name: Karl
@@ -37,7 +37,7 @@ people:
     separation_cause: põgenes pärast arreteerimist, oli teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "33"
-    note: 1944 teenis Saksa sõjaväes, Võrus Jahtkomandos. Varjas end koos naise Melanie Kauriga Misso lähedal, hiljem Haanja ümbruses. Langes Puutlipalu punkrilahingus 1953. a. Tal sündis nädalapäevad pärast hukkumist poeg.
+    note: "1944 teenis Saksa sõjaväes, Võrus Jahtkomandos. Varjas end koos naise Melanie Kauriga Misso lähedal, hiljem Haanja ümbruses. Langes Puutlipalu punkrilahingus 1953. a. Tal sündis nädalapäevad pärast hukkumist poeg."
   - user_id: 4
     id_name: melanie_kaur
     first_name: Melanie
@@ -50,7 +50,7 @@ people:
     separation_cause: varjus koos abikaasaga
     separation_end_cause: arreteeritud
     age_at_separation_end: "29"
-    note: Varjas end koos mehe Karl Kauriga, algul Misso ümbruses, hiljem Haanja kandis. Arreteeriti Ruusmäe velskripunktis, kui oli esimest kuud lapseootel. Vanglas sünnitas poja. Mõisteti 25a, hiljem vähendati 8a-le, saadeti Mordva ANSV Dubravlagi, vabanes 20.5.1957. Hilisema nimega Melanie Laats. Autasustati 1999. a Kotkaristi IV klassi ordeniga.
+    note: "Varjas end koos mehe Karl Kauriga, algul Misso ümbruses, hiljem Haanja kandis. Arreteeriti Ruusmäe velskripunktis, kui oli esimest kuud lapseootel. Vanglas sünnitas poja. Mõisteti 25a, hiljem vähendati 8a-le, saadeti Mordva ANSV Dubravlagi, vabanes 20.5.1957. Hilisema nimega Melanie Laats. Autasustati 1999. a Kotkaristi IV klassi ordeniga."
   - user_id: 5
     id_name: elsa_vahi
     first_name: Elsa
@@ -63,7 +63,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "28"
-    note: Richard Vähi abikaasa. Oli koos mehega määratud väljasaatmisele. 1949-1950 varjas end Aleksander ja Julie Härma talus (JH oli Richard Vähi õde), 1950 läks metsa Alfred Eriku salka, 1951 ühinesid AE salgaga ka Saika lahingust pääsenud Richard Vähi ja August Kuus. Hukkus koos mehega Puutlipalu punkrilahingus 29.3.1953. Vähide tütre kasvatas üles tema õde Enda.
+    note: "Richard Vähi abikaasa. Oli koos mehega määratud väljasaatmisele. 1949-1950 varjas end Aleksander ja Julie Härma talus (JH oli Richard Vähi õde), 1950 läks metsa Alfred Eriku salka, 1951 ühinesid AE salgaga ka Saika lahingust pääsenud Richard Vähi ja August Kuus. Hukkus koos mehega Puutlipalu punkrilahingus 29.3.1953. Vähide tütre kasvatas üles tema õde Enda."
   - user_id: 6
     id_name: august_kurra
     first_name: August
@@ -76,7 +76,7 @@ people:
     separation_cause: teenimine Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "40"
-    note: Pärit Lätimaalt. Teenis Saksa sõjaväes, sattus Vene sõjavangi, hiljem vabanes. Vähi punkris alates suvest 1951, enne seda varjas Rudolf Koemetsa salga juures Lätimaal. Hukkus Puutlipalu punkrilahingus 29.3.1953.
+    note: "Pärit Lätimaalt. Teenis Saksa sõjaväes, sattus Vene sõjavangi, hiljem vabanes. Vähi punkris alates suvest 1951, enne seda varjas Rudolf Koemetsa salga juures Lätimaal. Hukkus Puutlipalu punkrilahingus 29.3.1953."
   - user_id: 7
     id_name: endel_leimann
     first_name: Endel
@@ -102,7 +102,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "28"
-    note: Varjus küüditamise eest koos emaga. Isa oli olnud piirkonna Kaitseliidu ülem. Isa ja vend olid saanud Rootsi. Hukkus Puutlipalu punkrilahingus 29.3.1953.
+    note: "Varjus küüditamise eest koos emaga. Isa oli olnud piirkonna Kaitseliidu ülem. Isa ja vend olid saanud Rootsi. Hukkus Puutlipalu punkrilahingus 29.3.1953."
   - user_id: 9
     id_name: lehte_kai_ojamae
     first_name: Lehte-Kai
@@ -115,7 +115,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "25"
-    note: Kuulus Võru keskkoolis tegutsenud organisatsiooni Eesti Vabaduse Eest. Kuni 1951. a varjas koos ema ja isaga Haanja ümbruse taludes. 1951. a liitus Ala-Suhka lähedal laagris olnud Richard Vähi salgaga. Hukkus Puutlipalu punkrilahingus 29.3.1953.
+    note: "Kuulus Võru keskkoolis tegutsenud organisatsiooni Eesti Vabaduse Eest. Kuni 1951. a varjas koos ema ja isaga Haanja ümbruse taludes. 1951. a liitus Ala-Suhka lähedal laagris olnud Richard Vähi salgaga. Hukkus Puutlipalu punkrilahingus 29.3.1953."
   - user_id: 10
     id_name: alfred_erik
     first_name: Alfred
@@ -128,7 +128,7 @@ people:
     separation_cause: Kaitseliidus ja Omakaitses, varjus Vene mobilisatsiooni eest
     separation_end_cause: arreteeritud
     age_at_separation_end: "43"
-    note: Oli Kaitseliidus ja Omakaitses rühmaülemaks. 1.09.44 pidi asuma Nõukogude armee teenistusse, asus varjama. 1950 asus varjama ka tema abikaasa Erna Erik. Arreteeriti 28.02.1953 Härämäe punkrilahingu järel, kus hukkusid Arnold Lang ja tema abikaasa Erna Erik. Mõisteti 25+5, vabanes 28.2.68. Autasustati 1998. a Kotkaristi IV kl ordeniga. Suri 91 aastaselt, maetud Vana-Pärnu kalmistule.
+    note: "Oli Kaitseliidus ja Omakaitses rühmaülemaks. 1.09.44 pidi asuma Nõukogude armee teenistusse, asus varjama. 1950 asus varjama ka tema abikaasa Erna Erik. Arreteeriti 28.02.1953 Härämäe punkrilahingu järel, kus hukkusid Arnold Lang ja tema abikaasa Erna Erik. Mõisteti 25+5, vabanes 28.2.68. Autasustati 1998. a Kotkaristi IV kl ordeniga. Suri 91 aastaselt, maetud Vana-Pärnu kalmistule."
   - user_id: 11
     id_name: arnold_lang
     first_name: Arnold
@@ -141,7 +141,7 @@ people:
     separation_cause: põgenes vanglast
     separation_end_cause: tapetud
     age_at_separation_end: "30"
-    note: Pildil Arnold Lang 4. klassi poisina aastal 1934.  Oli kuulunud Omakaitsesse. Abielus Herta Langiga, tütar ja poeg. Arnold Lang töötas Karisöödis metsaülemana ja tal olid kontaktid metsameestega (Mõttus jt). Hundi-Juku (Juhan Mäetalu) andis ta üles ja ta viidi Võru vanglasse. Seal nõuti temalt metsavendade uut asukohta. Kuu aega kestsid erimeetoditega ülekuulamised. Põgenes 1950. a kevadel Võru vanglast. Vanglast põgenema aitas ta üks tuttav vangivalvur. Asus varjama koos Alfred Erikuga. Hukkus Härämäe punkrilahingus 28.2.1953.
+    note: "Pildil Arnold Lang 4. klassi poisina aastal 1934.  Oli kuulunud Omakaitsesse. Abielus Herta Langiga, tütar ja poeg. Arnold Lang töötas Karisöödis metsaülemana ja tal olid kontaktid metsameestega (Mõttus jt). Hundi-Juku (Juhan Mäetalu) andis ta üles ja ta viidi Võru vanglasse. Seal nõuti temalt metsavendade uut asukohta. Kuu aega kestsid erimeetoditega ülekuulamised. Põgenes 1950. a kevadel Võru vanglast. Vanglast põgenema aitas ta üks tuttav vangivalvur. Asus varjama koos Alfred Erikuga. Hukkus Härämäe punkrilahingus 28.2.1953."
   - user_id: 12
     id_name: roland_lang
     first_name: Roland
@@ -154,7 +154,7 @@ people:
     separation_cause: arreteeriti, nõuti venna väljaandmist
     separation_end_cause: suri haavatasaamise tagajärjel
     age_at_separation_end: "26"
-    note: Arnold Langi vend, Alfred Eriku salgast. Asus koos vennaga varjama metsas pärast seda, kui julgeolek arreteeris ta ja lasi pärast piinamisi ja värbamist lahti venna asukohta otsima. Sai raskelt haavata Veclaicene poeröövi ajal 16.9.52. Suri saadud haavadesse punkris 30.9.1952. Maetud Trooveri metsa punkri lähedale.
+    note: "Arnold Langi vend, Alfred Eriku salgast. Asus koos vennaga varjama metsas pärast seda, kui julgeolek arreteeris ta ja lasi pärast piinamisi ja värbamist lahti venna asukohta otsima. Sai raskelt haavata Veclaicene poeröövi ajal 16.9.52. Suri saadud haavadesse punkris 30.9.1952. Maetud Trooveri metsa punkri lähedale."
   - user_id: 13
     id_name: vilbert_erik
     first_name: Vilbert
@@ -167,7 +167,7 @@ people:
     separation_cause: oli Saksa sõjaväes velskriks
     separation_end_cause: tapetud
     age_at_separation_end: "31"
-    note: Alfred Eriku vend. Vilbert läks metsavennaks, abikaasa Adeele pojaga põgenes oktoobris 1944 Rootsi.Tapeti haarangu käigus 18.6.1946, kui ta oli külastamas Richard Vähi talu (samas tapeti ka Kaljo Laiv ja Nikolai Vähi). Alfred Erik varastas öösel venna surnukeha talust, kuhu see oli jäetud, ja mattis Tikka metsa punkri lähedale.
+    note: "Alfred Eriku vend. Vilbert läks metsavennaks, abikaasa Adeele pojaga põgenes oktoobris 1944 Rootsi.Tapeti haarangu käigus 18.6.1946, kui ta oli külastamas Richard Vähi talu (samas tapeti ka Kaljo Laiv ja Nikolai Vähi). Alfred Erik varastas öösel venna surnukeha talust, kuhu see oli jäetud, ja mattis Tikka metsa punkri lähedale."
   - user_id: 14
     id_name: erna_erik
     first_name: Erna
@@ -180,7 +180,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "51"
-    note: Varjas koos Alfred Erikuga. Langes 28.2.1953 Härämäe punkrilahingus. Poeg Voldemar Visk oli langenud 7.3.1951 Saika punkrilahingus.
+    note: "Varjas koos Alfred Erikuga. Langes 28.2.1953 Härämäe punkrilahingus. Poeg Voldemar Visk oli langenud 7.3.1951 Saika punkrilahingus."
   - user_id: 15
     id_name: hartvig_sikk
     first_name: Hartvig
@@ -193,7 +193,7 @@ people:
     separation_cause: Omakaitse, teenimine Saksa sõjaväes
     separation_end_cause: arreteeritud
     age_at_separation_end: "32"
-    note: 1941 Punaarmeesse mobiliseerituna olevat põgenenud rongilt, liitunud metsavendadega ja osalenud Tartu vabastamisel. Major Kure virgatsina saanud õlast haavata. Hiljem olnud Omakaitses. 1943. a lõpetas Võru gümnaasiumi ja astus Tartu ülikooli arstiteaduskonda. Oli enne töötanud ühe aasta oma venna Gustavi talus, kes mõrvati punaste poolt Tartu vanglas 1941. a, venelaste taganemisel enne sakslaste tulekut. Ülikoolist mobiliseeriti Harvig Saksa sõjaväkke. 1945 töötas ta velskrina Missos. Teda taheti arreteerida, asus 1945. a end varjama. Varjas end koos Alfred ja Vilbert Erikuga (Tikka metsas), ka koos Arthur ja Milbert Pilvega (Kivestiku metsas). Kuna põdes maohaavandtõbe, oli punkrielu talle vastunäidustatud, mistõttu sageli varjas end õe pool või ema juures Kasaritsas.  Arreteeriti 3.3.1953. Määrati 25a, vähendati 18a-le. Mordvas laagris oli röntgenoloog. Harrastas maalimist. Suri vabanemise päeval 1968 väljaspool Potma Likino laagri väravaid. Maetud Võru surnuaiale.
+    note: "1941 Punaarmeesse mobiliseerituna olevat põgenenud rongilt, liitunud metsavendadega ja osalenud Tartu vabastamisel. Major Kure virgatsina saanud õlast haavata. Hiljem olnud Omakaitses. 1943. a lõpetas Võru gümnaasiumi ja astus Tartu ülikooli arstiteaduskonda. Oli enne töötanud ühe aasta oma venna Gustavi talus, kes mõrvati punaste poolt Tartu vanglas 1941. a, venelaste taganemisel enne sakslaste tulekut. Ülikoolist mobiliseeriti Harvig Saksa sõjaväkke. 1945 töötas ta velskrina Missos. Teda taheti arreteerida, asus 1945. a end varjama. Varjas end koos Alfred ja Vilbert Erikuga (Tikka metsas), ka koos Arthur ja Milbert Pilvega (Kivestiku metsas). Kuna põdes maohaavandtõbe, oli punkrielu talle vastunäidustatud, mistõttu sageli varjas end õe pool või ema juures Kasaritsas.  Arreteeriti 3.3.1953. Määrati 25a, vähendati 18a-le. Mordvas laagris oli röntgenoloog. Harrastas maalimist. Suri vabanemise päeval 1968 väljaspool Potma Likino laagri väravaid. Maetud Võru surnuaiale."
   - user_id: 16
     id_name: rudolf_tomba
     first_name: Rudolf
@@ -206,7 +206,7 @@ people:
     separation_cause: Vabadussõjas, Omakaitses, metsavend 1941
     separation_end_cause: tapetud
     age_at_separation_end: "53"
-    note: Pärit Pihkva kubermangust Rootova vallast Vruda külast. Võttis osa Vabadussõjast. Eesti ajal oli Petseris politseikonstaabel. Omakaitses. Metsavend 1941. Petseri RJM otsis teda taga, ta ühines Vähi salgaga 1949 lõpus-1950 alguses (rühma kuulusid sel ajal Vähi Richard, Vähi Arved ja Kask Karl ning legaalid Vähi Rafael ja Neumann Villu). Selle salgaga ühinesid veel Tullus Lembit, Pild Raimond, Keir Evald, Visk Voldemar, August Kuus ning 1950 a lõpus Tomba Rudolfi tütar Tomba Hedvig. 1950. a keskel eraldusid Vähi Arved ja Kask Karl. Jaanuaris 1951 ühines Vastseliinast vangistusest põgenenud Uibo Roland. Rudolf Tomba oli salga juhiks. Hukkus Saika punkrilahingus 7.3.1951.
+    note: "Pärit Pihkva kubermangust Rootova vallast Vruda külast. Võttis osa Vabadussõjast. Eesti ajal oli Petseris politseikonstaabel. Omakaitses. Metsavend 1941. Petseri RJM otsis teda taga, ta ühines Vähi salgaga 1949 lõpus-1950 alguses (rühma kuulusid sel ajal Vähi Richard, Vähi Arved ja Kask Karl ning legaalid Vähi Rafael ja Neumann Villu). Selle salgaga ühinesid veel Tullus Lembit, Pild Raimond, Keir Evald, Visk Voldemar, August Kuus ning 1950 a lõpus Tomba Rudolfi tütar Tomba Hedvig. 1950. a keskel eraldusid Vähi Arved ja Kask Karl. Jaanuaris 1951 ühines Vastseliinast vangistusest põgenenud Uibo Roland. Rudolf Tomba oli salga juhiks. Hukkus Saika punkrilahingus 7.3.1951."
   - user_id: 17
     id_name: roland_uibo
     first_name: Roland
@@ -219,7 +219,7 @@ people:
     separation_cause: põgenes arestist
     separation_end_cause: tapetud
     age_at_separation_end: "29"
-    note: 1944 mobiliseeriti Saksa sõjaväkke, sõja lõppedes naases koju. Abielus Elviira Uiboga, tütar. Töötas metsaülemana Sakutis. 1951. a arreteeriti kui 1941. a Suvesõja ajal Misso vallamaja ülevõtmises osalenu. Vangistuses peeti Vastseliinas, kus kuulati üle ja peksti. Põgenes koos Erik Gustavi, Soodla Viktori ja Verrev Eduardiga arestist ja asus varjama metsas Richard Vähi salgas. Hukkus Saika punkrilahingus 7.3.1951.
+    note: "1944 mobiliseeriti Saksa sõjaväkke, sõja lõppedes naases koju. Abielus Elviira Uiboga, tütar. Töötas metsaülemana Sakutis. 1951. a arreteeriti kui 1941. a Suvesõja ajal Misso vallamaja ülevõtmises osalenu. Vangistuses peeti Vastseliinas, kus kuulati üle ja peksti. Põgenes koos Erik Gustavi, Soodla Viktori ja Verrev Eduardiga arestist ja asus varjama metsas Richard Vähi salgas. Hukkus Saika punkrilahingus 7.3.1951."
   - user_id: 18
     id_name: raimond_pild
     first_name: Raimond
@@ -232,7 +232,7 @@ people:
     separation_cause: ei läinud Vene sõjaväkke
     separation_end_cause: tapetud
     age_at_separation_end: "21"
-    note: Hukkus Saika punkrilahingus 7.03.1951
+    note: "Hukkus Saika punkrilahingus 7.03.1951"
   - user_id: 19
     id_name: voldemar_visk
     first_name: Voldemar
@@ -245,7 +245,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "29"
-    note: Oli Alfred Eriku naise Erna poeg esimesest abielust. Olnud Saksa sõjaväes. Hukkus Saika punkrilahingus 7.3.1951.
+    note: "Oli Alfred Eriku naise Erna poeg esimesest abielust. Olnud Saksa sõjaväes. Hukkus Saika punkrilahingus 7.3.1951."
   - user_id: 20
     id_name: lembit_tullus
     first_name: Lembit
@@ -258,7 +258,7 @@ people:
     separation_cause: põgenes, kui tuldi arreteerima
     separation_end_cause: tapetud
     age_at_separation_end: "20"
-    note: Elas Vastseliina mõisas, Mauri k/n. Isa arreteeriti 1947, vend 1944, ema oli küüditatud. Metsas alates 1948. Oli arreteeritav, kuid suutis varjuda, Vähi salgas alates 1950. Hukkus Saika punkrilahingus 7.3.1951.
+    note: "Elas Vastseliina mõisas, Mauri k/n. Isa arreteeriti 1947, vend 1944, ema oli küüditatud. Metsas alates 1948. Oli arreteeritav, kuid suutis varjuda, Vähi salgas alates 1950. Hukkus Saika punkrilahingus 7.3.1951."
   - user_id: 21
     id_name: evald_keir
     first_name: Evald
@@ -271,7 +271,7 @@ people:
     separation_cause: nõuti metsavendade ülesandmist
     separation_end_cause: tapetud
     age_at_separation_end: "32"
-    note: "Mobiliseeriti Vene armeesse, Porhovi all langes sakslaste kätte vangi. Treblinkas vangivalvur. Pärast puhkust tagasi ei läinud, varjas metsas. Sakslased said kätte, saadeti Kuramaale kindlustustöödele, kus langes venelaste kätte vangi. Pärast sõda tuli koju. Metsa läks nõudmise tõttu metsavendi välja anda. Hukkus Saika punkrilahingus 7.3.1951. Surmadokumenti pole. "
+    note: "Mobiliseeriti Vene armeesse, Porhovi all langes sakslaste kätte vangi. Treblinkas vangivalvur. Pärast puhkust tagasi ei läinud, varjas metsas. Sakslased said kätte, saadeti Kuramaale kindlustustöödele, kus langes venelaste kätte vangi. Pärast sõda tuli koju. Metsa läks nõudmise tõttu metsavendi välja anda. Hukkus Saika punkrilahingus 7.3.1951. Surmadokumenti pole."
   - user_id: 22
     id_name: rafael_vahi
     first_name: Rafael
@@ -284,7 +284,7 @@ people:
     separation_cause: " varjus arreteerimise eest"
     separation_end_cause: tapetud
     age_at_separation_end: "32"
-    note: Varjus Saika sündmuste järel. Temast jäi maha poeg. Hukkus Viglasoo punkrilahingus 27.3.1953.
+    note: "Varjus Saika sündmuste järel. Temast jäi maha poeg. Hukkus Viglasoo punkrilahingus 27.3.1953."
   - user_id: 23
     id_name: vaino_harm
     first_name: Väino
@@ -297,7 +297,7 @@ people:
     separation_cause: hoidumine arreteerimisest
     separation_end_cause: tapetud
     age_at_separation_end: "17"
-    note: Varjus Saika punkrilahingu järel, kui arreteeriti Richard Vähi sugulasi. Hukkus Viglasoo punkrilahingus 27.3.1953.
+    note: "Varjus Saika punkrilahingu järel, kui arreteeriti Richard Vähi sugulasi. Hukkus Viglasoo punkrilahingus 27.3.1953."
   - user_id: 24
     id_name: milbert_pilv
     first_name: Milbert
@@ -310,7 +310,7 @@ people:
     separation_cause: Omakaitse, Saksa sõjavägi
     separation_end_cause: tapetud
     age_at_separation_end: "39"
-    note: Pärit Kõo külast Vastseliina vallas. 1941 Suvesõjas osales Vastseliina vallamaja vabastamisel. Metsavend 1944. a sügisest.  Varjas koos venna Arthur Pilve jt-ga Perametsa, Savioja ja Kuura jõe ümbruses. Hukkus lahingus 15.03.1953 koos naise Mahti-Maimu Saarniidu ja vendade Tikerpuudega  Pabra järve lähedal, põgenemisel Vossa metsast. Arthur Pilvel ja Taisto Praksil õnnestus sellest lahingust põgeneda.
+    note: "Pärit Kõo külast Vastseliina vallas. 1941 Suvesõjas osales Vastseliina vallamaja vabastamisel. Metsavend 1944. a sügisest.  Varjas koos venna Arthur Pilve jt-ga Perametsa, Savioja ja Kuura jõe ümbruses. Hukkus lahingus 15.03.1953 koos naise Mahti-Maimu Saarniidu ja vendade Tikerpuudega  Pabra järve lähedal, põgenemisel Vossa metsast. Arthur Pilvel ja Taisto Praksil õnnestus sellest lahingust põgeneda."
   - user_id: 25
     id_name: mahti_maimu_saarniit
     first_name: Mahti-Maimu
@@ -323,7 +323,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: tapetud
     age_at_separation_end: "25"
-    note: Pärit Sandi külast Vastseliina vallast. Milbert Pilve abikaasa. Nende 1947. a sündinud tütar küüditati koos Mahti Saarniidu emaga 1949. a märtsis. Langes põgenemisel Pabra järve ääres koos mehe Milbert Pilve ja vendade Tikerpuudega 15.3.1953.
+    note: "Pärit Sandi külast Vastseliina vallast. Milbert Pilve abikaasa. Nende 1947. a sündinud tütar küüditati koos Mahti Saarniidu emaga 1949. a märtsis. Langes põgenemisel Pabra järve ääres koos mehe Milbert Pilve ja vendade Tikerpuudega 15.3.1953."
   - user_id: 26
     id_name: artur_pilv
     first_name: Arthur
@@ -336,7 +336,7 @@ people:
     separation_cause: Omakaitse, Saksa sõjavägi
     separation_end_cause: tapetud
     age_at_separation_end: "50"
-    note: Eesti Vabariigi sõjaväes allohvitser, kuulunud Omakaitsesse, teeninud Saksa sõjaväes. Fotograafia vallas pildistanud sõjaväe tegelasi ja olustikku, pildid Võrumaa muuseumi fotokogus. Abikaasa küüditatud. Langes haarangul Haavistu metsas Kuura silla juures 1.7.1953. Samas langes haavatult vangi Taisto Praks.
+    note: "Eesti Vabariigi sõjaväes allohvitser, kuulunud Omakaitsesse, teeninud Saksa sõjaväes. Fotograafia vallas pildistanud sõjaväe tegelasi ja olustikku, pildid Võrumaa muuseumi fotokogus. Abikaasa küüditatud. Langes haarangul Haavistu metsas Kuura silla juures 1.7.1953. Samas langes haavatult vangi Taisto Praks."
   - user_id: 27
     id_name: taisto_praks
     first_name: Taisto
@@ -349,7 +349,7 @@ people:
     separation_cause: ingerisoomlasena Venemaale tagasi saadetav
     separation_end_cause: arreteeritud
     age_at_separation_end: "22"
-    note: Ingerisoomlasest orb Gatšina lähistelt. Tegi koos vanaisaga läbi ingerlaste evakueerimise Soome 1943 ja sealt repatrieerimise Venemaale, kodukohta ei lastud. 1945. a tuli 13-aastasena illegaalselt Venemaalt Eestisse, kus tee pealt korjas ta üles Pilt Julie mees Saviojalt, kelle tallu ta jäi tööle ja elama. Talus hakati teda kutsuma Soome-Volliks. Et soome rahvusest inimesed saadeti sundkorras Venemaale tagasi, asus end varjama. Algul Arvo Pilti punkris, edasi koos Arthur ja Milbert Pilvega. Arreteeriti haavatuna Haavistu metsas 1.7.1953. Samas lahingus langes Arthur Pilv. Määrati karistus 25+5, mille kandis Vorkuta, Mordva ja Permi laagrites. Vabanes 1978. a. Surnud 7.12.1995 Eestis. Maetud Koeru kalmistule.
+    note: "Ingerisoomlasest orb Gatšina lähistelt. Tegi koos vanaisaga läbi ingerlaste evakueerimise Soome 1943 ja sealt repatrieerimise Venemaale, kodukohta ei lastud. 1945. a tuli 13-aastasena illegaalselt Venemaalt Eestisse, kus tee pealt korjas ta üles Pilt Julie mees Saviojalt, kelle tallu ta jäi tööle ja elama. Talus hakati teda kutsuma Soome-Volliks. Et soome rahvusest inimesed saadeti sundkorras Venemaale tagasi, asus end varjama. Algul Arvo Pilti punkris, edasi koos Arthur ja Milbert Pilvega. Arreteeriti haavatuna Haavistu metsas 1.7.1953. Samas lahingus langes Arthur Pilv. Määrati karistus 25+5, mille kandis Vorkuta, Mordva ja Permi laagrites. Vabanes 1978. a. Surnud 7.12.1995 Eestis. Maetud Koeru kalmistule."
   - user_id: 28
     id_name: endel_tikerpuu
     first_name: Endel
@@ -362,7 +362,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "33"
-    note: Sündinud Pankjavitsa vallas Uusvada külas, kuni 1937 kandis eesnime Stefan. Oli Omakaitse liige, olnud Saksa sõjaväes. Metsavend al 1944. a sügisest. 1946. a sügisel oli 7-liikmelises salgas telgiga metsas Kooraste vallas. Talveks nad punkrit ei ehitanud, liikusid taludes Pühajärve, Otepää, Meremäe, Kasaritsa ja Sangaste vallas. Alates 1951 varjas koos oma venna Juhan Tikerpuu ja vendade Pilvedega ning Mahti Saarniiduga Vastseliina ja Ruusmäe vallas. Hukkus lahingus Pabra järve ääres, põgenemisel Vossa metsast punkrist, 15.3.1953. Surmadokumenti pole.
+    note: "Sündinud Pankjavitsa vallas Uusvada külas, kuni 1937 kandis eesnime Stefan. Oli Omakaitse liige, olnud Saksa sõjaväes. Metsavend al 1944. a sügisest. 1946. a sügisel oli 7-liikmelises salgas telgiga metsas Kooraste vallas. Talveks nad punkrit ei ehitanud, liikusid taludes Pühajärve, Otepää, Meremäe, Kasaritsa ja Sangaste vallas. Alates 1951 varjas koos oma venna Juhan Tikerpuu ja vendade Pilvedega ning Mahti Saarniiduga Vastseliina ja Ruusmäe vallas. Hukkus lahingus Pabra järve ääres, põgenemisel Vossa metsast punkrist, 15.3.1953. Surmadokumenti pole."
   - user_id: 29
     id_name: juhan_tikerpuu
     first_name: Juhan
@@ -375,7 +375,7 @@ people:
     separation_cause: Omakaitse
     separation_end_cause: tapetud
     age_at_separation_end: "31"
-    note: Sündinud Pankjavitsa vallas Uusvada külas, kuni 1939. a kandis eesnime Nikolai. Toimikutes esineb nimi nii Juhan kui Jaan Tikerpuuna. Varjus Koorastes. Alates 1951 varjas koos venna Endel Tikerpuuga vendade Pilvede salgas. Langes lahingus Pabra järve ääres, põgenemisel Vossa metsa punkrist 15.3.1953. Surmadokumenti pole.
+    note: "Sündinud Pankjavitsa vallas Uusvada külas, kuni 1939. a kandis eesnime Nikolai. Toimikutes esineb nimi nii Juhan kui Jaan Tikerpuuna. Varjus Koorastes. Alates 1951 varjas koos venna Endel Tikerpuuga vendade Pilvede salgas. Langes lahingus Pabra järve ääres, põgenemisel Vossa metsa punkrist 15.3.1953. Surmadokumenti pole."
   - user_id: 30
     id_name: viktor_telliste
     first_name: Viktor
@@ -387,7 +387,7 @@ people:
     separation_cause: soovimatus teenida Vene sõjaväes
     separation_end_cause: arreteeritud
     age_at_separation_end: 20a
-    note: Pärit Luhamaalt Hindsa külast. Ei ilmunud 1952. a kahele käsule vaatamata ajateenistusse, sügisel liitus Milbert Pilve salgaga. 15.03.1953. a punkrile toimunud haarangule järgnenud pikal põgenemisteekonnal astus Pabra järve juures ägedasse tulevahetusse jälitajatega. Kaotanud seal 4 punkrikaaslast surnutena ja aidanud 2 kaaslasel põgeneda neid automaaditulega kattes, suutis küll roomata metsani ja lahingukohast eemalduda, kuid u 10 km järel jäi ülikurnatuna jälitajate kätte. Kinnivõtjate sõnul oli ta pintsak ja isegi särk kuuliaukudest rebestatud. Mõisteti 25a vangistust ja 5a asumist, hiljem vähendati 8a.
+    note: "Pärit Luhamaalt Hindsa külast. Ei ilmunud 1952. a kahele käsule vaatamata ajateenistusse, sügisel liitus Milbert Pilve salgaga. 15.03.1953. a punkrile toimunud haarangule järgnenud pikal põgenemisteekonnal astus Pabra järve juures ägedasse tulevahetusse jälitajatega. Kaotanud seal 4 punkrikaaslast surnutena ja aidanud 2 kaaslasel põgeneda neid automaaditulega kattes, suutis küll roomata metsani ja lahingukohast eemalduda, kuid u 10 km järel jäi ülikurnatuna jälitajate kätte. Kinnivõtjate sõnul oli ta pintsak ja isegi särk kuuliaukudest rebestatud. Mõisteti 25a vangistust ja 5a asumist, hiljem vähendati 8a."
   - user_id: 31
     id_name: arnold_kallaste
     first_name: Arnold
@@ -400,7 +400,7 @@ people:
     separation_cause: Omakaitses, varjus mobilisatsiooni eest
     separation_end_cause: arreteeritud
     age_at_separation_end: "47"
-    note: Elas Lauras, Saksa ajal abivallavanem. Esimesest abikaasast (kes suri) poeg ja tütar. Oli omakaitses. Võimu üleminekul 1941 võttis osa ühest punaaktivistide mahalaskmisest Laura lähedal. Metsa läks 1944. a. Varjas üksi punkris Tsirguvarikus, töötas seal rätsepana, naine Olga Kallaste oli sidepidajaks. 1952. a suvel tappis samas metsas Lind Augusti, kes teda nähes oli varjunud ja kes oli varem ähvardanud tema kinnivõtmise ja ta ema Siberisse saatmisega. Kinni võetud mürgi "Neptun" abil Tsirguvariku metsas agentide "Liiv" ja "Kask"tegutsemisel 7.10.1952. Maha lastud Moskvas Butõrkas 17.2.1953.
+    note: 'Elas Lauras, Saksa ajal abivallavanem. Esimesest abikaasast (kes suri) poeg ja tütar. Oli omakaitses. Võimu üleminekul 1941 võttis osa ühest punaaktivistide mahalaskmisest Laura lähedal. Metsa läks 1944. a. Varjas üksi punkris Tsirguvarikus, töötas seal rätsepana, naine Olga Kallaste oli sidepidajaks. 1952. a suvel tappis samas metsas Lind Augusti, kes teda nähes oli varjunud ja kes oli varem ähvardanud tema kinnivõtmise ja ta ema Siberisse saatmisega. Kinni võetud mürgi "Neptun" abil Tsirguvariku metsas agentide "Liiv" ja "Kask"tegutsemisel 7.10.1952. Maha lastud Moskvas Butõrkas 17.2.1953.'
   - user_id: 32
     id_name: rudolf_koemets
     first_name: Rudolf
@@ -450,7 +450,7 @@ people:
     separation_cause: Misso vallavanem
     separation_end_cause: arreteeritud
     age_at_separation_end: "59"
-    note: Oli Misso vallavanem nii Eesti Vabariigi ajal (al. 1934) kui Saksa okupatsiooni ajal. Abielus, 4 poega. Võttis osa Misso vallamaja ülevõtmisest 1941. a Suvesõjas, kus osales Lätimaalt sakslaste käest relvade hankimises. Võeti kinni punkrist koos Arvo Piltiga 3. 3.1953. Karistuseks määrati 25a, vähendati 15a-le. Vabanes 4.07.1960.
+    note: "Oli Misso vallavanem nii Eesti Vabariigi ajal (al. 1934) kui Saksa okupatsiooni ajal. Abielus, 4 poega. Võttis osa Misso vallamaja ülevõtmisest 1941. a Suvesõjas, kus osales Lätimaalt sakslaste käest relvade hankimises. Võeti kinni punkrist koos Arvo Piltiga 3. 3.1953. Karistuseks määrati 25a, vähendati 15a-le. Vabanes 4.07.1960."
   - user_id: 36
     id_name: elmar_kiudsoo
     first_name: Elmar
@@ -458,12 +458,12 @@ people:
     location: misso
     birth_date: 15.09.1909
     death_date: 24.06.1974
-    separation_date: "?"
+    separation_date: "1944"
     separation_end_date: 1.01.1952
     separation_cause: Saksa sõjaväes ja Omakaitses. Osales 1941. a Misso vallamaja juures toimunud lahingus.
     separation_end_cause: arreteeritud
     age_at_separation_end: "42"
-    note: Määrati 25 pluss 5
+    note: "Varjas end alates 1944 Räpina ja Pindi kandis ning kodus. 1947. a legaliseerus, kuid varjus uuesti. Langes vangi Lätimaal vendade Berkuliste talus. Määrati 25 pluss 5"
   - user_id: 37
     id_name: linda_pilt
     first_name: Linda
@@ -476,7 +476,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: arreteeritud
     age_at_separation_end: "30"
-    note: Kalju Telli naiseõde. Mees teenis Saksa armees ja suri sõjavangilaagris. Varjas end koos Kalju Telliga Erik Gustavi punkris, hiljem Erik Alfredi punkris. Arreteeriti Härämäe punkrilahingu järel, mõisteti 25+5.
+    note: "Kalju Telli naiseõde. Mees teenis Saksa armees ja suri sõjavangilaagris. Varjas end koos Kalju Telliga Erik Gustavi punkris, hiljem Erik Alfredi punkris. Arreteeriti Härämäe punkrilahingu järel, mõisteti 25+5."
   - user_id: 38
     id_name: kalju_tell
     first_name: Kalju
@@ -489,7 +489,7 @@ people:
     separation_cause: raha omastamine Krediidipangas
     separation_end_cause: arreteeritud
     age_at_separation_end: "31"
-    note: Oli Punaarmees leitnandi auastmes. Asus metsas varjama pärast segaseid seadusvastaseid rahatehinguid Misso Krediidipangas. 1951. a varjas end koos Pilt Lindaga Erik Gustavi punkris Parmu metsas. Alfred Eriku punkrisse varjama asus 1952. a sügisel. Arreteeriti 28.2.1953 pärast Härämäe punkrilahingut.
+    note: "Oli Punaarmees leitnandi auastmes. Asus metsas varjama pärast segaseid seadusvastaseid rahatehinguid Misso Krediidipangas. 1951. a varjas end koos Pilt Lindaga Erik Gustavi punkris Parmu metsas. Alfred Eriku punkrisse varjama asus 1952. a sügisel. Arreteeriti 28.2.1953 pärast Härämäe punkrilahingut."
   - user_id: 39
     id_name: arvo_pilt
     first_name: Arvo
@@ -502,7 +502,7 @@ people:
     separation_cause: Kaitseliit, Omakaitse, oli Vastseliina vallavanem
     separation_end_cause: arreteeritud
     age_at_separation_end: "58"
-    note: Varasem Vastseliina vallavanem. Abielus, 4 poega ja tütar. Võeti kinni koos Oskar Kiudsooga punkris Läti piiril. Määrati 25+5, vähendati 12a 6k-ni.
+    note: "Varasem Vastseliina vallavanem. Abielus, 4 poega ja tütar. Võeti kinni koos Oskar Kiudsooga punkris Läti piiril. Määrati 25+5, vähendati 12a 6k-ni."
   - user_id: 40
     id_name: aleksander_harm
     first_name: Aleksander
@@ -515,7 +515,7 @@ people:
     separation_cause: hoidumine arreteerimisest
     separation_end_cause: arreteeritud
     age_at_separation_end: "57"
-    note: Olnud tsaariarmees, Kaitseliidus ja Omakaitses. Abielus Julie Vähiga, poeg ja tütar. Tema peret ähvardas Saika punkrilahinguga seoses arreteerimine. Arreteeriti Viglasoo punkrilahingu järel, kus langes tema poeg, 17 aastane Väino Härm ja Rafael Vähi, kes püüdsid piiramisrõngast läbi murda. Määrati 25 a, vähendati 10 a.
+    note: "Olnud tsaariarmees, Kaitseliidus ja Omakaitses. Abielus Julie Vähiga, poeg ja tütar. Tema peret ähvardas Saika punkrilahinguga seoses arreteerimine. Arreteeriti Viglasoo punkrilahingu järel, kus langes tema poeg, 17 aastane Väino Härm ja Rafael Vähi, kes püüdsid piiramisrõngast läbi murda. Määrati 25 a, vähendati 10 a."
   - user_id: 41
     id_name: julie_harm
     first_name: Julie
@@ -528,7 +528,7 @@ people:
     separation_cause: hoidumine arreteerimisest
     separation_end_cause: arreteeritud
     age_at_separation_end: "54"
-    note: Richard Vähi õde. Abielus, poeg ja tütar. Läks metsa koos perega arreteerimise eest pärast Saika punkrilahingut, kus vend Richard pääses põgenema. Arreteeriti Viglasoo punkrilahingu järel 27.3.1953. Määrati 10+5. Vabanes 1955.
+    note: "Richard Vähi õde. Abielus, poeg ja tütar. Läks metsa koos perega arreteerimise eest pärast Saika punkrilahingut, kus vend Richard pääses põgenema. Arreteeriti Viglasoo punkrilahingu järel 27.3.1953. Määrati 10+5. Vabanes 1955."
   - user_id: 42
     id_name: richard_siegert
     first_name: Richard
@@ -540,7 +540,7 @@ people:
     separation_end_date: 16.07.1951
     separation_end_cause: tapetud
     age_at_separation_end: "26"
-    note: Tapeti haarangul varahommikul heinateol 16.7.1951. Samal haarangul pääses Edgar Liira põgenema.
+    note: "Tapeti haarangul varahommikul heinateol 16.7.1951. Samal haarangul pääses Edgar Liira põgenema."
   - user_id: 43
     id_name: edgar_liira
     first_name: Edgar
@@ -553,7 +553,7 @@ people:
     separation_cause: põgenemine pärast arreteerimist, Saksa sõjaväes teenimine
     separation_end_cause: legaliseerus
     age_at_separation_end: "30"
-    note: Alates 1949. a suvest hoidusid teised metsavennad temast eraldi, enne seda varjas koos Kauridega (1944-1945), Alfred Eriku ja Voldemar Viskiga (kevad 1947-kevad 1949). Süvenes joomine ja tüli norimine. 1950. a tappis punaaktivisti Lõokese, kelle surma  kandis julgeolek 1951. a Saika punkri meeste arvele, ehkki 1950. a tunnistati toimepanijana Liirat. Legaliseerus juuli lõpus/augusti alguses 1953. Arreteeriti Lõokese Elmari tapmise pärast 1964. a.
+    note: "Alates 1949. a suvest hoidusid teised metsavennad temast eraldi, enne seda varjas koos Kauridega (1944-1945), Alfred Eriku ja Voldemar Viskiga (kevad 1947-kevad 1949). Süvenes joomine ja tüli norimine. 1950. a tappis punaaktivisti Lõokese, kelle surma  kandis julgeolek 1951. a Saika punkri meeste arvele, ehkki 1950. a tunnistati toimepanijana Liirat. Legaliseerus juuli lõpus/augusti alguses 1953. Arreteeriti Lõokese Elmari tapmise pärast 1964. a."
   - user_id: 44
     id_name: gustav_erik
     first_name: Gustav
@@ -566,7 +566,7 @@ people:
     separation_cause: põgenes Vastseliinast arestist
     separation_end_cause: tapetud
     age_at_separation_end: "38"
-    note: Oli osa võtnud Misso vallamaja vallutamisest 1941. a. Omakaitses oli jaoülemaks. Abielus Salme Erikuga, 4 last. Venelaste tulles varjas end kahel perioodil ajavahemikus 1944-1947. Kolmandat korda asus end varjama pärast Vastseliinas arestist põgenemist koos Uibo Rolandi, Verrev Eduardi ja Soodla Viktoriga 21.1.1951. Hiljem varjas end Parmu metsas koos Tell Kalju, Papp Jaani ja Pilt Lindaga. Tegutses ka koos Lätimaa eestlaste Rääbis Leo ja Koemets Rudolfiga, samuti koos Vähi Richardi salgaga. Hukkus Lätimaal  pärast 9.7.1951 Ponkulis purjuspäi sooritatud poeröövi. Proovides rukkipõllus jõuda metsani, avas ta jälitajatega tulevahetuse,  mille käigus sai  ränki haavu alakõhtu ja suri järgmisel päeval Aluksne haiglas.
+    note: "Oli osa võtnud Misso vallamaja vallutamisest 1941. a. Omakaitses oli jaoülemaks. Abielus Salme Erikuga, 4 last. Venelaste tulles varjas end kahel perioodil ajavahemikus 1944-1947. Kolmandat korda asus end varjama pärast Vastseliinas arestist põgenemist koos Uibo Rolandi, Verrev Eduardi ja Soodla Viktoriga 21.1.1951. Hiljem varjas end Parmu metsas koos Tell Kalju, Papp Jaani ja Pilt Lindaga. Tegutses ka koos Lätimaa eestlaste Rääbis Leo ja Koemets Rudolfiga, samuti koos Vähi Richardi salgaga. Hukkus Lätimaal  pärast 9.7.1951 Ponkulis purjuspäi sooritatud poeröövi. Proovides rukkipõllus jõuda metsani, avas ta jälitajatega tulevahetuse,  mille käigus sai  ränki haavu alakõhtu ja suri järgmisel päeval Aluksne haiglas."
   - user_id: 45
     id_name: auleid_toomsalu
     first_name: Auleid
@@ -576,11 +576,11 @@ people:
     birth_date: 28.03.1922
     death_date: 5.02.1952
     separation_date: 0.05.1948
-    separation_end_date: 9.02.1951
+    separation_end_date: 9.02.1951'
     separation_cause: laulis seltskonnas keelatud laulu (Jää vabaks Eesti meri).
     separation_end_cause: arreteeritud
     age_at_separation_end: "28"
-    note: Pärit Rõuge vallast Tealase külast. Vanemad elasid Rõuges, isa oli tal invaliid, ema al 1950. a  vangistatud. Auleid oli mobiliseeritud nii Saksa kui Vene armeesse. Metsavennaks läks 1948. a kevadel koos onupoja Kalju Kirbitsaga, kui teda ähvardas arreteerimine rahvalike laulude laulmise eest ühel sünnipäeval. Metsas oli tal hüüdnimeks „Karl“ ja „Kapten“. Tegutses koos paljude Viitina kandi meestega, samuti  Simo Pihlapuu salgaga. 9. veebruaril 1951 Auleid Toomsalu arreteeriti ja sõjatribunal mõistis talle 12.10.1951 surmaotsuse. Tapeti 5.2.1952.
+    note: "Pärit Rõuge vallast Tealase külast. Vanemad elasid Rõuges, isa oli tal invaliid, ema al 1950. a  vangistatud. Auleid oli mobiliseeritud nii Saksa kui Vene armeesse. Metsavennaks läks 1948. a kevadel koos onupoja Kalju Kirbitsaga, kui teda ähvardas arreteerimine rahvalike laulude laulmise eest ühel sünnipäeval. Metsas oli tal hüüdnimeks „Karl“ ja „Kapten“. Tegutses koos paljude Viitina kandi meestega, samuti  Simo Pihlapuu salgaga. 9. veebruaril 1951 Auleid Toomsalu arreteeriti ja sõjatribunal mõistis talle 12.10.1951 surmaotsuse. Tapeti 5.2.1952."
   - user_id: 46
     id_name: herbert_virk
     first_name: Herbert
@@ -594,7 +594,7 @@ people:
     separation_cause: põgenes kinnipidamiskohast
     separation_end_cause: tapetud
     age_at_separation_end: "25"
-    note: Sündis Vastseliinas. Pärast mõlema vanema surma kolmekümnendatel aastatel võeti ta Viitinasse Richard Pihlapuu peresse kasupojaks. Deserteerus nõukogude armeest, metsa läks 1947. a pärast põgenemist kinnipidamiskohast. Hüüdnimi oli metsas „Kusta“. Lisaks Toomsalule tegutses ka koos Endel Otsaga (röövisid 1948 päeva ajal Rõuges panka jpm) ja Simo Pihlapuuga. Tapeti koos kahe kaaslasega julgeolekuüksuse korraldatud haarangul Viitinas Haki külas Pulli talus 23. 7.1949.
+    note: "Sündis Vastseliinas. Pärast mõlema vanema surma kolmekümnendatel aastatel võeti ta Viitinasse Richard Pihlapuu peresse kasupojaks. Deserteerus nõukogude armeest, metsa läks 1947. a pärast põgenemist kinnipidamiskohast. Hüüdnimi oli metsas „Kusta“. Lisaks Toomsalule tegutses ka koos Endel Otsaga (röövisid 1948 päeva ajal Rõuges panka jpm) ja Simo Pihlapuuga. Tapeti koos kahe kaaslasega julgeolekuüksuse korraldatud haarangul Viitinas Haki külas Pulli talus 23. 7.1949."
   - user_id: 47
     id_name: vambola_kuklane
     first_name: Vambola
@@ -608,7 +608,7 @@ people:
     separation_cause: varjus küüditamise eest
     separation_end_cause: tapetud
     age_at_separation_end: "18"
-    note: Pärit Viitina vallast Ortumäelt, kus ta isal ja onul oli suur Aabra talu (101 ha). Mõlemad pered tehti kulakuks ja määrati küüditamisele. Märtsis 1949 varjuti, Vambola läks metsa Auleid Toomsalu salka. Hüüdnimi oli tal „Jumbo“. Tapeti 18a tulevahetuses julgeolekuüksuse korraldatud haarangul Viitinas Haki külas Pulli talus 23.7.1949.
+    note: "Pärit Viitina vallast Ortumäelt, kus ta isal ja onul oli suur Aabra talu (101 ha). Mõlemad pered tehti kulakuks ja määrati küüditamisele. Märtsis 1949 varjuti, Vambola läks metsa Auleid Toomsalu salka. Hüüdnimi oli tal „Jumbo“. Tapeti 18a tulevahetuses julgeolekuüksuse korraldatud haarangul Viitinas Haki külas Pulli talus 23.7.1949."
   - user_id: 48
     id_name: elmar_pettai
     first_name: Elmar
@@ -622,7 +622,7 @@ people:
     separation_cause: liitus sõpradega
     separation_end_cause: tapetud
     age_at_separation_end: "21"
-    note: Õppis Väimela Põllumajanduskoolis. Isa oli renditalunik Viitina vallas Haki külas Pulli talus, kus tutvus ümbruskonna metsavendadega. Metsavendadest sõpradega ühines kevadel 1949. Metsas oli hüüdnimi  „Jakob“.  Tapeti haarangul Pulli talus 23.7.1949.
+    note: "Õppis Väimela Põllumajanduskoolis. Isa oli renditalunik Viitina vallas Haki külas Pulli talus, kus tutvus ümbruskonna metsavendadega. Metsavendadest sõpradega ühines kevadel 1949. Metsas oli hüüdnimi  „Jakob“.  Tapeti haarangul Pulli talus 23.7.1949."
   - user_id: 49
     id_name: eduard_kirbits
     first_name: Eduard
@@ -636,7 +636,7 @@ people:
     separation_cause: teenimine Eesti Leegionis
     separation_end_cause: tapetud
     age_at_separation_end: "30"
-    note: Pärit Luutsnikult. Oli teeninud Eesti Leegionis. Metsa läks 1944. a., hüüdnimi oli „Jüri“või „Ats“. Olevat 945. a osalenud rünnakus metsavendi jahtinud miilitsavolinikule Adolf Noortootsile. 1949-1950 varjas koos Elmar Pärliga. Tapeti koos venna Aksel Kirbitsaga tulevahetuses punkrist põgenemisel 23.2.1951.
+    note: "Pärit Luutsnikult. Oli teeninud Eesti Leegionis. Metsa läks 1944. a., hüüdnimi oli „Jüri“või „Ats“. Olevat 945. a osalenud rünnakus metsavendi jahtinud miilitsavolinikule Adolf Noortootsile. 1949-1950 varjas koos Elmar Pärliga. Tapeti koos venna Aksel Kirbitsaga tulevahetuses punkrist põgenemisel 23.2.1951."
   - user_id: 50
     id_name: aksel_kirbits
     first_name: Aksel
@@ -650,7 +650,7 @@ people:
     separation_cause: varjumine küüditamise eest
     separation_end_cause: tapetud
     age_at_separation_end: "26"
-    note: Pärit Luutsnikult. Varjus koos vanematega küüditamise eest. Ühines Auleid Toomsalu salgaga, hüüdnimi oli \"Ori\", „Orin“ (või „Orik“). Alates 1949. a elas metsapunkris koos Leida Pettaiga. 1950. a novembris sündis neil tütar Milvi. Tapeti koos venna Eduard Kirbitsaga tulevahetuses punkrist põgenemisel 23.2.1951.
+    note: 'Pärit Luutsnikult. Varjus koos vanematega küüditamise eest. Ühines Auleid Toomsalu salgaga, hüüdnimi oli \"Ori\", „Orin“ (või „Orik“). Alates 1949. a elas metsapunkris koos Leida Pettaiga. 1950. a novembris sündis neil tütar Milvi. Tapeti koos venna Eduard Kirbitsaga tulevahetuses punkrist põgenemisel 23.2.1951.'
   - user_id: 51
     id_name: valter_pallo
     first_name: Valter
@@ -678,7 +678,7 @@ people:
     separation_cause: Võttis osa rünnakust miilitsavolinik Noortootsile.\r\nArreteeriti 1945. a ja vabastati nõudega teised metsavennad reeta. Koos Toomsaluga hakkas varjama alates 1948 maist.
     separation_end_cause: tapetud
     age_at_separation_end: "19"
-    note: Sündis Viitina vallas. Kuulus Võru keskkooliõpilaste nõukogudevastasesse\r\npõrandaalusesse ühendusse. Varjama hakkas 1945. a, pärast rünnakut\r\nmiilitsavolinik Noortootsile järgnenud arreteerimist septembris 1945 ja\r\nsellele järgnenud vabastamist koos nõudmisega reeta teisi. Ta liitus\r\nRohelise Partisanide Pataljoni Lükkä (Lükka, Nursi) punkri metsavendadega. Lükkä punkri ründamise ajal 28.12.1945 ei viibinud ta punkris, vaid oli läinud jõuluks vanematekoju. Edasi varjas kodus ja sugulaste juures Läänemaal. Uuesti\r\nläks metsa koos Auleid Toomsaluga 1948. a, hüüdnimi oli \"Jim\".\r\nTapeti hommikupoole ööd haarangu käigus, sünnipäevapeo ajal Ortumäel\r\nKuklaste juures 6.2.1949.
+    note: 'Sündis Viitina vallas. Kuulus Võru keskkooliõpilaste nõukogudevastasesse\r\npõrandaalusesse ühendusse. Varjama hakkas 1945. a, pärast rünnakut\r\nmiilitsavolinik Noortootsile järgnenud arreteerimist septembris 1945 ja\r\nsellele järgnenud vabastamist koos nõudmisega reeta teisi. Ta liitus\r\nRohelise Partisanide Pataljoni Lükkä (Lükka, Nursi) punkri metsavendadega. Lükkä punkri ründamise ajal 28.12.1945 ei viibinud ta punkris, vaid oli läinud jõuluks vanematekoju. Edasi varjas kodus ja sugulaste juures Läänemaal. Uuesti\r\nläks metsa koos Auleid Toomsaluga 1948. a, hüüdnimi oli \"Jim\".\r\nTapeti hommikupoole ööd haarangu käigus, sünnipäevapeo ajal Ortumäel\r\nKuklaste juures 6.2.1949.'
   - user_id: 53
     id_name: paul_liit
     first_name: Paul
@@ -692,7 +692,7 @@ people:
     separation_cause: soovis võidelda vägivaldse võimu vastu, oli tapnud kohaliku küüditamisorganisaatori
     separation_end_cause: arreteeritud
     age_at_separation_end: "24"
-    note: Vanemad pärit Petserimaalt Suure-Buravitsa külast, elas Haanjas Koke külas. Astus vabatahtlikuna 33. Politseipataljoni, septembris 1944 mobiliseeriti Punaarmeesse, kust novembrikuus deserteerus. Oli metsas 1944-1946, legaliseerus. Uuesti läks metsa 1949, ühines Auleid Toomsalu salgaga, hüüdnimi „Haanja Miis“ või „Juhan“. Arreteeriti 1950. a, temast jäi maha tütar. Sõjatribunal määras surmanuhtluse, tapeti 05.2.1952.
+    note: "Vanemad pärit Petserimaalt Suure-Buravitsa külast, elas Haanjas Koke külas. Astus vabatahtlikuna 33. Politseipataljoni, septembris 1944 mobiliseeriti Punaarmeesse, kust novembrikuus deserteerus. Oli metsas 1944-1946, legaliseerus. Uuesti läks metsa 1949, ühines Auleid Toomsalu salgaga, hüüdnimi „Haanja Miis“ või „Juhan“. Arreteeriti 1950. a, temast jäi maha tütar. Sõjatribunal määras surmanuhtluse, tapeti 05.2.1952."
   - user_id: 54
     id_name: henn_kirbits
     first_name: Henn
@@ -706,7 +706,7 @@ people:
     separation_cause: küüditamine
     separation_end_cause: legaliseerus
     age_at_separation_end: "16"
-    note: Pärit Viitina vallast. Metsas oli varjus küüditamise eest. Tema vend Kalju Kirbits (19a) tapeti haarangul 1949. a veebruaris. Henn Kirbits pidevalt metsavennana ei elanud, ehkki julgeolekutoimikutes on teda nimetatud Toomsalu salga liikmeks. Hüüdnimi metsas oli „Putilane“. Saksa ajal ta alaealisena mobilisatsiooni alla ei kuulunud. 1949. a lõpus vastu talve legaliseerus. Arreteeriti 1. märtsil 1951. Sõjatribunal määras vangistust ja asumist 25+5. Vabanes 1956.
+    note: "Pärit Viitina vallast. Metsas oli varjus küüditamise eest. Tema vend Kalju Kirbits (19a) tapeti haarangul 1949. a veebruaris. Henn Kirbits pidevalt metsavennana ei elanud, ehkki julgeolekutoimikutes on teda nimetatud Toomsalu salga liikmeks. Hüüdnimi metsas oli „Putilane“. Saksa ajal ta alaealisena mobilisatsiooni alla ei kuulunud. 1949. a lõpus vastu talve legaliseerus. Arreteeriti 1. märtsil 1951. Sõjatribunal määras vangistust ja asumist 25+5. Vabanes 1956."
   - user_id: 55
     id_name: endel_ots
     first_name: Endel
@@ -720,7 +720,7 @@ people:
     separation_cause: deserteerus nõukogude armeest
     separation_end_cause: arreteerimine
     age_at_separation_end: "21"
-    note: Meremäe elanik, tema isa elas Kasaritsas, ema oli surnud, vend arreteeritud ja saadetud 1945. a Komi ANSV-s vangilaagrisse. 1942. a astus Endel Ots vabatahtlikult 20. SS-diviisi.Taandus lahingutega Emajõe äärest Riiga, kus 20. SS diviisi riismed nimetati ümber 12. jalaväediviisiks ja suunati lahingutesse Tandaga (peaks vist olema Dundaga) linna – Kurmendiasse (peaks vist olema Kurlandiasse ehk Kuramaale), kus sõdis nõukogude vägede vastu, kuni märtsis 1945 viidi sõdurid üle mere Danzigisse. Võitles kuni Saksamaa kapituleerumiseni. Nooremohvitseri ja jaokomandöri abina teenis lahingutes Raudristi 1. klassi. 9. mail jäi nõukogude vägede kätte sõjavangi ja saadeti Komi ANSVsse, kust vabanes 1946 lõpus ja saadeti Narva tööpataljoni, NSVL „BO“ (vene tähed) ehitusele. 1947. a deserteerus sealt ja liikus Rõugesse, kus kohtus Kalju Kirbitsa ja Herbert Virkiga. Muudetud sünniaastga sünnitunnistuse alusel, mille tegi Saareall Asta Rõuge TK-st, sai endale passi. Tegutses koos Kalju Kirbitsa ja Herbert Virkiga, kuni arreteeriti 1949. a ja määrati Toomsalu ja Virki salga liikmena vangistusse ja asumisele 25+5a.
+    note: "Meremäe elanik, tema isa elas Kasaritsas, ema oli surnud, vend arreteeritud ja saadetud 1945. a Komi ANSV-s vangilaagrisse. 1942. a astus Endel Ots vabatahtlikult 20. SS-diviisi.Taandus lahingutega Emajõe äärest Riiga, kus 20. SS diviisi riismed nimetati ümber 12. jalaväediviisiks ja suunati lahingutesse Tandaga (peaks vist olema Dundaga) linna – Kurmendiasse (peaks vist olema Kurlandiasse ehk Kuramaale), kus sõdis nõukogude vägede vastu, kuni märtsis 1945 viidi sõdurid üle mere Danzigisse. Võitles kuni Saksamaa kapituleerumiseni. Nooremohvitseri ja jaokomandöri abina teenis lahingutes Raudristi 1. klassi. 9. mail jäi nõukogude vägede kätte sõjavangi ja saadeti Komi ANSVsse, kust vabanes 1946 lõpus ja saadeti Narva tööpataljoni, NSVL „BO“ (vene tähed) ehitusele. 1947. a deserteerus sealt ja liikus Rõugesse, kus kohtus Kalju Kirbitsa ja Herbert Virkiga. Muudetud sünniaastga sünnitunnistuse alusel, mille tegi Saareall Asta Rõuge TK-st, sai endale passi. Tegutses koos Kalju Kirbitsa ja Herbert Virkiga, kuni arreteeriti 1949. a ja määrati Toomsalu ja Virki salga liikmena vangistusse ja asumisele 25+5a."
   - user_id: 56
     id_name: simo_pihlapuu
     first_name: Simo (Simu, Samuel)
@@ -734,7 +734,7 @@ people:
     separation_cause: teenimine Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "33"
-    note: Pärit Rõuge vallast Saarlase külast. Teenis Saksa sõjaväes. Metsa läks 1944. a,  hüüdnimi oli  „Vana Jüri“. Vend Aksel suri Siberis vangistuses, vend Arthur oli saadetud 10 a Siberisse, vend Aaro oli koos Simoga metsas. Oli piirkonna metsavendade juhiks. Tapeti jälitamisel Sadra külas 23.09.1949.
+    note: "Pärit Rõuge vallast Saarlase külast. Teenis Saksa sõjaväes. Metsa läks 1944. a,  hüüdnimi oli  „Vana Jüri“. Vend Aksel suri Siberis vangistuses, vend Arthur oli saadetud 10 a Siberisse, vend Aaro oli koos Simoga metsas. Oli piirkonna metsavendade juhiks. Tapeti jälitamisel Sadra külas 23.09.1949."
   - user_id: 57
     id_name: heino_uibo
     first_name: Heino
@@ -748,7 +748,7 @@ people:
     separation_cause: võõra armeeteenistuse vältimine
     separation_end_cause: tapetud
     age_at_separation_end: "31"
-    note: Heino Uibo (ristinimega Heino Axel Uipuu) oli pärit Mõniste vallast. Oli metsavend ka Saksa ajal, taas metsas 1944. a. Hüüdnimi metsas oli „Joonas“. Neljakümnendate lõpus varjas end koos elukaaslase Linda Tatrikuga, kellega sündis 1949.a kevadel poeg. Magava lapse tapsid julgeolekusõdurid punkris haarangul 30. juunil 1950. Heino Uibo tapeti julgeoleku haarangul tulevahetuses 5.10.1955 Lätis, Druskase külas. Linda Tatrik langes seal vangi.
+    note: "Heino Uibo (ristinimega Heino Axel Uipuu) oli pärit Mõniste vallast. Oli metsavend ka Saksa ajal, taas metsas 1944. a. Hüüdnimi metsas oli „Joonas“. Neljakümnendate lõpus varjas end koos elukaaslase Linda Tatrikuga, kellega sündis 1949.a kevadel poeg. Magava lapse tapsid julgeolekusõdurid punkris haarangul 30. juunil 1950. Heino Uibo tapeti julgeoleku haarangul tulevahetuses 5.10.1955 Lätis, Druskase külas. Linda Tatrik langes seal vangi."
   - user_id: 58
     id_name: aksel_sprenk
     first_name: Aksel
@@ -762,7 +762,7 @@ people:
     separation_cause: "Oli Kaitseliidu Rõuge piirkonna malevkonna juht "
     separation_end_cause: tapetud
     age_at_separation_end: "42"
-    note: Oli Eesti ajal Kaitseliidu Rõuge malevkonna pealik. Metsas alates 1944. a, hüüdnimi „Vunts“. Tapetud Roobi metsas 30.06.1950. Temast jäi maha abikaasa poja ja 2 tütrega. Aksel Sprenki ülestähendused (päevik) on toodud käesoleval lehel alajaotuses MUU/LINGID.
+    note: "Oli Eesti ajal Kaitseliidu Rõuge malevkonna pealik. Metsas alates 1944. a, hüüdnimi „Vunts“. Tapetud Roobi metsas 30.06.1950. Temast jäi maha abikaasa poja ja 2 tütrega. Aksel Sprenki ülestähendused (päevik) on toodud käesoleval lehel alajaotuses MUU/LINGID."
   - user_id: 59
     id_name: linda_tatrik
     first_name: Linda
@@ -776,7 +776,7 @@ people:
     separation_cause: küüditatav
     separation_end_cause: arreteeritud
     age_at_separation_end: "31"
-    note: Pärit Viitina vallast. Varjus 1949, kuna kuulus küüditamisele. Teistel andmetel läks metsa 1948. a. Isa August Tatrik ja ema Emmi Tatrik olid 1945. a vangistatud, vend Eduard Tatrik (s 1922) varjas end metsas. Tema kodus elas ta tädi Saia Emilie. Koos oma elukaaslase Heino Uiboga varjas Linda Tatrik end seal kevadel 1949 poja sündimise ajal ja hiljem haigestumise korral. Nende aasta ja kahekuuse poja tappis julgeolek 30. 07.1950 Roobi metsas punkris. Linda Tatrik  arreteeriti 1955. a Druskase külas Lätis.
+    note: "Pärit Viitina vallast. Varjus 1949, kuna kuulus küüditamisele. Teistel andmetel läks metsa 1948. a. Isa August Tatrik ja ema Emmi Tatrik olid 1945. a vangistatud, vend Eduard Tatrik (s 1922) varjas end metsas. Tema kodus elas ta tädi Saia Emilie. Koos oma elukaaslase Heino Uiboga varjas Linda Tatrik end seal kevadel 1949 poja sündimise ajal ja hiljem haigestumise korral. Nende aasta ja kahekuuse poja tappis julgeolek 30. 07.1950 Roobi metsas punkris. Linda Tatrik  arreteeriti 1955. a Druskase külas Lätis."
   - user_id: 60
     id_name: elmar_parli
     first_name: Elmar
@@ -790,7 +790,7 @@ people:
     separation_cause: teenimine Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: "29"
-    note: Pärit Luutsnikult. Teenis Saksa vägedes. Metsas alates 1944,  hüüdnimed „Tuks“, „Vana Pini“. Pääses ainsana põgenema punkrilahingust 3.04.1946 Luhasoos, kus hukkusid August Eelsoo, Rein Kask ja Olev Loog. Tapeti Pillardi külas Enn Siidra talus haarangul 25.09.1950.
+    note: "Pärit Luutsnikult. Teenis Saksa vägedes. Metsas alates 1944,  hüüdnimed „Tuks“, „Vana Pini“. Pääses ainsana põgenema punkrilahingust 3.04.1946 Luhasoos, kus hukkusid August Eelsoo, Rein Kask ja Olev Loog. Tapeti Pillardi külas Enn Siidra talus haarangul 25.09.1950."
   - user_id: 61
     id_name: leida_pettai
     first_name: Leida
@@ -804,7 +804,7 @@ people:
     separation_cause: põgenemine reetjaks sundimise eest
     separation_end_cause: arreteeritud
     age_at_separation_end: "17"
-    note: Pärit Viitina vallast Pulli talust. Pärast venna Elmari hukkumist metsavennana sundis julgeolek teda metsavendade äraandjaks, augustis 1949. a oli ta sunnitud varjuma metsa. Sai metsavend Aksel Kirbitsa elukaaslaseks, kellega sündis tütar. Haarangul 23.02.1951 tapeti tulevahetuses Aksel ja Eduard Kirbits, Leida Pettai arreteeriti. Laps võeti ära ja pandi lastekodusse. Leidale määrati 25+5a vangistust ja asumist.
+    note: "Pärit Viitina vallast Pulli talust. Pärast venna Elmari hukkumist metsavennana sundis julgeolek teda metsavendade äraandjaks, augustis 1949. a oli ta sunnitud varjuma metsa. Sai metsavend Aksel Kirbitsa elukaaslaseks, kellega sündis tütar. Haarangul 23.02.1951 tapeti tulevahetuses Aksel ja Eduard Kirbits, Leida Pettai arreteeriti. Laps võeti ära ja pandi lastekodusse. Leidale määrati 25+5a vangistust ja asumist."
   - user_id: 62
     id_name: valve_lepp
     first_name: Valve
@@ -818,7 +818,7 @@ people:
     separation_cause: läks metsavennale kaaslaseks
     separation_end_cause: arreteeritud
     age_at_separation_end: "20"
-    note: Pärit Viitina vallast. Varjama hakkas end sügisel 1949. a koos Valter Palloga Luhasoos. Lapseootuse tõttu lahkus sealt 1949. a lõpus või 1950. a algul inimeste hulka Palli külla varjama. Arreteeriti 23.02.1951 ja määrati vangistust ja asumist 25+5, laps eraldati lastekodusse.
+    note: "Pärit Viitina vallast. Varjama hakkas end sügisel 1949. a koos Valter Palloga Luhasoos. Lapseootuse tõttu lahkus sealt 1949. a lõpus või 1950. a algul inimeste hulka Palli külla varjama. Arreteeriti 23.02.1951 ja määrati vangistust ja asumist 25+5, laps eraldati lastekodusse."
   - user_id: 63
     id_name: eduard_mottus
     first_name: Eduard
@@ -832,7 +832,7 @@ people:
     separation_cause: oli olnud politseikonstaabel
     separation_end_cause: tapetud
     age_at_separation_end: "46"
-    note: Oli olnud konstaabel, metsas varjas end koos oma abikaasa Miralda Mõttuse, Valter Pallo jt. Tapeti julgeoleku poolt 23.07.1953.
+    note: "Oli olnud konstaabel, metsas varjas end koos oma abikaasa Miralda Mõttuse, Valter Pallo jt. Tapeti julgeoleku poolt 23.07.1953."
   - user_id: 64
     id_name: miralda_mottus
     first_name: Miralda
@@ -846,7 +846,7 @@ people:
     separation_cause: "-"
     separation_end_cause: arreteeritud
     age_at_separation_end: "35"
-    note: Varjas end 1948. a koos Eduard Mõttuse, Valter Pallo, Harri Mõttuse, hiljem koos Voldemar Rüütliga. Arreteeriti 13.11.1953, määrati 2+5. Vabanes invaliidina 1955.
+    note: "Varjas end 1948. a koos Eduard Mõttuse, Valter Pallo, Harri Mõttuse, hiljem koos Voldemar Rüütliga. Arreteeriti 13.11.1953, määrati 2+5. Vabanes invaliidina 1955."
   - user_id: 65
     id_name: voldermar_ruutli
     first_name: Voldemar
@@ -860,7 +860,7 @@ people:
     separation_cause: oli olnud Kaitseliidus
     separation_end_cause: tapetud
     age_at_separation_end: "41"
-    note: Elas Varstu vallas Matsi külas, oli olnud kaitseliitlane. Metsas oli alates 1944. Alates 1948 varjas end koos Eduard Mõttusega. Tapeti 28.04.1950.
+    note: "Elas Varstu vallas Matsi külas, oli olnud kaitseliitlane. Metsas oli alates 1944. Alates 1948 varjas end koos Eduard Mõttusega. Tapeti 28.04.1950."
   - user_id: 66
     id_name: harri_mottus
     first_name: Harri
@@ -874,7 +874,7 @@ people:
     separation_cause: oli olnud Kaitseliidus
     separation_end_cause: arreteeritud
     age_at_separation_end: "34"
-    note: Pärit Varstust. Arreteeriti 26.01.54, vabanes 26.06.54.
+    note: "Pärit Varstust. Arreteeriti 26.01.54, vabanes 26.06.54."
   - user_id: 67
     id_name: juhan_mottus
     first_name: Juhan
@@ -888,7 +888,7 @@ people:
     separation_cause: poja Sulev Mõttuse arreteerimine
     separation_end_cause: arreteeritud raskelt haavatuna
     age_at_separation_end: "48"
-    note: Pärit Ruusmäelt. Metsa läks 1949. a pärast poeg Sulev Mõttuse kinnivõtmist, kes arreteeriti Lembit Labi pealekaebuse alusel. Hüüdnimi oli metsas „Vana Hull“. Langes vangi punkri juures tulevahetuses raskelt haavatuna 23.02.1951.
+    note: "Pärit Ruusmäelt. Metsa läks 1949. a pärast poeg Sulev Mõttuse kinnivõtmist, kes arreteeriti Lembit Labi pealekaebuse alusel. Hüüdnimi oli metsas „Vana Hull“. Langes vangi punkri juures tulevahetuses raskelt haavatuna 23.02.1951."
   - user_id: 68
     id_name: aksel_kuklane
     first_name: Aksel
@@ -902,7 +902,7 @@ people:
     separation_cause: varjus küüditamise eest
     separation_end_cause: "-"
     age_at_separation_end: "-"
-    note: Pärit Rõuge vallast Abra talust. Metsa läks küüditamise eest. Toomsalu salgaga ühines tema poeg Vambola Kuklane.
+    note: "Pärit Rõuge vallast Abra talust. Metsa läks küüditamise eest. Toomsalu salgaga ühines tema poeg Vambola Kuklane."
   - user_id: 69
     id_name: aaro_pihlapuu
     first_name: Aaro (Arnold)
@@ -916,7 +916,7 @@ people:
     separation_cause: küüditamine
     separation_end_cause: arreteeritud
     age_at_separation_end: "44"
-    note: "Aaro Pihlapuu oli kooliõpetaja Ristemäel ja koolijuhataja Pikakannul. Metsas alates 1949. a. Arreteeriti 1951. a ja määrati 25a vangistust. Vabanes 1956. Aaro Pihlapuu pidas metsavennana ka päevikut, mis on avaldatud: „Pihlapuude võitlus“, Hotpress 2009"
+    note: 'Aaro Pihlapuu oli kooliõpetaja Ristemäel ja koolijuhataja Pikakannul. Metsas alates 1949. a. Arreteeriti 1951. a ja määrati 25a vangistust. Vabanes 1956. Aaro Pihlapuu pidas metsavennana ka päevikut, mis on avaldatud: „Pihlapuude võitlus“, Hotpress 2009"'
   - user_id: 70
     id_name: valter_kuklane
     first_name: Valter
@@ -930,7 +930,7 @@ people:
     separation_cause: küüditamine
     separation_end_cause: arreteeritud
     age_at_separation_end: "22"
-    note: Pärit Aabra talust Viitinast, varjus metsa küüditamise eest. Arreteeriti koos venna Hugoga 6.05.1949. Määrati 25 a vangistust, vabanes 1956.
+    note: "Pärit Aabra talust Viitinast, varjus metsa küüditamise eest. Arreteeriti koos venna Hugoga 6.05.1949. Määrati 25 a vangistust, vabanes 1956."
   - user_id: 71
     id_name: adolf_eglitis
     first_name: Adolf
@@ -941,7 +941,7 @@ people:
     separation_date: "1944"
     separation_end_date: 13.10.1947
     separation_end_cause: tapetud
-    note: Lätlasest metsavend lätieestlase Rudolf Koemetsa salgast. Kasutas ka nime Janis Sagamež. Osales 1947. a Lätis Aluksne maakonnas Beja metsas toimunud Markalne ja Malupe valdade metsavendade kokkutulekul, kus A. Eglitis ja R. Koemets rääkisid laskemoona saamisest Eesti metsavendadelt. Adolf Eglitis langes 1947. a Vastseliinas. Sinna meelitas ta Sakuti külas Tõdur Põllu juures ajutist talutöölist etendanud julgeolekuagent "Välk" ehk Karl Leonhard Paulov. 6.09.1947 oli agent “Välk” loonud Läti metsavendadega, kellest üks on eestlane ja 2 lätlased ja kes varjasid end Karajüri külas, Lāzberģise vallas ja Valga maakonnas, Läti NSVs. Metsavennad pöördusid “Välgu” poole, et viimane organiseeriks neile ülesõidu Rootsi ja andsid talle ülesande otsida Tallinnas selleks võimalusi. Julgeolek plaanitses “Välgu” abiga meelitada metsavennad rongi Eesti territooriumile ja nad Tartus kinni pidada. 13.10.1947 toimus “Välgul” Julgeoleku ülesandel uus kohtumine metsavendadega ja kuna viimased olid Rootsi mineku osas ümber mõelnud, juhtis agent "Välk" omal algatusel ühe metsavenna Eesti NSV territooriumile Vastseliina, kus agent jootis kõrtsis metsavenda veiniga ja teatadas sellest Julgeoleku operatiivpunkti. Kinnivõtmisel tulistas metsavend surmavalt MGB Võru operatiivpunkti ülemat n. ltn. Stepankovi. Tulevahetuse käigus lasid hävituspataljoni võitlejad illegaali maha. Tapetult saadi püstol ja dokumendid KIRULIS JANES Jakobi p nimele, tegeliku nimega EGLITIS, pärit Aluksne rajoonist, Läti NSV-st. Kirulise kotist leiti automaat, kompass ja üks kirjutusmasinal löödud lätikeelne nõukogudevastane lendleht. Agendi juhatusel võeti kinni ka PÕLD, TÕDUR Samoili p, kellelt võeti ära erinevad topograafilised kaardid ja 10 nõukogudevastast lendlehte, analoogsed tapetud Kirulise juurest leituga.
+    note: 'Lätlasest metsavend lätieestlase Rudolf Koemetsa salgast. Kasutas ka nime Janis Sagamež. Osales 1947. a Lätis Aluksne maakonnas Beja metsas toimunud Markalne ja Malupe valdade metsavendade kokkutulekul, kus A. Eglitis ja R. Koemets rääkisid laskemoona saamisest Eesti metsavendadelt. Adolf Eglitis langes 1947. a Vastseliinas. Sinna meelitas ta Sakuti külas Tõdur Põllu juures ajutist talutöölist etendanud julgeolekuagent "Välk" ehk Karl Leonhard Paulov. 6.09.1947 oli agent “Välk” loonud Läti metsavendadega, kellest üks on eestlane ja 2 lätlased ja kes varjasid end Karajüri külas, Lāzberģise vallas ja Valga maakonnas, Läti NSVs. Metsavennad pöördusid “Välgu” poole, et viimane organiseeriks neile ülesõidu Rootsi ja andsid talle ülesande otsida Tallinnas selleks võimalusi. Julgeolek plaanitses “Välgu” abiga meelitada metsavennad rongi Eesti territooriumile ja nad Tartus kinni pidada. 13.10.1947 toimus “Välgul” Julgeoleku ülesandel uus kohtumine metsavendadega ja kuna viimased olid Rootsi mineku osas ümber mõelnud, juhtis agent "Välk" omal algatusel ühe metsavenna Eesti NSV territooriumile Vastseliina, kus agent jootis kõrtsis metsavenda veiniga ja teatadas sellest Julgeoleku operatiivpunkti. Kinnivõtmisel tulistas metsavend surmavalt MGB Võru operatiivpunkti ülemat n. ltn. Stepankovi. Tulevahetuse käigus lasid hävituspataljoni võitlejad illegaali maha. Tapetult saadi püstol ja dokumendid KIRULIS JANES Jakobi p nimele, tegeliku nimega EGLITIS, pärit Aluksne rajoonist, Läti NSV-st. Kirulise kotist leiti automaat, kompass ja üks kirjutusmasinal löödud lätikeelne nõukogudevastane lendleht. Agendi juhatusel võeti kinni ka PÕLD, TÕDUR Samoili p, kellelt võeti ära erinevad topograafilised kaardid ja 10 nõukogudevastast lendlehte, analoogsed tapetud Kirulise juurest leituga.'
   - user_id: 72
     id_name: august_koemets
     first_name: August
@@ -968,7 +968,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: 29a
-    note: Varjas end punkris koos Simo Pihlapuu ja Johannes Ülenurmega. Langes punkri ründamisel RJM vägede poolt, Simo Pihlapuul ja Johannes Ülenurmel õnnestus põgeneda.
+    note: "Varjas end punkris koos Simo Pihlapuu ja Johannes Ülenurmega. Langes punkri ründamisel RJM vägede poolt, Simo Pihlapuul ja Johannes Ülenurmel õnnestus põgeneda."
   - user_id: 74
     id_name: ants_aunver
     first_name: Ants
@@ -981,7 +981,7 @@ people:
     separation_cause: küüditamisnimekirjas juunis 1941
     separation_end_cause: arreteeritud
     age_at_separation_end: 48a
-    note: ' Hdn "Villi" või "Kuusik Villi". Hdn "Rommel" omistavad talle vaid kaks külanaist omavahel, teised metsavennad ega ta ise pole seda kasutanud. Keema-Mihkli talu peremees Linnamäe vallast Võrumaalt (talus 48 ha põldu, 18 karilooma, 3 hobust). Varjus juuniküüditamise ajal 1941, Saksa ajal oli Omakaitses ja töötas Võrus vangivalvurina, pidades oma talu. Alates taasokupeerimisest 1944 elas metsavennana järjest 14 aastat, sellest 8 a maa-alustes punkrites. Viimased 5 aastat elas ja töötas vale nime all Kehra lähedal Pirga saekaatris. Arreteerimise (18.08.1958) ja surma mõistmise järel tegi vanglas ennetava enesetapu 3.01.1959.'
+    note: 'Hdn "Villi" või "Kuusik Villi". Hdn "Rommel" omistavad talle vaid kaks külanaist omavahel, teised metsavennad ega ta ise pole seda kasutanud. Keema-Mihkli talu peremees Linnamäe vallast Võrumaalt (talus 48 ha põldu, 18 karilooma, 3 hobust). Varjus juuniküüditamise ajal 1941, Saksa ajal oli Omakaitses ja töötas Võrus vangivalvurina, pidades oma talu. Alates taasokupeerimisest 1944 elas metsavennana järjest 14 aastat, sellest 8 a maa-alustes punkrites. Viimased 5 aastat elas ja töötas vale nime all Kehra lähedal Pirga saekaatris. Arreteerimise (18.08.1958) ja surma mõistmise järel tegi vanglas ennetava enesetapu 3.01.1959.'
   - user_id: 75
     id_name: aino_reinumagi
     first_name: Aino
@@ -991,10 +991,10 @@ people:
     death_date: 6.04.2006
     separation_date: kevad 1950
     separation_end_date: 18.08.1958
-    separation_cause: küüditamise eest varjumine ja legaliseerumisel äraandjaks sundimine
+    separation_cause: küüditamise eest varjumine ja legaliseerumisel äraandjaks sundimine.
     separation_end_cause: arreteeritud
     age_at_separation_end: 37a
-    note: Oli metsavendade abistaja, tema kodus  Pätsimäel Urvaste vallas oli Johannes Heeskal jt varjamiskoht. Märtsiküüditamise järel hakkas end varjama. Püüdes 1949 sügisel legaliseeruda, survestas Julgeolek teda äraandjaks. Aino Reinumägi põgenes surve eest Ants Aunveri juurde punkrisse. Elas koos Aunveriga maa-alustes punkrites 1950-1953. Alates 1953. a sügisest asus vale nime all koos Aunveriga elama ja töötama Kose rajoonis Soodlas. Arreteeriti 18.08.1958, määrati 8 a vangistust, vabanes Mordva ANSV Dubravlagist 18.08.1966. Pärast vabanemist elas Jõgeval.
+    note: "Oli metsavendade abistaja, tema kodus  Pätsimäel Urvaste vallas oli Johannes Heeskal jt varjamiskoht. Märtsiküüditamise järel hakkas end varjama. Püüdes 1949 sügisel legaliseeruda, survestas Julgeolek teda äraandjaks. Aino Reinumägi põgenes surve eest Ants Aunveri juurde punkrisse. Elas koos Aunveriga maa-alustes punkrites 1950-1953. Alates 1953. a sügisest asus vale nime all koos Aunveriga elama ja töötama Kose rajoonis Soodlas. Arreteeriti 18.08.1958, määrati 8 a vangistust, vabanes Mordva ANSV Dubravlagist 18.08.1966. Pärast vabanemist elas Jõgeval."
   - user_id: 76
     id_name: johannes_heeska
     first_name: Johannes
@@ -1007,7 +1007,7 @@ people:
     separation_cause: metsavend juunis 1941, Omakaitse
     separation_end_cause: arreteerimine
     age_at_separation_end: 43a
-    note: "Hdn Jõll, ka Paul, Jaanis, Kalju, Timo. Heeska talu peremees, varjas end nii 1. Vene okupatsiooni kui ka Saksa ajal. Sõjajärgse metsavennana käis läbi Urvaste, Sõmerpalu, Kooraste metsavendadega. Kirjeldus: Pikka kasvu, tugeva kehaehitusega, pealagi paljas, sirge suure ninaga, alati relvastatud. Kannab poolkasukat, säärsaapaid. Kinni võeti Loosu-Navi külas. Mõisteti 25+5, oli Karaganda obl. Kamõšlagis, Irkutski obl. Ozjorlagis, Mordva ANSV Dubravlagis. Vabanes 10.12.1971."
+    note: 'Hdn "Jõll", ka "Paul", "Jaanis", "Kalju", "Timo". Heeska talu peremees, varjas end nii 1. Vene okupatsiooni kui ka Saksa ajal. Sõjajärgse metsavennana käis läbi Urvaste, Sõmerpalu, Kooraste metsavendadega. Kirjeldus: Pikka kasvu, tugeva kehaehitusega, pealagi paljas, sirge suure ninaga, alati relvastatud. Kannab poolkasukat, säärsaapaid. Kinni võeti Loosu-Navi külas. Mõisteti 25+5, oli Karaganda obl. Kamõšlagis, Irkutski obl. Ozjorlagis, Mordva ANSV Dubravlagis. Vabanes 10.12.1971.'
   - user_id: 77
     id_name: robert_heeska
     first_name: Robert
@@ -1020,7 +1020,7 @@ people:
     separation_cause: deserteerumine Nõukogude armeest
     separation_end_cause: arreteerimine
     age_at_separation_end: 43a
-    note: Hdn Kapten, Kapi, Hinno. Oli koduväiks Kulli talus Linnamäe vallas, mis kuulutati kulaklikuks. Varjas koos abikaasaga. Tütar (s. 1939) küüditati koos naise vanematega.  Robert Heeska võeti kinni punkrist Lanna metsas. Mõisteti 15 a vangistust ja 5a asumist. Suri vangistuses Mordva ANSV Dubravlagis 16.07.1965.
+    note: 'Hdn "Kapten", "Kapi", "Hinno". Oli koduväiks Kulli talus Linnamäe vallas, mis kuulutati kulaklikuks. Varjas koos abikaasaga. Tütar (s. 1939) küüditati koos naise vanematega.  Robert Heeska võeti kinni punkrist Lanna metsas. Mõisteti 15 a vangistust ja 5a asumist. Suri vangistuses Mordva ANSV Dubravlagis 16.07.1965.'
   - user_id: 78
     id_name: kalju_visnapuu
     first_name: Kalju
@@ -1033,7 +1033,7 @@ people:
     separation_cause: deserteerumine Nõukogude armeest
     separation_end_cause: tapetud
     age_at_separation_end: 22a
-    note: "Hdn Jeekim, Ööbik, Pääsukene. Põgenes Kuramaale rindele suunduvast ešelonist. Varjama hakkas end Uhtjärve ümbruses Urvastes. Kirjeldus: Lühikest kasvu, tugeva kehaehitusega, ümara näoga, tume šatään, pikkade taha kammitud juustega, nina keskmine, sirge. Relvastatud püstoliga. Langes Inuri talus hävituspataljonlase kuulist."
+    note: 'Hdn "Jeekim", "Ööbik", "Pääsukene". Põgenes Kuramaale rindele suunduvast ešelonist. Varjama hakkas end Uhtjärve ümbruses Urvastes. Kirjeldus: Lühikest kasvu, tugeva kehaehitusega, ümara näoga, tume šatään, pikkade taha kammitud juustega, nina keskmine, sirge. Relvastatud püstoliga. Langes Inuri talus hävituspataljonlase kuulist.'
   - user_id: 79
     id_name: artur_telling
     first_name: Artur
@@ -1046,7 +1046,7 @@ people:
     separation_cause: põgenemine arestist
     separation_end_cause: tapetud
     age_at_separation_end: 20a
-    note: "Hdn Jõlõp. Läks 15 aastasena vabatahtlikuna Saksa sõjaväkke. Sõja järel õppis Otepääl koolis, kus võeti direktori kabinetis rahvakaitselaste poolt kinni ja pandi Kooraste TK-sse aresti. Põgenes sealt akna kaudu ja läks metsavennaks. Tegutses Urvaste, Linnamäe ja Sõmerpalu vallas. Kirjeldus: Pikka kasvu, normaalse kehaehitusega, brünett, väikesed vuntsid, kannab prille ja ninal on sünnimärk. Riietest kandis tumerohelist sportpluusi ja kalifeesid, jalas kummikud. Brauningu rihm kabuuriga mantli all. Relvadest omas kaht püstolit ja automaati PPŠ. Langes varitsuses (Aliida) Alandi talu juures Urvaste asunduses (Urvaste mõisas). Langemisel kandis musta värvi kaitseliidu vormiriietust. Julgeolek mattis salaja “ühe tellisetehase” territooriumile."
+    note: 'Hdn "Jõlõp". Läks 15 aastasena vabatahtlikuna Saksa sõjaväkke. Sõja järel õppis Otepääl koolis, kus võeti direktori kabinetis rahvakaitselaste poolt kinni ja pandi Kooraste TK-sse aresti. Põgenes sealt akna kaudu ja läks metsavennaks. Tegutses Urvaste, Linnamäe ja Sõmerpalu vallas. Kirjeldus: Pikka kasvu, normaalse kehaehitusega, brünett, väikesed vuntsid, kannab prille ja ninal on sünnimärk. Riietest kandis tumerohelist sportpluusi ja kalifeesid, jalas kummikud. Brauningu rihm kabuuriga mantli all. Relvadest omas kaht püstolit ja automaati PPŠ. Langes varitsuses (Aliida) Alandi talu juures Urvaste asunduses (Urvaste mõisas). Langemisel kandis musta värvi kaitseliidu vormiriietust. Julgeolek mattis salaja “ühe tellisetehase” territooriumile.'
   - user_id: 80
     id_name: feliks_hobe
     first_name: Feliks
@@ -1059,7 +1059,7 @@ people:
     separation_cause: deserteerus Nõukogude armeest tööpataljonist
     separation_end_cause: tapetud
     age_at_separation_end: 34a
-    note: "Hdn Jokker, Kusta, Fell. Kuulus Antsla Omakaitsesse. Teenis Saksa armees 1941-1944. 1944 a. mobiliseeriti nõukogude armeesse tööpataljoni, kust ta 1945. a deserteerus ja hakkas end Uhtjärve ümbruses varjama. Kirjeldus: Keskmist kasvu, tugeva kehaehitusega (teisal et kõhn), kitsa näoga, tumedapäine. Relvadeks 2 püstolit ja Saksa automaat. Kandis valget poolkasukat, jalas säärsaapad. Tapeti julgeoleku mõrvaragendiks “Jüri” värvatud endise juristi ja Saksa aegse Võru linnapea Edgar Henningu poolt une pealt kirvega."
+    note: 'Hdn "Jokker", "Kusta", "Fell". Kuulus Antsla Omakaitsesse. Teenis Saksa armees 1941-1944. 1944 a. mobiliseeriti nõukogude armeesse tööpataljoni, kust ta 1945. a deserteerus ja hakkas end Uhtjärve ümbruses varjama. Kirjeldus: Keskmist kasvu, tugeva kehaehitusega (teisal et kõhn), kitsa näoga, tumedapäine. Relvadeks 2 püstolit ja Saksa automaat. Kandis valget poolkasukat, jalas säärsaapad. Tapeti julgeoleku mõrvaragendiks “Jüri” värvatud endise juristi ja Saksa aegse Võru linnapea Edgar Henningu poolt une pealt kirvega.'
   - user_id: 81
     id_name: august_kangsepp
     first_name: August
@@ -1072,7 +1072,7 @@ people:
     separation_cause: varjamine mobilisatsiooni eest
     separation_end_cause: arreteeritud
     age_at_separation_end: 30a
-    note: Saksa ajal elas oma kodutalus (Savisaare talu) Pritsi külas Linnamäel. Omakaitsesse ei kuulunud. 1944 veebruaris mobiliseeriti Saksa armeesse, kust saadeti Kloogale tööpataljoni . Põgenes teel ja pöördus koju tagasi. Varjas Saksa võimude eest punkris oma talus. Vene väkke mobilisatsiooni vältides varjas end edasi kodutalus ka Vene võimude eest ja tegutses ühistes ettevõtmistes koos Johannes Heeska, Karl Kuusi, jt.-ga. 1947 a. märtsis käis Tartus, kus proovis Koidula tn elava Helmi Orava tehtud võltsitud (2000 rbl maksnud) tõendiga saada linna TK-st endale dokumente. Sealt nõuti MVD külastust, kuid Orav oli hoiatnud MVD-sse (siseministeeriumi) minemast. Vajalikud dokumendid oma nimele sai ta Orava käest lisamaksu eest 1948 a. Oma talus ta enam varjata ei saanud ja suundus mais 1947 möldriks Helmesse Kaubi veskisse, kus töötas oma nime all kuni arreteerimiseni 1949 a. Mõisteti 25 a. Vabanes 1960. a.
+    note: 'Hdn "Janov". Saksa ajal elas oma kodutalus (Savisaare talu) Pritsi külas Linnamäel. Omakaitsesse ei kuulunud. 1944 veebruaris mobiliseeriti Saksa armeesse, kust saadeti Kloogale tööpataljoni . Põgenes teel ja pöördus koju tagasi. Varjas Saksa võimude eest punkris oma talus. Vene väkke mobilisatsiooni vältides varjas end edasi kodutalus ka Vene võimude eest ja tegutses ühistes ettevõtmistes koos Johannes Heeska, Karl Kuusi, jt.-ga. 1947 a. märtsis käis Tartus, kus proovis Koidula tn elava Helmi Orava tehtud võltsitud (2000 rbl maksnud) tõendiga saada linna TK-st endale dokumente. Sealt nõuti MVD külastust, kuid Orav oli hoiatnud MVD-sse (siseministeeriumi) minemast. Vajalikud dokumendid oma nimele sai ta Orava käest lisamaksu eest 1948 a. Oma talus ta enam varjata ei saanud ja suundus mais 1947 möldriks Helmesse Kaubi veskisse, kus töötas oma nime all kuni arreteerimiseni 1949 a. Mõisteti 25 a. Vabanes 1960. a.'
   - user_id: 82
     id_name: karl_kuus
     first_name: Karl
@@ -1085,7 +1085,7 @@ people:
     separation_cause: töötamine politseis
     separation_end_cause: arreteeritud
     age_at_separation_end: 32a
-    note: Hdn Aspirant, Rantjee e Rant. Saksa ajal töötas politseikonstaablina Linnamäel ja Pärnus Tali vallas. Kuni veebruar 1944 teenis politseipataljonis nr. 206. Alates 1944 varjas punkris isakodus (Ala-Põdral) Linnamäe vallas. Tegutses 1946. a  koos vendade Heeskate, August Kängsepa, Jeeger Valteri, Org Akseli jt.-ga, varjates end kodutalus. Mais 1947 lahkus Misso, vend August Kuusi juurde (kes langes metsavennana 1953. a Puutlipalu punkrilahingus). Arreteeriti sama aasta (1947) juunis Missos. Määrati 25+5, Magadani obl. Sevvostlag. Vabanes laagrist 1957 a ja asumiselt 1963 a.
+    note: 'Hdn "Aspirant", "Rantjee" e "Rant". Saksa ajal töötas politseikonstaablina Linnamäel ja Pärnus Tali vallas. Kuni veebruar 1944 teenis politseipataljonis nr. 206. Alates 1944 varjas punkris isakodus (Ala-Põdral) Linnamäe vallas. Tegutses 1946. a  koos vendade Heeskate, August Kängsepa, Jeeger Valteri, Org Akseli jt.-ga, varjates end kodutalus. Mais 1947 lahkus Misso, vend August Kuusi juurde, kes langes metsavennana 1953. a Puutlipalu punkrilahingus. Arreteeriti 1947 juunis Missos. Määrati 25+5, Magadani obl. Sevvostlag. Vabanes laagrist 1957 a ja asumiselt 1963 a.'
   - user_id: 83
     id_name: daniel_peterson
     first_name: Daniel
@@ -1098,7 +1098,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: legaliseerunud?
     age_at_separation_end: 57a
-    note: "Hdn Under, Unter. Varjas koos Valter Jeegeriga punkris Tammetalu metsas. Võttis osa suurest rongiröövist ja veel mitmest ettevõtmisest. Kirjeldus: u 50 aastane, keskmist kasvu, kannab musta või sinist poolmantlit. Varjamiskoht oli tal ka Sõmerpalu vallas Kohk Peetri juures. Ilmus 1951. a koju Lepistu valda, kodustel polnud teadmist, kust ta enne seda oli. Suri 1955. a."
+    note: 'Hdn "Under", "Unter". Varjas koos Valter Jeegeriga punkris Tammetalu metsas. Võttis osa suurest rongiröövist ja veel mitmest ettevõtmisest. Kirjeldus: u 50 aastane, keskmist kasvu, kannab musta või sinist poolmantlit. Varjamiskoht oli tal ka Sõmerpalu vallas Kohk Peetri juures. Ilmus 1951. a koju Lepistu valda, kodustel polnud teadmist, kust ta enne seda oli. Suri 1955. a.'
   - user_id: 84
     id_name: valter_jeeger
     first_name: Valter
@@ -1111,7 +1111,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: 31a
-    note: "Hakkas metsavennaks pärast lahkumist Saksa armeest, kuhu oli värvatud 1944. Alates 1949. a varjas koos venna Edgar Jeegeriga. Kirjeldus: Keskmisest pikemat kasvu, tugeva kehaehitusega, ovaalse näo ja sirge ninaga brünett. Kannab pikka halli palitut, halli mütsi, säärsaapaid. Vasakus käes peenike kuldsõrmus sinise kiviga. Relvadeks 2 püstolit ja Soome automaat. 1947 hankis endale fiktiivsed dokumendid nimele “Tuul”. Varjas kodutalu maadel Sõmerpalus, Sõmerpalu mõisa lähedal ja Osulas. Langes Osula lähedal varitsuses 6.09.1951 agent “Andrei” kaasabil. Agent oli värvatud lähedane abiline Hans Taalfeld."
+    note: 'Hdn "Bevin". "Hakkas metsavennaks pärast lahkumist Saksa armeest, kuhu oli värvatud 1944. Alates 1949. a varjas koos venna Edgar Jeegeriga. Kirjeldus: Keskmisest pikemat kasvu, tugeva kehaehitusega, ovaalse näo ja sirge ninaga brünett. Kannab pikka halli palitut, halli mütsi, säärsaapaid. Vasakus käes peenike kuldsõrmus sinise kiviga. Relvadeks 2 püstolit ja Soome automaat. 1947 hankis endale fiktiivsed dokumendid nimele “Tuul”. Varjas kodutalu maadel Sõmerpalus, Sõmerpalu mõisa lähedal ja Osulas. Langes Osula lähedal varitsuses 6.09.1951 agent “Andrei” kaasabil. Agent oli värvatud lähedane abiline Hans Taalfeld.'
   - user_id: 85
     id_name: edgar_jeeger
     first_name: Edgar
@@ -1124,7 +1124,7 @@ people:
     separation_cause: varjus omaste küüditamise järel
     separation_end_cause: tapetud
     age_at_separation_end: 29a
-    note: Töötas enne metsa minekut Harjumaal Saida sovhoosis ja Kõue vallas Kabaja sovhoosis agronoomina. Oli sunnitud isa arreteerimise järel siirduma koos vennaga metsavennaks. Varjas end punkris Sõmerpalu mõisa maadel, Osulas, Jaan Saare juures Vagulas Navi külas. Langes kinnivõtmisel varitsuses, mis oli seatud tema kohtumisele ühe naisterahvaga, agendiga "Ausus".
+    note: 'Töötas enne metsa minekut Harjumaal Saida sovhoosis ja Kõue vallas Kabaja sovhoosis agronoomina. Oli sunnitud isa arreteerimise järel siirduma koos vennaga metsavennaks. Varjas end punkris Sõmerpalu mõisa maadel, Osulas, Jaan Saare juures Vagulas Navi külas. Langes kinnivõtmisel varitsuses, mis oli seatud tema kohtumisele ühe naisterahvaga, agendiga "Ausus".'
   - user_id: 86
     id_name: johannes_ulenurm
     first_name: Johannes
@@ -1137,7 +1137,7 @@ people:
     separation_cause: töötas politseinikuna
     separation_end_cause: arreteeritud
     age_at_separation_end: 43a
-    note: Ants Aunveri tsõdsepoeg. Varjas end juuni keskel 1941 koos Johannes Heeskaga Pulli ja Heeska küla lähedal. Alates 1944 varjas algul Kanepi vallas, siis Rõuge vallas ja Ristemäel, alates oktoobrist 1946 kuni 1947 Valgamaal Leo Sidorovi nime all, seejärel uuesti Rõuge vallas. Elas Rõuge vallas 5.11.1945. a üle punkrirünnaku, mille käigus murdis koos Simo Pihlapuuga punkrist välja, nende kolmas kaaslane Aleksei Koemets langes seal. 1948. a Ülenurm legaliseerus. Julgeolekule tegi 31.05.1950 pealekaebuse oma küla mees, punane Voldemar Rosse, kes oli teda Keenis näinud ja ära tundnud. Alates 31.10.1950 töötati teda läbi formulaartoimikus (isiku jälitamiseks sisse seatud operatiivtoimik) nr 11059, nimetusega Estnatsionalist. 23.04.1951 taasokupeerimisest arreteeriti. Mõisteti 25+5. Vabanes 1955.
+    note: "Ants Aunveri tsõdsepoeg. Varjas end juuni keskel 1941 koos Johannes Heeskaga Pulli ja Heeska küla lähedal. Alates 1944 varjas algul Kanepi vallas, siis Rõuge vallas ja Ristemäel, alates oktoobrist 1946 kuni 1947 Valgamaal Leo Sidorovi nime all, seejärel uuesti Rõuge vallas. Elas Rõuge vallas 5.11.1945. a üle punkrirünnaku, mille käigus murdis koos Simo Pihlapuuga punkrist välja, nende kolmas kaaslane Aleksei Koemets langes seal. 1948. a Ülenurm legaliseerus. Julgeolekule tegi 31.05.1950 pealekaebuse oma küla mees, punane Voldemar Rosse, kes oli teda Keenis näinud ja ära tundnud. Alates 31.10.1950 töötati teda läbi formulaartoimikus (isiku jälitamiseks sisse seatud operatiivtoimik) nr 11059, nimetusega Estnatsionalist. 23.04.1951 taasokupeerimisest arreteeriti. Mõisteti 25+5. Vabanes 1955."
   - user_id: 87
     id_name: aksel_pallav
     first_name: Aksel
@@ -1150,7 +1150,7 @@ people:
     separation_cause: hoidumine mobilisatsioonist
     separation_end_cause: tapetud
     age_at_separation_end: 22a
-    note: Hdn Fakiir. Varjas end koos Ants Aunveri, Johannes Heeska ja teistega 1945 Võhandu jõekäärus koopas, Utita veskis jm. Tegutses koos Johannes Heeskaga. Langes Sõmerpalu vallas Määritsa talu lahingus väljamurdmiskatsel.
+    note: 'Hdn "Fakiir". Varjas end koos Ants Aunveri, Johannes Heeska ja teistega 1945 Võhandu jõekäärus koopas, Utita veskis jm. Tegutses koos Johannes Heeskaga. Langes Sõmerpalu vallas Määritsa talu lahingus väljamurdmiskatsel.'
   - user_id: 88
     id_name: avo_pruus
     first_name: Avo
@@ -1163,7 +1163,7 @@ people:
     separation_cause: oli seotud Eesti Vabariigi Rahvuskomitee tegevusega
     separation_end_cause: tapetud
     age_at_separation_end: 32a
-    note: 'Hdn Advokaat, Šveik. Töötas Saksa ajal Võru raudteejaamas kassiirina. Tegutses kahasse Eesti Vabariigi Rahvuskomiteega seotud August Püviga. 1944. a suhtles Aunveri ja Heeskaga viimase naiseisa Kivi Augusti talus, Pruus ise varjas end koos Lukki, Keemi ja Pähniga. Langes lahingus (põletati sisse) Sõmerpalu vallas Määritsa talus, kus langesid kuus metsavenda ja nende 3 abilist.  Mahapõlenud maja ahjulõõri peidetud pudelist leiti tema metsavendad läkitus eesti rahvale: "Eesti rahvas! Täna, 1. aprillil 1946. a. meie, Eesti partisanid, võitlesime tiblade ja eesti rahva äraandjate vastu. Avaldasime kuuekesi vastupanu vaatamata suurele ülekaalule umbes kaheksa tundi. Niisiis, eesti rahvas, võidelge visalt eesti rahva vabaduse ja iseseisvuse eest! Vapper sõdur Švejk Elagu vaba Eesti ja eesti rahvas! Tervitus kõigile kaaslastele, väikesele õekesele, isale ja emale ja veel kord väikesele H-le. Tervitab Avo Pruus".'
+    note: 'Hdn "Advokaat", "Šveik". Töötas Saksa ajal Võru raudteejaamas kassiirina. Tegutses kahasse Eesti Vabariigi Rahvuskomiteega seotud August Püviga. 1944. a suhtles Aunveri ja Heeskaga viimase naiseisa Kivi Augusti talus, Pruus ise varjas end koos Lukki, Keemi ja Pähniga. Langes lahingus (põletati sisse) Sõmerpalu vallas Määritsa talus, kus langesid kuus metsavenda ja nende 3 abilist.  Mahapõlenud maja ahjulõõri peidetud pudelist leiti tema metsavendad läkitus eesti rahvale: "Eesti rahvas! Täna, 1. aprillil 1946. a. meie, Eesti partisanid, võitlesime tiblade ja eesti rahva äraandjate vastu. Avaldasime kuuekesi vastupanu vaatamata suurele ülekaalule umbes kaheksa tundi. Niisiis, eesti rahvas, võidelge visalt eesti rahva vabaduse ja iseseisvuse eest! Vapper sõdur Švejk Elagu vaba Eesti ja eesti rahvas! Tervitus kõigile kaaslastele, väikesele õekesele, isale ja emale ja veel kord väikesele H-le. Tervitab Avo Pruus".'
   - user_id: 89
     id_name: peeter_rahnulaid
     first_name: Peeter
@@ -1176,7 +1176,7 @@ people:
     separation_cause: "?"
     separation_end_cause: tapetud
     age_at_separation_end: 31a
-    note: Hdn. Timmo (Timo). Pärit Tartumaalt, varjas end 1944 detsembris koos Heeska ja Aunveriga Võhandu jõekäärus kaldakoopas Pulli küla lähedal. Langes Määritsa talu lahingus, (põles sisse).
+    note: "Hdn Timmo (Timo). Pärit Tartumaalt, varjas end 1944 detsembris koos Heeska ja Aunveriga Võhandu jõekäärus kaldakoopas Pulli küla lähedal. Langes Määritsa talu lahingus, (põles sisse)."
   - user_id: 90
     id_name: kalju_torop
     first_name: Kalju
@@ -1189,7 +1189,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: arreteeritud
     age_at_separation_end: 29a
-    note: Pärit Sõmerpalu vallast. Teeninud Saksa sõjaväes. Pääses oma kodus Sõmerpalu vallas Punakülas Koidu talus toiminud lahingust 27.04.1946 põgenema. Seal hukkusid tema isa Samuel Torop, Arkadi Hanschmitt, Villi Kupp ja Kalju Täht. Osales koos Johannes Heeskaga 1947 Tsoorust Antslasse viidava või röövil. Oli esimesel vankril. Teist vankrit hakkas Julgeoleku operatiivgrupp jälitama, sellel olnud August Märdimäe ja Leonard Šteinbach tapeti, Kalju Visnapuu pääses põgenema. Arreteerimise järel mõisteti Kalju Toropile 25 a, oli Komi ANSV Sevželdorlagis, Mordva ANSV Dubravlagis, vabanes 3.03.1961.
+    note: 'Hdn "Lühike", "Veldo". Pärit Sõmerpalu vallast. Teeninud Saksa sõjaväes. Pääses oma kodus Sõmerpalu vallas Punakülas Koidu talus toiminud lahingust 27.04.1946 põgenema. Seal hukkusid tema isa Samuel Torop, Arkadi Hanschmitt, Villi Kupp ja Kalju Täht. Osales koos Johannes Heeskaga 1947 Tsoorust Antslasse viidava või röövil. Oli esimesel vankril. Teist vankrit hakkas Julgeoleku operatiivgrupp jälitama, sellel olnud August Märdimäe ja Leonard Šteinbach tapeti, Kalju Visnapuu pääses põgenema. Arreteerimise järel mõisteti Kalju Toropile 25 a, oli Komi ANSV Sevželdorlagis, Mordva ANSV Dubravlagis, vabanes 3.03.1961.'
   - user_id: 91
     id_name: harri_haller
     first_name: Harri
@@ -1202,7 +1202,7 @@ people:
     separation_cause: töötas politsei konstaablina
     separation_end_cause: tapetud
     age_at_separation_end: 33a
-    note: Pärit Linnamäe vallast. Varjas end kodu lähedases punkris Ala-Põdral. Ühel koduskäigul varitsesid teda miilitsavolinik Kohlberg paari rahvakaitse mehega. Talle tulistati jalgadesse ja lasti oma koduõuel abi saamata aeglaselt verest tühjaks joosta. Maeti lähedusse metsa.
+    note: "Pärit Linnamäe vallast. Varjas end kodu lähedases punkris Ala-Põdral. Ühel koduskäigul varitsesid teda miilitsavolinik Kohlberg paari rahvakaitse mehega. Talle tulistati jalgadesse ja lasti oma koduõuel abi saamata aeglaselt verest tühjaks joosta. Maeti lähedusse metsa."
   - user_id: 92
     id_name: arnold_kangsepp
     first_name: Arnold
@@ -1215,7 +1215,7 @@ people:
     separation_cause: deserteerumine Punaarmeest vahetult enne Saaremaale rindele saatmist
     separation_end_cause: tapetud
     age_at_separation_end: 39a
-    note: Pärit Linnamäe vallast. Varjas end koos küüditamise eest varjava Johannes Krüneriga. Agendiks “Ott” värvatud Elsa Orasmäe leppis Julgeoleku käsul Arnold Kängsepaga kokku kohtumise Linnamäe TK lähedal, kus viimane püüdis varitsust märgates põgeneda, kuid lasti maha.
+    note: "Pärit Linnamäe vallast. Varjas end koos küüditamise eest varjava Johannes Krüneriga. Agendiks “Ott” värvatud Elsa Orasmäe leppis Julgeoleku käsul Arnold Kängsepaga kokku kohtumise Linnamäe TK lähedal, kus viimane püüdis varitsust märgates põgeneda, kuid lasti maha."
   - user_id: 93
     id_name: august_mardimae
     first_name: August
@@ -1228,7 +1228,7 @@ people:
     separation_cause: töötas Võrus politseis
     separation_end_cause: tapetud
     age_at_separation_end: 35a
-    note: " Varjas end vanematekodus Urvastes. Naine Linda elas Võrus. Kuni 1946 olevat varjanud koos Šteinbachiga ka Linnamäe valla “Lembitu” kolhoosi esimehe Viktor Reinvarti juures. Langes Tsoorust Antslasse viidava võikoorma üle võtmisel. Võikoorem oli jagatud kahele vankrile, millest Linnamäele liikuvat vankrit hakkas Julgeoleku operatiivgrupp jälitama. Ora veski lähedal toimunud tulevahetuses langesid August Märdimäe ja Leonhard Šteinbach, Kalju Visnapuu pääses põgenema. Julgeoleku ettekanne: 25.09.1946 nägid julgeolekusõdurid varitsuses Utsali talu juures Linnamäel kl 23 õhtul 4 liikmelist metsavennagruppi, keda asuti jälitama. Tekkinud tulevahetuses MVD sisevägede 138. laskurpolgu võitlejatega tapeti 2 metsavenda, teistel õnnestus varjuda. Varitsejatest tapeti punaarmeelane Korjakin ja haavati jefr. Rahmatulinit ja punaarmeelast Kolinintsevit. Tapetud metsavendi ei tuvastatud."
+    note: "Varjas end vanematekodus Urvastes. Naine Linda elas Võrus. Kuni 1946 olevat varjanud koos Šteinbachiga ka Linnamäe valla “Lembitu” kolhoosi esimehe Viktor Reinvarti juures. Langes Tsoorust Antslasse viidava võikoorma üle võtmisel. Võikoorem oli jagatud kahele vankrile, millest Linnamäele liikuvat vankrit hakkas Julgeoleku operatiivgrupp jälitama. Ora veski lähedal toimunud tulevahetuses langesid August Märdimäe ja Leonhard Šteinbach, Kalju Visnapuu pääses põgenema. Julgeoleku ettekanne: 25.09.1946 nägid julgeolekusõdurid varitsuses Utsali talu juures Linnamäel kl 23 õhtul 4 liikmelist metsavennagruppi, keda asuti jälitama. Tekkinud tulevahetuses MVD sisevägede 138. laskurpolgu võitlejatega tapeti 2 metsavenda, teistel õnnestus varjuda. Varitsejatest tapeti punaarmeelane Korjakin ja haavati jefr. Rahmatulinit ja punaarmeelast Kolinintsevit. Tapetud metsavendi ei tuvastatud."
   - user_id: 94
     id_name: voldemar_pahn
     first_name: Voldemar
@@ -1241,7 +1241,7 @@ people:
     separation_cause: deserteerumine Eesti 27. Laskurdiviisist
     separation_end_cause: arreteeritud
     age_at_separation_end: 22a
-    note: Enne sõja algust töötas Tallinnas naftabaaasis. Evakueerus 27.08.1941 Suure Tõlluga Leningradi, sealt üle Laadoga Novosibirskisse, kus elas kuni 6.02.1942. Veebruaris 1942 mobiliseeriti 27. Eesti Laskurdiviisi, kus teenis kuni 12.02.1945. Kui väeosa saadeti Kuramaale rindele, jäi meelega oma väeosast maha ja deserteerus. Suundus Linnamäele Kõuhkna tallu August Kivi juurde, kus olid ka Johannes Heeska ja Ants Aunver. Võttis osa August Tiituse hukkamisele toimetamisest. Pärast arreteerimist määrati 10+5, oli Kirovi obl. Vjatlagis, Karaganda obl. Steplagis, Krasnojarsi krais. Vabanes 1955. a.
+    note: 'Hdn "Desertöör". Enne sõja algust töötas Tallinnas naftabaaasis. Evakueerus 27.08.1941 Suure Tõlluga Leningradi, sealt üle Laadoga Novosibirskisse, kus elas kuni 6.02.1942. Veebruaris 1942 mobiliseeriti 27. Eesti Laskurdiviisi, kus teenis kuni 12.02.1945. Kui väeosa saadeti Kuramaale rindele, jäi meelega oma väeosast maha ja deserteerus. Suundus Linnamäele Kõuhkna tallu August Kivi juurde, kus olid ka Johannes Heeska ja Ants Aunver. Võttis osa August Tiituse hukkamisele toimetamisest. Pärast arreteerimist määrati 10+5, oli Kirovi obl. Vjatlagis, Karaganda obl. Steplagis, Krasnojarsi krais. Vabanes 1955. a.'
   - user_id: 95
     id_name: leonhard_šteinbach
     first_name: Leonhard
@@ -1267,7 +1267,7 @@ people:
     separation_cause: teenimine Saksa sõjaväes
     separation_end_cause: arreteeritud
     age_at_separation_end: 20a
-    note: Pärit Linnamäe vallast Vahemetsa talust. Mobiliseeritud Saksa sõjaväkke. Tegutses koos Johannes Heeskaga. Arreteeriti Valgas. Mõisteti 25 a, asus Uhtlagis ja Intlagis Komi ANSV-s kuni 1954, sealt Dubravlagis Mordva ANSV-s 1962 a kuni vabanemiseni.
+    note: 'Hdn "Jääger". Pärit Linnamäe vallast Vahemetsa talust. Mobiliseeritud Saksa sõjaväkke. Tegutses koos Johannes Heeskaga. Arreteeriti Valgas. Mõisteti 25 a, asus Uhtlagis ja Intlagis Komi ANSV-s kuni 1954, sealt Dubravlagis Mordva ANSV-s 1962 a kuni vabanemiseni.'
   - user_id: 97
     id_name: hann_helbre
     first_name: Hann
@@ -1280,7 +1280,7 @@ people:
     separation_cause: "?"
     separation_end_cause: tapetud
     age_at_separation_end: 30a
-    note: Hdn Tarzan. Kooraste metsavend, tegutses mitmetes ettevõtmistes koos Johannes Heeskaga. Langes haarangus.
+    note: 'Hdn "Tarzan". Kooraste metsavend, tegutses mitmetes ettevõtmistes koos Johannes Heeskaga. Langes haarangus.'
   - user_id: 98
     id_name: alfred_hallap
     first_name: Alfred
@@ -1293,7 +1293,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: tapetud
     age_at_separation_end: 23a
-    note: Hdn Pakan. Kooraste metsavend, Tikerpuu salga liige. Olnud saksa sõjaväes, metsas tegutses koos Johannes Heeskaga. Langes haarangus Urvastes Hansi talu? juures.
+    note: 'Hdn "Pakan". Kooraste metsavend, Tikerpuu salga liige. Olnud saksa sõjaväes, metsas tegutses koos Johannes Heeskaga. Langes haarangus Urvastes Hansi talu? juures.'
   - user_id: 99
     id_name: asta_hallap
     first_name: Asta
@@ -1306,7 +1306,7 @@ people:
     separation_cause: "?"
     separation_end_cause: arreteeritud
     age_at_separation_end: 19a
-    note: Hdn Miki. Võttis koos vendadega osa mitmetest ühistest ettevõtmisetest Johannes Heeskaga. Määrati 25+5, asus Irkutski oblastis Taišetlagis, Ozjorlagis, Mordva ANSV-s Dubravlagis. Vabanes 1963 a.
+    note: 'Hdn "Miki". Võttis koos vendadega osa mitmetest ühistest ettevõtmisetest Johannes Heeskaga. Määrati 25+5, asus Irkutski oblastis Taišetlagis, Ozjorlagis, Mordva ANSV-s Dubravlagis. Vabanes 1963 a.'
   - user_id: 100
     id_name: aksel_org
     first_name: Aksel
@@ -1319,7 +1319,7 @@ people:
     separation_cause: "?"
     separation_end_cause: arreteeritud
     age_at_separation_end: 22a
-    note: Tegutses koos Johannes Heeskaga.  Vanemad küüditati Linnamäe vallast Kurenurme külast Alaveski talust. Arreteerimise järel määrati 25 a. Asus Magadani obl. Sevvostlagis, vabanes 1956 a.
+    note: 'Hdn "Skaut". Tegutses koos Johannes Heeskaga. Vanemad küüditati Linnamäe vallast Kurenurme külast Alaveski talust. Arreteerimise järel määrati 25 a. Asus Magadani obl. Sevvostlagis, vabanes 1956 a.'
   - user_id: 101
     id_name: voldemar_org
     first_name: Voldemar
@@ -1332,7 +1332,7 @@ people:
     separation_cause: saadetud Julgeoleku poolt metsa libametsavennaks
     separation_end_cause: "?"
     age_at_separation_end: 21a
-    note: Oli küüditatavate nimekirjas, vanemad küüditati Linnamäe vallast Kurenurme külast Alaveski talust. 1949 plaanis Julgeolek tema kinnivõtmist Erastveres, kus ta töötas. Vastavalt Julgeoleku plaanile suunati ta libametsavennana otsima Johannes Heeskat, Ants Aunverit jt.
+    note: "Oli küüditatavate nimekirjas, vanemad küüditati Linnamäe vallast Kurenurme külast Alaveski talust. 1949 plaanis Julgeolek tema kinnivõtmist Erastveres, kus ta töötas. Vastavalt Julgeoleku plaanile suunati ta libametsavennana otsima Johannes Heeskat, Ants Aunverit jt."
   - user_id: 102
     id_name: viktor_lukk
     first_name: Viktor
@@ -1345,7 +1345,7 @@ people:
     separation_cause: täitis Haukka luurerühma ülesannet
     separation_end_cause: tapetud
     age_at_separation_end: 20a
-    note: Hdn Kusta. Teenis 1942 Eesti Leegionis. Puhkusele pääsedes ei soovinud rindele naasta. 1943. a lahkus August Püvi vahendusel paadiga Soome, kus tegutses Soome peastaabi luureosakonnas ja erikoolitusel Staffai saarel. 1944. a saadeti Haukka rühma koosseisus tagasi Eestisse. Osales koos Ants Aunveri, Johannes Heeska jt-ga August Tiituse karistamisel surmaga. Langes haarangus Lükkä (Keretü) soos asuvale punkrile Nursipalu lähedal Võrumaal 28.12.1945.a.
+    note: 'Hdn "Kusta". Teenis 1942 Eesti Leegionis. Puhkusele pääsedes ei soovinud rindele naasta. 1943. a lahkus August Püvi vahendusel paadiga Soome, kus tegutses Soome peastaabi luureosakonnas ja erikoolitusel Staffai saarel. 1944. a saadeti Haukka rühma koosseisus tagasi Eestisse. Osales koos Ants Aunveri, Johannes Heeska jt-ga August Tiituse karistamisel surmaga. Langes haarangus Lükkä (Keretü) soos asuvale punkrile Nursipalu lähedal Võrumaal 28.12.1945.a.'
   - user_id: 103
     id_name: eduard_savi
     first_name: Eduard
@@ -1358,7 +1358,7 @@ people:
     separation_cause: teeninud Saksa sõjaväes
     separation_end_cause: arreteeritud
     age_at_separation_end: 40a
-    note: Pärit Tõlliste vallast, Teenis Saksa sõjaväes 20. Eesti Diviisis. Võttis osa mitmest üritusest koos Johannes Heeskaga. Arreteeriti Viljandis 10.02.1949, määrati 25+5, vangistatuna asus Arhangelski oblastis Kargopollagis, Komi ANSV Minerallagis, vabanes 1955a.
+    note: "Pärit Tõlliste vallast, Teenis Saksa sõjaväes 20. Eesti Diviisis. Võttis osa mitmest üritusest koos Johannes Heeskaga. Arreteeriti Viljandis 10.02.1949, määrati 25+5, vangistatuna asus Arhangelski oblastis Kargopollagis, Komi ANSV Minerallagis, vabanes 1955a."
   - user_id: 104
     id_name: voldemar_laats
     first_name: Voldemar
@@ -1371,4 +1371,4 @@ people:
     separation_cause: "?"
     separation_end_cause: legaliseerunud?
     age_at_separation_end: 25a
-    note: Teenis 1944 Saksa sõjaväes piirikaitsepolgus, deserteerus. Mobiliseeriti nõukogude armeesse tööpataljoni, kus oli kuni 1947. Metsaelu ajal tegutses koos Johannes Heeskaga. Arreteeriti Urvaste vallas 14.10.1949, määrati 25 a. Viibis Komi ANSV-s, vabanes 1960. a.
+    note: 'Hdn "Nüblik". Teenis 1944 Saksa sõjaväes piirikaitsepolgus, deserteerus. Mobiliseeriti nõukogude armeesse tööpataljoni, kus oli kuni 1947. Metsaelu ajal tegutses koos Johannes Heeskaga. Arreteeriti Urvaste vallas 14.10.1949, määrati 25 a. Viibis Komi ANSV-s, vabanes 1960. a.'
